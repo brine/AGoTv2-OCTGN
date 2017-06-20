@@ -23,7 +23,7 @@ namespace ThronesExtractor
             InitializeComponent();
             cardList = new List<Card>();
             setList = new List<Set>();
-            
+
             string cardsurl = new WebClient().DownloadString("http://www.thronesdb.com/api/public/cards/");
             JArray cardsjson = (JArray)JsonConvert.DeserializeObject(cardsurl);
             foreach (var jcard in cardsjson)
@@ -36,7 +36,7 @@ namespace ThronesExtractor
                 card.Size = card.Properties["Type"] == "Plot" ? "HorizontalCards" : null;
                 cardList.Add(card);
             }
-            
+
             string url = new WebClient().DownloadString("http://www.thronesdb.com/api/public/packs");
             JArray json = (JArray)JsonConvert.DeserializeObject(url);
             foreach (var jset in json)
@@ -56,8 +56,8 @@ namespace ThronesExtractor
 
         private List<Card> cardList;
         private List<Set> setList;
-       
-        private Dictionary<string, string>GetCardProperties(JToken props)
+
+        private Dictionary<string, string> GetCardProperties(JToken props)
         {
             var ret = new Dictionary<string, string>();
 
@@ -108,13 +108,13 @@ namespace ThronesExtractor
 
             return ret;
         }
-        
+
         private XmlDocument GenerateXml(Set set)
         {
             var ret = new XmlDocument();
             ret.AppendChild(ret.CreateXmlDeclaration("1.0", "utf-8", "yes"));
             XmlNode root = ret.CreateElement("set");
-            
+
             root.Attributes.Append(CreateAttribute(ret, "name", set.Name));
             root.Attributes.Append(CreateAttribute(ret, "id", set.Id));
             root.Attributes.Append(CreateAttribute(ret, "gameId", "30c200c9-6c98-49a4-a293-106c06295c05"));
@@ -162,7 +162,7 @@ namespace ThronesExtractor
             ret.Value = value;
             return (ret);
         }
-        
+
         public static string MakeXMLSafe(string makeSafe)
         {
             makeSafe = makeSafe.Replace("<b>", "<");
