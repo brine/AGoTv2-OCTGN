@@ -45,3 +45,4 @@ Temporary Items
 # local stuff
 bin/
 obj/
+packages/
