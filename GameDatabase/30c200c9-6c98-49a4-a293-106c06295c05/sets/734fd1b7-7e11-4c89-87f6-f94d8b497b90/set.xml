@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Ghosts of Harrenhal" id="734fd1b7-7e11-4c89-87f6-f94d8b497b90" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Roose Bolton" id="379f57f9-d274-40d1-81d0-6c91ce71cf1f">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text" value="&lt;Reaction:&gt; After you win a challenge in which Roose Bolton is attacking, choose up to X total STR worth of characters controlled by the losing opponent. X is Roose Bolton's STR. Sacrifice Roose Bolton to kill each of those characters." />
+      <property name="Traits" value="Ally. House Bolton. Lord." />
+      <property name="CardNumber" value="81" />
+      <property name="Illustrator" value="David Auden Nash" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="4" />
+    </card>
+    <card name="Harrenhal" id="33ea9760-3327-483e-8273-61815849f334">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text" value="&lt;Reaction:&gt; After a character enters play, kneel your faction card and sacrifice Harrenhal to kill it." />
+      <property name="Traits" value="Contested. Stronghold." />
+      <property name="CardNumber" value="82" />
+      <property name="Illustrator" value="Matthew Cowdery" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+    </card>
+    <card name="Brienne of Tarth" id="60e649e3-c3ee-4814-83bf-e39ac86a3cd7">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text" value="Renown.&#xD;&#xA;While you control a &lt;King&gt; character or Catelyn Stark, Brienne of Tarth does not kneel when declared as a defender." />
+      <property name="Traits" value="Lady." />
+      <property name="CardNumber" value="83" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="5" />
+    </card>
+    <card name="Offer of a Peach" id="bae47d3f-07ee-4a55-9133-325dbfc80db5">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text" value="Play only if you control Renly Baratheon or a &lt;Lady&gt; character.&#xD;&#xA;&lt;Challenges Action:&gt; Choose an attacking character. Stand that character and remove it from the challenge." />
+      <property name="Traits" value="" />
+      <property name="CardNumber" value="84" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+    </card>
+    <card name="Craster" id="29fd80ee-b8ad-41f0-8342-1b75fe1e9b22">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text" value="Immune to &lt;Omen&gt; card effects.&#xD;&#xA;&lt;Action:&gt; Sacrifice Craster to put each character that was killed this phase into play from its owner's dead pile." />
+      <property name="Traits" value="Ally. Wildling." />
+      <property name="CardNumber" value="85" />
+      <property name="Illustrator" value="Victor Manuel Leza Moreno" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+    </card>
+    <card name="Dragonglass Dagger" id="8a6edfaa-ee18-48ad-bf1f-bee0d35f5518">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text" value="[The Night's Watch] character only.&#xD;&#xA;While attached character is participating in a challenge, it gets +2 STR and is immune to opponent's character abilities." />
+      <property name="Traits" value="Weapon." />
+      <property name="CardNumber" value="86" />
+      <property name="Illustrator" value="Zezhou Chen" />
+      <property name="Loyal" value="No" />
+      <property name="Unique" value="No" />
+      <property name="Cost" value="1" />
+    </card>
+    <card name="Ser Davos Seaworth" id="7df1964b-153c-4832-8383-d59135ace064">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text" value="Stealth.&#xD;&#xA;&lt;Reaction:&gt; After Ser Davos Seaworth bypasses a non-loyal character using stealth, either: draw 1 card, or gain 1 gold." />
+      <property name="Traits" value="Knight. Lord. Smuggler." />
+      <property name="CardNumber" value="87" />
+      <property name="Illustrator" value="David Auden Nash" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="4" />
+    </card>
+    <card name="Ritual of R'hllor" id="fc9babe6-89fc-4d24-84a9-d0927739f548">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text" value="&lt;Reaction:&gt; After you win dominance, choose X standing &lt;R'hllor&gt; characters. Each of those characters gains 1 power." />
+      <property name="Traits" value="R'hllor." />
+      <property name="CardNumber" value="88" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="" />
+    </card>
+    <card name="Joffrey Baratheon" id="3f2d0918-70b8-44d9-9f88-fa45a477a85b">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text" value="&lt;Reaction:&gt; After you marshal a loyal character, kneel that character and your faction card to choose and kill a non-&lt;King&gt; character with a lower printed cost." />
+      <property name="Traits" value="King. Lord." />
+      <property name="CardNumber" value="89" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="7" />
+      <property name="Strength" value="3" />
+    </card>
+    <card name="Chataya's Brothel" id="e49a0c0b-517b-410a-b10b-c0e8baed88cc">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text" value="&lt;Marshaling Action:&gt; Kneel a character with an [Intrigue] icon to gain 1 gold. (Limit twice per phase.)" />
+      <property name="Traits" value="King's Landing." />
+      <property name="CardNumber" value="90" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+    </card>
+    <card name="Helya" id="63f04104-0cf3-497d-b662-da3f8d78ce9c">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text" value="Each attachment gains terminal." />
+      <property name="Traits" value="Ironborn. Steward." />
+      <property name="CardNumber" value="91" />
+      <property name="Illustrator" value="Tristan Denecke" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+    </card>
+    <card name="Bless Him With Salt" id="58adb005-2fa3-4a92-a24c-30fac4067eb9">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text" value="Play only during a [Power] challenge.&#xD;&#xA;&lt;Action:&gt; Choose a participating &lt;Drowned God&gt; or &lt;Ironborn&gt; character. Until the end of the challenge, that character gets +3 STR. If you win the challenge, draw 1 card." />
+      <property name="Traits" value="Blessing." />
+      <property name="CardNumber" value="92" />
+      <property name="Illustrator" value="Joel Hustak" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+    </card>
+    <card name="Xaro Xhoan Daxos" id="a6ad6c68-382a-43d8-bc2b-ebfc366d9cc8">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text" value="&lt;Reaction:&gt; After you marshal a unique attachment, gain 2 gold. (Limit once per phase.)" />
+      <property name="Traits" value="Merchant." />
+      <property name="CardNumber" value="93" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+    </card>
+    <card name="Mother of Dragons" id="bdf93ac1-0765-4d5c-af62-da26789519f3">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text" value="&lt;Stormborn&gt; character you control only.&#xD;&#xA;&lt;Challenges Action:&gt; During a challenge in which you control a participating &lt;Dragon&gt; character, kneel Mother of Dragons to have attached character participate in the challenge on your side." />
+      <property name="Traits" value="Title." />
+      <property name="CardNumber" value="94" />
+      <property name="Illustrator" value="David Auden Nash" />
+      <property name="Loyal" value="No" />
+      <property name="Unique" value="Yes" />
+      <property name="Cost" value="2" />
+    </card>
+    <card name="Myrcella Baratheon" id="6637367f-a86e-47b3-a7d7-fdd0d56708f0">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text" value="While there are no &lt;King&gt; characters in play, Myrcella Baratheon gains renown and does not kneel when declared as a defender in a [Power] challenge." />
+      <property name="Traits" value="Lady." />
+      <property name="CardNumber" value="95" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+    </card>
+    <card name="The Prince's Pass" id="9de647d8-4da4-493f-aedb-bd06b927099f">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text" value="&lt;Reaction:&gt; After you lose a challenge as the defending player, kneel The Prince's Pass to choose an attacking character. Until the end of the phase, that character loses a challenge icon of your choice. Then, if it has no challenge icons, you may sacrifice The Prince's Pass to discard it from play." />
+      <property name="Traits" value="Dorne." />
+      <property name="CardNumber" value="96" />
+      <property name="Illustrator" value="Jim Brady" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+    </card>
+    <card name="Silent Sisters" id="ab132452-34e4-4bd7-801a-8a019ca0861e">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="Silent Sisters gets +1 STR for each character in your dead pile." />
+      <property name="Traits" value="Ally. The Seven." />
+      <property name="CardNumber" value="97" />
+      <property name="Illustrator" value="Tristan Denecke" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="1" />
+    </card>
+    <card name="The Frostfangs" id="1319425c-e0b8-49b3-b2da-fac0ee27c7a7">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="&lt;Reaction:&gt; After The Frostfangs enters play, give control of it to an opponent.&#xD;&#xA;-1 Reserve" />
+      <property name="Traits" value="The North." />
+      <property name="CardNumber" value="98" />
+      <property name="Illustrator" value="Sergey Glushakov" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+    </card>
+    <card name="Quiet as a Shadow" id="96501599-1ed1-4c58-9730-f025fdb1db0e">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="&lt;Action:&gt; Choose a unique character with printed cost 3 or lower. Until the end of the phase, that character gains stealth." />
+      <property name="Traits" value="" />
+      <property name="CardNumber" value="99" />
+      <property name="Illustrator" value="Cassandre Bolan" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+    </card>
+    <card name="Ghosts of Harrenhal" id="acd6cfc8-f2aa-4b08-baf1-aad44a7c56ad" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="&lt;When Revealed:&gt; Put the top character in each player's dead pile into play." />
+      <property name="Traits" value="Omen." />
+      <property name="CardNumber" value="100" />
+      <property name="Illustrator" value="Nikolas Hagialas" />
+      <property name="Loyal" value="No" />
+      <property name="DeckLimit" value="2" />
+      <property name="PlotGoldIncome" value="2" />
+      <property name="PlotInitiative" value="5" />
+      <property name="PlotClaim" value="1" />
+      <property name="PlotReserve" value="5" />
+    </card>
+  </cards>
+</set>

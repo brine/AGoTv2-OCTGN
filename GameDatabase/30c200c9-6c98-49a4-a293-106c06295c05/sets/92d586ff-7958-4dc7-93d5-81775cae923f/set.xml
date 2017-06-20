@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Called to Arms" id="92d586ff-7958-4dc7-93d5-81775cae923f" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Donella Hornwood" id="dc23a59b-b27b-45fb-b6bb-18e1ae6c43d8">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text" value="Reduce the cost of the first loyal card you marshal or play each round by 1." />
+      <property name="Traits" value="House Hornwood. Lady." />
+      <property name="CardNumber" value="21" />
+      <property name="Illustrator" value="Christine Thomas" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+    </card>
+    <card name="Fear Cuts Deeper Than Swords" id="9e020dc3-fb0a-4b2d-aa2e-f38532fbed13">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text" value="&lt;Interrupt:&gt; When the effects of an ability that chooses a [Stark] character you control as its only target would initiate, cancel those effects and stand that character." />
+      <property name="Traits" value="" />
+      <property name="CardNumber" value="22" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+    </card>
+    <card name="Knight of Summer" id="dbc64c37-28a6-45a7-a0b0-ed1bd10da97c">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text" value="While there are more &lt;Summer&gt; plot cards than &lt;Winter&gt; plot cards revealed, Knight of Summer gets +2 STR and gains renown." />
+      <property name="Traits" value="Knight" />
+      <property name="CardNumber" value="23" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+    </card>
+    <card name="There Is My Claim" id="aba6b8cd-e7c4-4203-ade1-1a71aede12f3">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text" value="Play only during a challenge.&#xD;&#xA;&lt;Challenges Action:&gt; Reveal 4 [Tyrell] characters from your hand to raise the claim value on your revealed plot by 1 until the end of the challenge. (Max 1 per challenge.)" />
+      <property name="Traits" value="" />
+      <property name="CardNumber" value="24" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+    </card>
+    <card name="Dolorous Edd" id="df885067-7be0-4457-a36a-cc16d00983bd">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text" value="&lt;Action:&gt; During an [Intrigue] challenge in which you are the defending player, kneel your faction card to put Dolorous Edd into play from your hand knelt, participating as a defender. If you win the challenge, you may return him to your hand." />
+      <property name="Traits" value="Steward." />
+      <property name="CardNumber" value="25" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+    </card>
+    <card name="Craven" id="641d02df-9a6b-4b7e-ba28-c9f25f36ed40">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text" value="Terminal.&#xD;&#xA;Attached character cannot be declared as an attacker." />
+      <property name="Traits" value="Condition." />
+      <property name="CardNumber" value="26" />
+      <property name="Illustrator" value="Marius Bota" />
+      <property name="Loyal" value="No" />
+      <property name="Unique" value="No" />
+      <property name="Cost" value="1" />
+    </card>
+    <card name="Maester Pylos" id="27af4d0c-ce1f-452c-8758-1f366755c895">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text" value="Stealth." />
+      <property name="Traits" value="Maester." />
+      <property name="CardNumber" value="27" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+    </card>
+    <card name="The Stone Drum" id="7ba5eea4-65c4-4a08-94ce-1c0382e65e35">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text" value="While there is a &lt;Kingdom&gt; plot card revealed, increase the gold value on your revealed plot card by 1." />
+      <property name="Traits" value="Dragonstone." />
+      <property name="CardNumber" value="28" />
+      <property name="Illustrator" value="Sergey Glushakov" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="0" />
+    </card>
+    <card name="Shae" id="7274c2f1-54a6-4646-84f0-b53d3ae02541">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text" value="&lt;Challenges Action:&gt; Pay 1 gold to stand Shae. (Limit twice per phase.)" />
+      <property name="Traits" value="Ally. Companion." />
+      <property name="CardNumber" value="29" />
+      <property name="Illustrator" value="Adam Duff" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+    </card>
+    <card name="The Boy King" id="99d111dd-707f-419e-b977-5c8bdf401ed2">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text" value="&lt;Lord&gt; character only.&#xD;&#xA;Attached character gains the &lt;King&gt; trait.&#xD;&#xA;&lt;Reaction:&gt; After a character with printed cost 3 or lower is killed, kneel The Boy King to have attached character gain 1 power." />
+      <property name="Traits" value="Title." />
+      <property name="CardNumber" value="30" />
+      <property name="Illustrator" value="David Griffith" />
+      <property name="Loyal" value="No" />
+      <property name="Unique" value="Yes" />
+      <property name="Cost" value="1" />
+    </card>
+    <card name="Balon Greyjoy" id="a3400087-4d9d-450f-ad75-78de71a60ace">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text" value="Renown.&#xD;&#xA;Balon Greyjoy does not kneel when declared as an attacker in a [Military] challenge against an opponent who does not control a &lt;King&gt; character.&#xD;&#xA;&lt;Action:&gt; Kneel a [Greyjoy] location to give each loyal character you control +1 STR until the end of the challenge. (Limit once per challenge.)" />
+      <property name="Traits" value="Ironborn. King. Lord." />
+      <property name="CardNumber" value="31" />
+      <property name="Illustrator" value="Ryan Valle" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="7" />
+      <property name="Strength" value="5" />
+    </card>
+    <card name="Ours is the Old Way" id="e5b206cc-3a61-4c16-a214-fb311fd55fc2">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text" value="&lt;Challenges Action:&gt; Until the end of the phase, either: each [Greyjoy] character you control gains stealth, or each non-[Greyjoy] character loses stealth." />
+      <property name="Traits" value="" />
+      <property name="CardNumber" value="32" />
+      <property name="Illustrator" value="Victor Garcia" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+    </card>
+    <card name="Doreah" id="71782a0f-38a9-4eab-96e2-64625040394d">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text" value="During a challenge in which you control a participating &lt;Lord&gt; or &lt;Lady&gt; character, Doreah gains insight." />
+      <property name="Traits" value="Companion." />
+      <property name="CardNumber" value="33" />
+      <property name="Illustrator" value="Glen Osterberger" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+    </card>
+    <card name="Beggar King" id="bd2c4a34-6f5b-4328-898f-11765b5fe46d">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text" value="[Targaryen] character only.&#xD;&#xA;Attached character gains the &lt;King&gt; trait.&#xD;&#xA;&lt;Reaction:&gt; After an opponent reveals a plot card with a higher printed gold value than yours, kneel Beggar King to gain 1 gold. (2 gold instead if no opponent controls a &lt;King&gt; character.)" />
+      <property name="Traits" value="Title." />
+      <property name="CardNumber" value="34" />
+      <property name="Illustrator" value="Jason Jenicke" />
+      <property name="Loyal" value="Yes" />
+      <property name="Unique" value="Yes" />
+      <property name="Cost" value="1" />
+    </card>
+    <card name="Starfall Cavalry" id="e2a2b799-e346-4c14-94c8-ab81e1824de4">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text" value="No attachments except &lt;Weapon&gt;.&#xD;&#xA;&lt;Reaction:&gt; After Starfall Cavalry enters play, draw 1 card. (3 cards instead if there are 3 or more plot cards in your used pile.)" />
+      <property name="Traits" value="Army. House Dayne." />
+      <property name="CardNumber" value="35" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="4" />
+    </card>
+    <card name="Venomous Blade" id="d85cb75b-4e6e-4688-abda-284fad29f410">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text" value="[Martell] character you control only. Ambush (3).&#xD;&#xA;Attached character gets +1 STR.&#xD;&#xA;&lt;Reaction:&gt; After Venomous Blade enters play, place a poison token on a character with printed STR 2 or lower. At the end of the phase, if that character still has that poison token, remove it and kill that character." />
+      <property name="Traits" value="Weapon." />
+      <property name="CardNumber" value="36" />
+      <property name="Illustrator" value="Zezhou Chen" />
+      <property name="Loyal" value="Yes" />
+      <property name="Unique" value="No" />
+      <property name="Cost" value="3" />
+    </card>
+    <card name="Kings of Summer" id="c7d80dca-d1ca-4913-afba-d043efd81d38">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="You cannot include &lt;Winter&gt; plot cards in your plot deck.&#xD;&#xA;Increase the reserve value on each player's revealed plot card by 1. While there are no &lt;Winter&gt; plot cards revealed, increase the gold value on your revealed &lt;Summer&gt; plot card by 1." />
+      <property name="Traits" value="Summer." />
+      <property name="CardNumber" value="37" />
+      <property name="Illustrator" value="Tim Durning" />
+    </card>
+    <card name="Kings of Winter" id="ce0198ca-48a3-48bb-bb20-9b3673ace684">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="You cannot include &lt;Summer&gt; plot cards in your plot deck.&#xD;&#xA;Reduce the reserve value on each player's revealed plot card by 1. While you have a &lt;Winter&gt; plot card revealed, reduce the gold value on each opponent's non-&lt;Summer&gt; plot card by 1." />
+      <property name="Traits" value="Winter." />
+      <property name="CardNumber" value="38" />
+      <property name="Illustrator" value="Tim Durning" />
+    </card>
+    <card name="Summer Harvest" id="9804cffd-3269-4860-8285-135446dd3dba" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="&lt;When Revealed:&gt; Choose an opponent. X is 2 higher than the printed gold value on that player's revealed plot card." />
+      <property name="Traits" value="Summer." />
+      <property name="CardNumber" value="39" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Loyal" value="No" />
+      <property name="DeckLimit" value="2" />
+      <property name="PlotGoldIncome" value="" />
+      <property name="PlotInitiative" value="4" />
+      <property name="PlotClaim" value="1" />
+      <property name="PlotReserve" value="6" />
+    </card>
+    <card name="Winter Festival" id="987542a3-65f3-4af8-9907-d701f4139f13" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="&lt;Interrupt:&gt; When the challenges phase ends, if there are no &lt;Summer&gt; plot cards revealed, gain 2 power for your faction." />
+      <property name="Traits" value="Winter." />
+      <property name="CardNumber" value="40" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Loyal" value="No" />
+      <property name="DeckLimit" value="2" />
+      <property name="PlotGoldIncome" value="5" />
+      <property name="PlotInitiative" value="2" />
+      <property name="PlotClaim" value="1" />
+      <property name="PlotReserve" value="6" />
+    </card>
+  </cards>
+</set>
