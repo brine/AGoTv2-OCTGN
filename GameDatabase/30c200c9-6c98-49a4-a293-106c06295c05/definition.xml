@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="A Game of Thrones - The Card Game Second Edition" id="30c200c9-6c98-49a4-a293-106c06295c05" octgnVersion="3.1.0.0" version="3.0.0.0" scriptVersion="3.1.0.2" markersize="16" tags="OCTGN aGoT LCG Game of Thrones" description="A Game of Thrones: The Card Game Second Edition, featuring cunning plots, iconic characters, and deadly encounters for two players. " setsurl="http://tinyurl.com/qehmd3z" gameurl="http://octgngames.com/agot2/" authors="TassLehoff, Snowfrost, Khudzlin, Hedjman, Gualdo, DC Denis, Unfamiliar, Jackey" iconurl="http://s29.postimg.org/qsmlsels5/Boite_de_base.png">
     <scripts>
-        <script src="scripts/actions.py"/>
-        <script src="scripts/cardaction.py"/>
-        <script src="scripts/a.py"/>
+        <script src="scripts/newactions.py"/>
     </scripts>
     <events>
-        <event name="OnTableLoaded" action="on_table_load"/>
-        <event name="OnDeckLoaded" action="onloaddeck"/>
-        <event name="OnCardsMoved" action="onmoved"/>
-        <event name="OnCardDoubleClicked" action="ondbclick"/>
-        <event name="OnCardClicked" action="onclick"/>
-        <event name="OnMarkerChanged" action="checkwinner"/>
-        <event name="OnCounterChanged" action="checkcounter"/>
-        <event name="OnScriptedCardsMoved" action="onsmoved"/>
-        <event name="OnCardTargeted" action="ontarget"/>
-        <event name="OnPlayerQuit" action="onquit"/>
-        <event name="OnCardArrowTargeted" action="onarrow"/>
     </events>
     <proxygen definitionsrc="proxy/proxydef.xml"/>
+    <phases>
+        <phase name="Plot" icon="phases/plot2.png" />
+        <phase name="Draw" icon="phases/draw2.png" />
+        <phase name="Marshaling" icon="phases/marshaling2.png" />
+        <phase name="Challenge" icon="phases/challenge2.png" />
+        <phase name="Dominance" icon="phases/dominance2.png" />
+        <phase name="Standing" icon="phases/standing2.png" />
+        <phase name="Taxation" icon="phases/taxation2.png" />
+    </phases>
     <documents>
-        <document name="Shortcuts" icon="Documents/blank.png" src="Documents/Shortcuts.html"/>
-        <document name="Guide book" icon="Documents/blank.png" src="Documents/book.pdf"/>
-        <document name="Website" icon="Documents/blank.png" src="Documents/website.html"/>
     </documents>
     <gameModes>
-        <gameMode name="Joust - Advanced Play" shortDescription="Use this matchmaking to find Joust advanced players." image="cards/advanced.jpg" playerCount="2"/>
-        <gameMode name="Joust - Casual Play" shortDescription="Use this matchmaking to find Joust casual and newer players." image="cards/casual.jpg" playerCount="2"/>
     </gameModes>
     <globalvariables>
-        <globalvariable name="firstplay" value="True"/>
-        <globalvariable name="AID" value=""/>
-        <globalvariable name="BID" value=""/>
-        <globalvariable name="aside" value="0"/>
-        <globalvariable name="bside" value="0"/>
-        <globalvariable name="numplayer" value="0"/>
-        <globalvariable name="automode" value="0"/>
-        <globalvariable name="selectmode" value="0"/>
-        <globalvariable name="upload" value="0"/>
     </globalvariables>
     <card back="cards/back.png" front="cards/front.png" width="63" height="88" cornerRadius="2">
         <property name="Faction" type="String"/>
@@ -61,137 +43,62 @@
         <property name="CardNumber" type="String"/>
         <property name="Dominance" type="String" hidden="True"/>
         <size name="HorizontalCards" width="88" height="63" backWidth="88" backHeight="63" back="cards/backH.png" front="cards/frontH.png" cornerRadius="2"/>
-        <size name="TokenSize" width="35" height="35" back="cards/front.png" front="cards/front.png"/>
-        <size name="button" width="170" height="60" back="cards/front.png" front="cards/front.png"/>
-        <size name="nextbutton" width="250" height="60" back="cards/front.png" front="cards/front.png"/>
     </card>
-    <table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill" board="background/background.jpg">
-        <groupactions menu="Game Actions">
-            <groupaction menu="SetUp" shortcut="" default="False" execute="setup"/>
-            <groupaction menu="Calculate Reserve Value" shortcut="ALT+R" default="False" execute="getreserve"/>
-            <groupaction menu="Calculate Power Totals" shortcut="CTRL+R" default="False" execute="recalcPower"/>
-            <groupactions menu="Plot Phase">
-                <groupaction menu="Reveal plot" shortcut="ALT+P" default="False" execute="revealplotM"/>
-                <groupaction menu="Calculate Initiative Value" shortcut="" default="False" execute="getInit"/>
-                <groupaction menu="Who win the initiative" shortcut="ALT+I" default="False" execute="fpM"/>
-                <groupaction menu="Reorder Plot" shortcut="F6" default="False" execute="reorderplot"/>
-            </groupactions>
-            <groupactions menu="Marshal Phase">
-                <groupaction menu="Count income(Double click plot card)" shortcut="ALT+G" default="False" execute="countincome"/>
-            </groupactions>
-            <groupactions menu="Challenge Phase">
-                <groupaction menu="Declare a challenge" shortcut="ALT+A" default="False" execute="challengeAnnounceM"/>
-                <groupaction menu="Respond: Opposed/Defend" shortcut="ALT+O" default="False" execute="announceOppM"/>
-                <groupaction menu="Calculate Challenge Strength" shortcut="ALT+C" default="False" execute="challenge"/>
-            </groupactions>
-            <groupactions menu="Dominance Phase">
-                <groupaction menu="Who win the dominance" shortcut="ALT+D" default="False" execute="dominanceM"/>
-            </groupactions>
-            <groupaction menu="End Turn" shortcut="ALT+E" default="False" execute="endturn"/>
-        </groupactions>
-        <groupaction menu="Concede" default="False" shortcut="" execute="defeat"/>
-        <groupactions menu="Announcements">
-            <groupaction menu="Announce: I'm Done." shortcut="CTRL+D" default="False" execute="turnDone"/>
-            <groupaction menu="Announce: Action/Question" shortcut="CTRL+Q" default="False" execute="holdOn"/>
-        </groupactions>
-        <groupactions menu="[All Cards] Actions">
-            <groupaction menu="Stand All My Cards" shortcut="F5" default="False" execute="restoreAll"/>
-            <groupaction menu="Clear All My Challenge Highlight" shortcut="CTRL+C" default="False" execute="cancelAllHighlight"/>
-            <groupaction menu="Reset My Deck To Starting Position" shortcut="ALT+S" default="False" execute="scoop"/>
-        </groupactions>
-        <groupactions menu="Coin and Dice">
-            <groupaction menu="Flip a Coin" shortcut="ALT+F" default="False" execute="flipCoin"/>
-            <groupaction menu="Roll a 6-sided" shortcut="ALT+6" default="False" execute="sixSided"/>
-            <groupaction menu="Roll a 12-sided" shortcut="ALT+7" default="False" execute="twelveSided"/>
-            <groupaction menu="Roll a X-sided" shortcut="ALT+8" default="False" execute="xSided"/>
-        </groupactions>
-        <groupactions menu="Administration">
-            <groupaction menu="Download: Images Packs" shortcut="" default="False" execute="googleDriveWebsite"/>
-            <groupaction menu="Download: FFG's AGoT FAQ" shortcut="" default="False" execute="faqWebsite"/>
-        </groupactions>
-        <groupaction menu="Option" default="False" shortcut="" execute="option"/>
-        <cardaction menu="Use Ability" shortcut="CTRL+A" default="False" execute="usecardability"/>
-        <cardaction menu="Kneel/Stand" shortcut="F9" default="False" execute="kneel"/>
-        <cardaction menu="Flip Card" shortcut="F8" execute="flipcard"/>
-        <cardaction menu="Discard" shortcut="DELETE" default="False" execute="disc"/>
-        <cardaction menu="Remove from game" default="False" execute="remove"/>
-        <cardaction menu="Double Click" default="True" execute="defaultAction"/>
-        <cardactions menu="Challenge Highlight">
-            <cardaction menu="Military Highlight" shortcut="CTRL+M" execute="addMilitaryHighlight"/>
-            <cardaction menu="Intrigue Highlight" shortcut="CTRL+I" execute="addIntrigueHighlight"/>
-            <cardaction menu="Power Highlight" shortcut="CTRL+P" execute="addPowerHighlight"/>
-            <cardaction menu="(Remove)" shortcut="CTRL+N" execute="cancelHighlight"/>
-        </cardactions>
-        <cardactions menu="Power Markers">
-            <cardaction menu="Add Power" shortcut="F1" execute="addPower"/>
-            <cardaction menu="Sub Power" shortcut="F2" execute="subPower"/>
-        </cardactions>
-        <cardactions menu="Gold Markers">
-            <cardaction menu="Add Gold" shortcut="F3" execute="addGold"/>
-            <cardaction menu="Sub Gold" shortcut="F4" execute="subGold"/>
-        </cardactions>
-        <cardactions menu="STR-Up Markers">
-            <cardaction menu="Add STR" shortcut="SHIFT+F1" execute="addSTR_Up"/>
-            <cardaction menu="Sub STR" shortcut="SHIFT+F2" execute="subSTR_Up"/>
-        </cardactions>
-        <cardactions menu="Burn Markers">
-            <cardaction menu="Add Burn" shortcut="SHIFT+F3" execute="addBurn"/>
-            <cardaction menu="Sub Burn" shortcut="SHIFT+F4" execute="subBurn"/>
-        </cardactions>
-        <cardactions menu="Token Red Markers">
-            <cardaction menu="Add Token Red" shortcut="SHIFT+F5" execute="addRedToken"/>
-            <cardaction menu="Sub Token Red" shortcut="SHIFT+F6" execute="subRedToken"/>
-        </cardactions>
-        <cardactions menu="Token Blue Markers">
-            <cardaction menu="Add Token Blue" shortcut="SHIFT+F7" execute="addBlueToken"/>
-            <cardaction menu="Sub Token Blue" shortcut="SHIFT+F8" execute="subBlueToken"/>
-        </cardactions>
-        <cardactions menu="Card Informations">
-            <cardaction menu="Display card text" execute="displayCardText"/>
-            <cardaction menu="Display card Errata and FAQ" execute="displayErrata"/>
-            <cardaction menu="Search on cardgamedb.com" default="False" execute="cardLookup"/>
-        </cardactions>
+    <table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill" >
+    <groupaction menu="Stand All Cards" shortcut="F2" execute="standAll"/>
+    <groupaction menu="Reveal All Facedown Cards" shortcut="F3" execute="revealAll"/>
+    <groupaction menu="Clear All Targets and Challenge Indicators" shortcut="F4" execute="clearChallenges"/>
+    <groupaction menu="Initiate Military Challenge" shortcut="F5" execute="initiateMilitary"/>
+    <groupaction menu="Initiate Intrigue Challenge" shortcut="F6" execute="initiateIntrigue"/>
+    <groupaction menu="Initiate Power Challenge" shortcut="F7" execute="initiatePower"/>
+    <groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie" />
+    <groupaction menu="Change Die" shortcut="ctrl+shift+R" execute="setDie" />
+    <groupaction menu="Respond" shortcut="Enter" execute="respond" />
+    <groupaction menu="Pass Priority" shortcut="Tab" execute="passPriority" />
+    
+    <cardaction menu="Kneel / Stand" default="True" execute="kneelStand" />
+    <cardaction menu="Activate Ability" shortcut="CTRL+Z" execute="activateAbility" />
+    <cardaction menu="Reveal / Hide Card" shortcut="CTRL+F" execute="revealHide" />
+    <cardaction menu="Declare as Attacker" shortcut="CTRL+A" execute="assignAttacker" />
+    <cardaction menu="Declare as Attacker (without Kneeling)" shortcut="CTRL+SHIFT+A" execute="assignAttackerNoKneel" />
+    <cardaction menu="Declare as Defender" shortcut="CTRL+Q" execute="assignDefender" />
+    <cardaction menu="Declare as Defender (without Kneeling)" shortcut="CTRL+SHIFT+Q" execute="assignDefenderNoKneel" />
+    <cardaction menu="Kill Card" shortcut="CTRL+E" execute="killCard" />
+    <cardaction menu="Discard Card" shortcut="del" execute="discardCard" />
+    <cardaction menu="Clear Card" shortcut="esc" execute="clear" />
+    <cardaction menu="Add 1 Gold to Card" shortcut="CTRL+G" execute="addGold" />
+    <cardaction menu="Add X Gold to Card" shortcut="CTRL+SHIFT+G" execute="addXGold" />
+    <cardaction menu="Add 1 Renown to Card" shortcut="CTRL+R" execute="addRenown" />
+    <cardaction menu="Add X Renown to Card" shortcut="CTRL+SHIFT+R" execute="addXRenown" />
+    <cardaction menu="Add 1 Counter to Card" shortcut="CTRL+C" execute="addCounter" />
+    <cardaction menu="Add X Counters to Card" shortcut="CTRL+SHIFT+C" execute="addXCounter" />
     </table>
-    <player summary=" Power: {#Power} / Gold: {#Gold} / Reserve: {#Reserve} / Initiative: {#Initiative}/ Str: {#Str} / HandSize: {#Hand}  ">
+    <player summary="Power: {#Power} / Gold: {#Gold} / Hand: {#Hand}">
         <counter name="Power" icon="counters/power.png"/>
         <counter name="Gold" icon="counters/gold.png"/>
-        <counter name="Reserve" icon="counters/reserve.png"/>
-        <counter name="Initiative" icon="counters/initiative.png"/>
-        <counter name="Str" icon="counters/str.png"/>
-        <globalvariable name="setupOk" value="0"/>
-        <globalvariable name="turn" value="0"/>
         <hand name="Hand" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
-            <groupaction menu="Random Discard" shortcut="F12" execute="randomDiscard"/>
-            <groupaction menu="Random Discard Many" execute="discardMany"/>
-            <groupaction menu="Take a Mulligan" shortcut="F6" execute="mulligan"/>
-            <cardaction menu="Pay Gold to put into play" execute="play" default="True"/>
+            <groupaction menu="Random Discard" execute="randomDiscard"/>
+            <groupaction menu="Mulligan Hand" execute="mulligan"/>
         </hand>
         <group name="Deck" visibility="none" width="63" height="88" icon="groups/faction.png">
             <groupaction menu="Shuffle" shortcut="CTRL+S" execute="shuffle"/>
             <groupaction menu="Draw" shortcut="CTRL+D" default="True" execute="draw"/>
             <groupaction menu="Draw Many" shortcut="CTRL+SHIFT+D" execute="drawMany"/>
-            <groupaction menu="Discard Many From Top" execute="discardManyFromTop"/>
-            <cardaction menu="Move to Bottom" execute="movetobottom"/>
+            <groupaction menu="Pillage 1" execute="pillage"/>
         </group>
         <group name="Plot Deck" visibility="me" width="63" height="88" icon="groups/plot.png">
-            <groupaction menu="Draw Random" execute="drawRandom"/>
+            <groupaction menu="View Plot Deck" shortcut="F1" execute="viewPlots"/>
         </group>
         <group name="Used Plot Pile" visibility="all" width="63" height="88" icon="groups/plot.png" collapsed="True">
-            <groupaction menu="Shuffle To Plot Deck" execute="shuffleToPlot"/>
+            <groupaction menu="Move to Plot Deck" execute="moveToPlot"/>
         </group>
-        <group name="Dead Pile" visibility="all" width="63" height="88" icon="groups/dead.png">      </group>
-        <group name="Special Pile" visibility="me" width="63" height="88" icon="groups/hold.png" collapsed="True"/>
-        <group name="Discard Pile" visibility="all" width="63" height="88" icon="groups/discard.png">
-            <groupaction menu="Reshuffle into Deck" execute="reshuffle"/>
-            <groupaction menu="Move One Random to Hand" execute="moveOneRandom"/>
+        <group name="Dead Pile" visibility="all" width="63" height="88" icon="groups/dead.png">
+        </group>
+        <group name="Discard Pile" visibility="all" width="63" height="88" icon="groups/discard.png" shortcut="del">
         </group>
     </player>
     <shared>
         <group name="Titles" visibility="none" width="63" height="88" icon="groups/blank.png" collapsed="True">
-            <groupaction menu="Shuffle" execute="shuffle"/>
-            <groupaction menu="Create Titles" execute="createTitles"/>
-            <groupaction menu="Remove 1 Title" execute="removeTitles"/>
-            <cardaction menu="Choose Title" execute="chooseTitle" default="True"/>
         </group>
     </shared>
     <deck>
