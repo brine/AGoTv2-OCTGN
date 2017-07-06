@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="The Red Wedding" id="3c9a65d1-df30-4755-a7a8-8272e1553146" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Dacey Mormont" id="0805e26b-4a01-4397-9ad3-5b1d26b970fd">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text" value="Renown.&#xD;&#xA;X is the number of [Stark] characters you control." />
+      <property name="Traits" value="House Mormont. Lady." />
+      <property name="CardNumber" value="61" />
+      <property name="Illustrator" value="Sara Biddle" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="X" />
+    </card>
+    <card name="Winterfell Archery Range" id="ac690a63-5783-4007-9003-78a769903dc3">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text" value="&lt;Action:&gt; During a [Military] challenge, kneel Winterfell Archery Range to choose a participating character with STR 3 or lower, and remove it from the challenge.&#xD;&#xA;&lt;Card Design by 2015 Melee North American Champion, Brian Aurelio.&gt;" />
+      <property name="Traits" value="Winterfell." />
+      <property name="CardNumber" value="62" />
+      <property name="Illustrator" value="Sara Biddle" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+    </card>
+    <card name="Oldtown Informer" id="482185fc-c51e-497e-8180-34ff1cfb71e8">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text" value="Ambush (2). Bestow (3).&#xD;&#xA;&lt;Reaction:&gt; After a card enters play during the challenges phase, draw X cards. Then, discard X cards. X is the number of gold Oldtown Informer has." />
+      <property name="Traits" value="Ally. Spy." />
+      <property name="CardNumber" value="63" />
+      <property name="Illustrator" value="Sara Biddle" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+    </card>
+    <card name="Arbor Vineyard" id="5e5fb7b0-62fc-41ee-8ae8-781c1df80e9b">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text" value="Limited.&#xD;&#xA;&lt;Marshaling Action:&gt; Kneel Arbor Vineyard to gain 1 gold. (2 gold instead if there are more &lt;Summer&gt; plot cards than &lt;Winter&gt; plot cards revealed.)" />
+      <property name="Traits" value="House Redwyne." />
+      <property name="CardNumber" value="64" />
+      <property name="Illustrator" value="Mark Molnar" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+    </card>
+    <card name="Othell Yarwyck" id="5a9aa899-512b-48b8-aee1-3e93d2b308c4">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text" value="&lt;Action:&gt; Kneel a [The Night's Watch] location to choose a [The Night's Watch] character. Until the end of the phase, that character gains a challenge icon of your choice." />
+      <property name="Traits" value="Builder." />
+      <property name="CardNumber" value="65" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+    </card>
+    <card name="Improved Fortifications" id="4282c069-148d-493b-a4da-62f4ee1e2af9">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text" value="Location only.&#xD;&#xA;&lt;Interrupt:&gt; When attached location would leave play, sacrifice Improved Fortifications to save it." />
+      <property name="Traits" value="Fortification." />
+      <property name="CardNumber" value="66" />
+      <property name="Illustrator" value="Lukas Banas" />
+      <property name="Loyal" value="No" />
+      <property name="Unique" value="No" />
+      <property name="Cost" value="0" />
+    </card>
+    <card name="Ser Axell Florent" id="48776f42-e312-46b3-ba03-11efc3e7dbb1">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text" value="Bestow (3).&#xD;&#xA;&lt;Reaction:&gt; After you win a challenge in which Ser Axell Florent is participating, discard 1 gold from him to choose and kneel a character without attachments." />
+      <property name="Traits" value="House Florent. Knight." />
+      <property name="CardNumber" value="67" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+    </card>
+    <card name="Saving the Kingdom" id="23862220-6151-4a51-a0af-aa9e357be175">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text" value="&lt;Challenges Action:&gt; Choose and kneel a character with STR 3 or lower. That character cannot stand during the standing phase this round.&#xD;&#xA;&lt;Reaction:&gt; After you win dominance, pay 1 gold to return Saving the Kingdom from your discard pile to your hand." />
+      <property name="Traits" value="" />
+      <property name="CardNumber" value="68" />
+      <property name="Illustrator" value="Sebastian Rodriguez" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+    </card>
+    <card name="Ser Osmund Kettleblack" id="19655e93-fb18-4827-9244-dbb4c6cbeb6f">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text" value="Bestow (3).&#xD;&#xA;&lt;Challenges Action:&gt; Discard 1 gold from Ser Osmund Cattleblack to put a &lt;Knight&gt; character into play from your hand. At the end of the phase, if that card is still in play, discard it from play (cannot be saved). (Limit once per phase.)" />
+      <property name="Traits" value="Kingsguard. Knight." />
+      <property name="CardNumber" value="69" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+    </card>
+    <card name="Tywin's Stratagem" id="b2ddc8f0-2951-455a-afc4-b5138ad39e49">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text" value="&lt;Challenges Action:&gt; Choose a character with printed cost 2 or lower controlled by each player. Return each of those characters to its owner's hand.&#xD;&#xA;&lt;Reaction:&gt; After a character is discarded from an opponent's hand or deck, pay 1 gold to return Tywin's Stratagem from your discard pile to your hand." />
+      <property name="Traits" value="" />
+      <property name="CardNumber" value="70" />
+      <property name="Illustrator" value="Adam Duff" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+    </card>
+    <card name="Silence's Crew" id="98a9b8e9-55af-437f-88dd-8a2cf6ba48c6">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text" value="Bestow (3). No attachments. Pillage.&#xD;&#xA;Silence's Crew gets +2 STR for each gold it has.&#xD;&#xA;&lt;Reaction:&gt; After Silence's Crew discards a location or attachment using pillage, place 1 gold from the treasury on Silence's Crew." />
+      <property name="Traits" value="Raider." />
+      <property name="CardNumber" value="71" />
+      <property name="Illustrator" value="Joel Hustak" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+    </card>
+    <card name="Plunder" id="e133446b-ad6c-4cfd-9664-c72ab80273ae">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text" value="&lt;Action:&gt; Kneel your faction card to choose an opponent. Gain 1 gold for each location and attachment in that player's discard pile." />
+      <property name="Traits" value="" />
+      <property name="CardNumber" value="72" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+    </card>
+    <card name="Strong Belwas" id="06def4bd-84d2-46b4-b652-b64bf95c8278">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text" value="Bestow (2).&#xD;&#xA;&lt;Interrupt:&gt; When another unique [Targaryen] character would be killed, discard 1 gold from Strong Belwas to save it. (Limit once per phase.)" />
+      <property name="Traits" value="Companion." />
+      <property name="CardNumber" value="73" />
+      <property name="Illustrator" value="David Sondered" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="4" />
+    </card>
+    <card name="Breaker of Chains" id="f18ea5b6-69cd-474c-a536-ee774b002b21">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text" value="Unique [Targaryen] character only.&#xD;&#xA;Attached character gets +1 STR for each character you control with printed cost 2 or lower.&#xD;&#xA;&lt;Reaction:&gt; After attached character is declared as an attacker, put a character with printed cost 2 or lower into play from your hand." />
+      <property name="Traits" value="Title." />
+      <property name="CardNumber" value="74" />
+      <property name="Illustrator" value="Ignacio Bazán Lazcano" />
+      <property name="Loyal" value="No" />
+      <property name="Unique" value="Yes" />
+      <property name="Cost" value="2" />
+    </card>
+    <card name="Ellaria Sand" id="f3f5b710-7583-4137-af7b-a20f33718dd1">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text" value="Bestow (3).&#xD;&#xA;&lt;Reaction:&gt; After you lose a challenge in which Ellaria Sand is participating, discard 1 gold from her to stand each &lt;Bastard&gt; character you control." />
+      <property name="Traits" value="Bastard. Companion." />
+      <property name="CardNumber" value="75" />
+      <property name="Illustrator" value="Kate Burmak" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+    </card>
+    <card name="Secret Schemes" id="70bbb724-4bba-49fd-bf35-ef006efb5bb0">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text" value="&lt;Action:&gt; Kneel your faction card to draw X cards. X is the number of plot cards in your used pile." />
+      <property name="Traits" value="" />
+      <property name="CardNumber" value="76" />
+      <property name="Illustrator" value="Cristi Balanescu" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+    </card>
+    <card name="Walder Frey" id="9155d729-1978-4aee-bb4b-a4186f6c4c17">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="Renown.&#xD;&#xA;While Walder Frey is attacking, each other &lt;House Frey&gt; character you control is also considered to be attacking." />
+      <property name="Traits" value="House Frey. Lord." />
+      <property name="CardNumber" value="77" />
+      <property name="Illustrator" value="Adam Duff" />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="Yes" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="3" />
+    </card>
+    <card name="Frey Bastard" id="ecaebffc-6014-4d47-a93f-71007f2c79fd">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="Bestow (2).&#xD;&#xA;&lt;Reaction:&gt; After you win a challenge in which you control 2 or more attacking &lt;House Frey&gt; characters, discard 1 gold from Frey Bastard to gain 1 power for your faction." />
+      <property name="Traits" value="Bastard. House Frey." />
+      <property name="CardNumber" value="78" />
+      <property name="Illustrator" value="Kim Sokol" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="Yes" />
+      <property name="Power" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+    </card>
+    <card name="Frey Hospitality" id="8439b335-3b14-4572-b285-53026244cbfa">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="&lt;Reaction:&gt; After you win a challenge in which you control an attacking &lt;House Frey&gt; character, if it was the third challenge you initiated this phase, choose and kill a character controlled by the losing opponent. (Choose and kill 3 characters instead if you won by 20 or more STR.)" />
+      <property name="Traits" value="House Frey." />
+      <property name="CardNumber" value="79" />
+      <property name="Illustrator" value="Colin Boyer" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+    </card>
+    <card name="The Red Wedding" id="0b10850c-c9d5-4a30-84fc-822965d7428d" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text" value="&lt;Interrupt:&gt; When you win a challenge as the attacking player, choose and kill a &lt;Lord&gt; or &lt;Lady&gt; character controlled by the losing opponent. (Any player may initiate this ability.)" />
+      <property name="Traits" value="House Frey. Scheme." />
+      <property name="CardNumber" value="80" />
+      <property name="Illustrator" value="Colin Boyer" />
+      <property name="Loyal" value="No" />
+      <property name="DeckLimit" value="1" />
+      <property name="PlotGoldIncome" value="4" />
+      <property name="PlotInitiative" value="0" />
+      <property name="PlotClaim" value="0" />
+      <property name="PlotReserve" value="4" />
+    </card>
+  </cards>
+</set>
