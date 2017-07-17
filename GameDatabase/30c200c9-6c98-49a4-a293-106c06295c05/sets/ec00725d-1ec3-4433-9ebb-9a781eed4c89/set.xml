@@ -4,9 +4,9 @@
     <card name="Hoster Tully" id="23d15408-910c-48a9-8c65-436765bdbe03">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Stark" />
-      <property name="Text" value="While Hoster Tully is participating in a challenge, each other participating &lt;House Tully&gt; character you control gains renown." />
+      <property name="Text">While Hoster Tully is participating in a challenge, each other participating <i>House Tully</i> character you control gains renown.</property>
       <property name="Traits" value="House Tully. Lord." />
-      <property name="CardNumber" value="1" />
+      <property name="Card Number" value="1" />
       <property name="Illustrator" value="Tiziano Baracchi" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -15,24 +15,31 @@
       <property name="Power" value="Yes" />
       <property name="Cost" value="2" />
       <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="The Tumblestone" id="951fd294-61be-4202-b8c0-0536a4249815">
       <property name="Type" value="Location" />
       <property name="Faction" value="House Stark" />
-      <property name="Text" value="Bestow (3).&#xD;&#xA;&lt;Reaction:&gt; After a &lt;House Tully&gt; character gains power, discard 1 gold from The Tumblestone to stand that character." />
+      <property name="Text">Bestow (3).
+<b>Reaction:</b> After a <i>House Tully</i> character gains power, discard 1 gold from The Tumblestone to stand that character.</property>
       <property name="Traits" value="The Riverlands." />
-      <property name="CardNumber" value="2" />
+      <property name="Card Number" value="2" />
       <property name="Illustrator" value="Sergey Glushakov" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
       <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Margaery Tyrell" id="0b2da821-5256-4ec6-8f91-34d73e359c4b">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Tyrell" />
-      <property name="Text" value="Renown.&#xD;&#xA;&lt;Reaction:&gt; After a unique &lt;King&gt; or &lt;Lord&gt; character you control is killed, search your deck for a unique &lt;King&gt; or &lt;Lord&gt; character and put it into play. Shuffle your deck. (Limit once per round.)" />
+      <property name="Text">Renown.
+<b>Reaction:</b> After a unique <i>King</i> or <i>Lord</i> character you control is killed, search your deck for a unique <i>King</i> or <i>Lord</i> character and put it into play. Shuffle your deck. (Limit once per round.)</property>
       <property name="Traits" value="Lady. Queen." />
-      <property name="CardNumber" value="3" />
+      <property name="Card Number" value="3" />
       <property name="Illustrator" value="Kate Burmak" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
@@ -41,23 +48,31 @@
       <property name="Power" value="Yes" />
       <property name="Cost" value="6" />
       <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="All Men Are Fools" id="bde6ed04-4d69-48e4-a4e5-8742f78eebc1">
       <property name="Type" value="Event" />
       <property name="Faction" value="House Tyrell" />
-      <property name="Text" value="&lt;Reaction:&gt; After you win a challenge by 5 or more STR, each &lt;Lady&gt; character you control gains 1 power. (Max 1 per challenge.)" />
+      <property name="Text">
+        <b>Reaction:</b> After you win a challenge by 5 or more STR, each <i>Lady</i> character you control gains 1 power. (Max 1 per challenge.)</property>
       <property name="Traits" value="" />
-      <property name="CardNumber" value="4" />
+      <property name="Card Number" value="4" />
       <property name="Illustrator" value="Drazenka Kimpel" />
+      <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
       <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Eastwatch Carpenter" id="a3badfe6-8b06-4775-bdc6-2fc1bb2dd715">
       <property name="Type" value="Character" />
       <property name="Faction" value="The Night's Watch" />
-      <property name="Text" value="No attachments except &lt;Weapon&gt;.&#xD;&#xA;&lt;Reaction:&gt; After you collect income, gain 1 gold for every 2 [The Night's Watch] locations you control." />
+      <property name="Text">No attachments except <i>Weapon</i>.
+<b>Reaction:</b> After you collect income, gain 1 gold for every 2 <s value="nightswatch">[The Night's Watch]</s> locations you control.</property>
       <property name="Traits" value="Builder." />
-      <property name="CardNumber" value="5" />
+      <property name="Card Number" value="5" />
       <property name="Illustrator" value="Adam Lane" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
@@ -66,24 +81,32 @@
       <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Eastwatch-by-the-Sea" id="09271055-a8d3-48b8-b01d-fac76dc954d8">
       <property name="Type" value="Location" />
       <property name="Faction" value="The Night's Watch" />
-      <property name="Text" value="&lt;Reaction:&gt; After the dominance phase begins, if you have a higher reserve value than an opponent, draw 1 card.&#xD;&#xA;+1 Reserve." />
+      <property name="Text">
+        <b>Reaction:</b> After the dominance phase begins, if you have a higher reserve value than an opponent, draw 1 card.
++1 Reserve.</property>
       <property name="Traits" value="The North." />
-      <property name="CardNumber" value="6" />
+      <property name="Card Number" value="6" />
       <property name="Illustrator" value="Sergey Glushakov" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
       <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Fickle Bannerman" id="e6ef6930-b0b9-42b7-b062-87467631aac8">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Baratheon" />
-      <property name="Text" value="Bestow (2). Renown.&#xD;&#xA;&lt;Forced Reaction:&gt; After you lose a [Power] challenge, the winning opponent takes control of Fickle Bannerman unless you discard 1 gold from it." />
+      <property name="Text">Bestow (2). Renown.
+<b>Forced Reaction:</b> After you lose a <s value="power">[Power]</s> challenge, the winning opponent takes control of Fickle Bannerman unless you discard 1 gold from it.</property>
       <property name="Traits" value="Ally." />
-      <property name="CardNumber" value="7" />
+      <property name="Card Number" value="7" />
       <property name="Illustrator" value="Audrey Hotte" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
@@ -92,24 +115,31 @@
       <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Storm's End" id="850e4c75-bd8f-4b9b-b6d4-9f8ae718a463">
       <property name="Type" value="Location" />
       <property name="Faction" value="House Baratheon" />
-      <property name="Text" value="&lt;Reaction:&gt; After you win dominance, discard 1 power from your faction card to choose 2 characters. Each of those characters gains 1 power." />
+      <property name="Text">
+        <b>Reaction:</b> After you win dominance, discard 1 power from your faction card to choose 2 characters. Each of those characters gains 1 power.</property>
       <property name="Traits" value="Stronghold." />
-      <property name="CardNumber" value="8" />
+      <property name="Card Number" value="8" />
       <property name="Illustrator" value="Logan Feliciano" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
       <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Stone Crows" id="128442f8-7aa3-4321-8d9f-9377a79313a6">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Lannister" />
-      <property name="Text" value="Ambush (3). Bestow (2). &#xD;&#xA;&lt;Reaction:&gt; After you win a challenge in which Stone Crows is attacking, discard 1 gold from it to have the losing opponent choose and kill a defending character." />
+      <property name="Text">Ambush (3). Bestow (2). 
+<b>Reaction:</b> After you win a challenge in which Stone Crows is attacking, discard 1 gold from it to have the losing opponent choose and kill a defending character.</property>
       <property name="Traits" value="Clansman." />
-      <property name="CardNumber" value="9" />
+      <property name="Card Number" value="9" />
       <property name="Illustrator" value="Josu Hernaiz" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
@@ -118,23 +148,31 @@
       <property name="Power" value="No" />
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Attack From the Mountains" id="9356b05f-fb39-4c40-9eeb-13642a68d3a7">
       <property name="Type" value="Event" />
       <property name="Faction" value="House Lannister" />
-      <property name="Text" value="&lt;Reaction:&gt; After you win a challenge in which you control an attacking &lt;Clansman&gt; character, put a &lt;Clansman&gt; character into play from your hand." />
+      <property name="Text">
+        <b>Reaction:</b> After you win a challenge in which you control an attacking <i>Clansman</i> character, put a <i>Clansman</i> character into play from your hand.</property>
       <property name="Traits" value="" />
-      <property name="CardNumber" value="10" />
+      <property name="Card Number" value="10" />
       <property name="Illustrator" value="Frej Agelii" />
+      <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
       <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Drowned Disciple" id="e1151066-0978-4f9f-b4f6-65b9f6bbc339">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Greyjoy" />
-      <property name="Text" value="&lt;Reaction:&gt; After a character enters play from your dead pile, choose a &lt;Drowned God&gt; character and have it gain 1 power. (Limit twice per phase.)" />
+      <property name="Text">
+        <b>Reaction:</b> After a character enters play from your dead pile, choose a <i>Drowned God</i> character and have it gain 1 power. (Limit twice per phase.)</property>
       <property name="Traits" value="Drowned God." />
-      <property name="CardNumber" value="11" />
+      <property name="Card Number" value="11" />
       <property name="Illustrator" value="Andreia Ugrai" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
@@ -143,24 +181,30 @@
       <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Moat Cailin" id="30e2bbb1-34cf-471a-a1b0-387d6feb8a62">
       <property name="Type" value="Location" />
       <property name="Faction" value="House Greyjoy" />
-      <property name="Text" value="While there are more &lt;Winter&gt; plot cards than &lt;Summer&gt; plot cards revealed, reduce the initiative value on each opponent's revealed plot card by 3, and the reserve value on each opponent's revealed plot card by 1." />
+      <property name="Text">While there are more <i>Winter</i> plot cards than <i>Summer</i> plot cards revealed, reduce the initiative value on each opponent's revealed plot card by 3, and the reserve value on each opponent's revealed plot card by 1.</property>
       <property name="Traits" value="Contested. The North." />
-      <property name="CardNumber" value="12" />
+      <property name="Card Number" value="12" />
       <property name="Illustrator" value="Logan Feliciano" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
       <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Ghiscari Elite" id="65d42976-6b3d-4dbc-ad9b-36d0301f5e18">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Targaryen" />
-      <property name="Text" value="&lt;Reaction:&gt; After Ghiscari Elite is knelt, choose an attachment or event in your discard pile, and place it on the bottom of your deck." />
+      <property name="Text">
+        <b>Reaction:</b> After Ghiscari Elite is knelt, choose an attachment or event in your discard pile, and place it on the bottom of your deck.</property>
       <property name="Traits" value="Ally." />
-      <property name="CardNumber" value="13" />
+      <property name="Card Number" value="13" />
       <property name="Illustrator" value="Cassandre Bolan" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
@@ -169,24 +213,30 @@
       <property name="Power" value="Yes" />
       <property name="Cost" value="5" />
       <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Slaver's Bay Port" id="4e7c3e4c-e705-43ca-a562-d38e848c6e21">
       <property name="Type" value="Location" />
       <property name="Faction" value="House Targaryen" />
-      <property name="Text" value="Limited.&#xD;&#xA;&lt;Marshaling Action:&gt; Kneel Slaver's Bay Port to gain 1 gold. (2 gold instead if an opponent has 4 or more characters in his or her dead pile.)" />
+      <property name="Text">Limited.
+<b>Marshaling Action:</b> Kneel Slaver's Bay Port to gain 1 gold. (2 gold instead if an opponent has 4 or more characters in his or her dead pile.)</property>
       <property name="Traits" value="Essos." />
-      <property name="CardNumber" value="14" />
+      <property name="Card Number" value="14" />
       <property name="Illustrator" value="Frej Agelii" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
       <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Ricasso" id="2209c19e-88c3-4172-858d-6bab561dc5b0">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Martell" />
-      <property name="Text" value="Bestow (2). You are considered to have X additional plot cards in your used pile. X is the number of gold Ricasso has." />
+      <property name="Text">Bestow (2). You are considered to have X additional plot cards in your used pile. X is the number of gold Ricasso has.</property>
       <property name="Traits" value="Ally. Steward." />
-      <property name="CardNumber" value="15" />
+      <property name="Card Number" value="15" />
       <property name="Illustrator" value="Jacob Atienza" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
@@ -195,23 +245,32 @@
       <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="The Prince's Plan" id="43551dd3-5187-4e19-ab02-3d6e6b2bca39">
       <property name="Type" value="Event" />
       <property name="Faction" value="House Martell" />
-      <property name="Text" value="&lt;Action:&gt; Choose a character. Until the end of the phase, that character gets +1 STR for each plot card in your used pile and gains a challenge icon of your choice. &#xD;&#xA;&lt;Reaction:&gt; After you lose a challenge, pay 1 gold to return The Prince's Plan from your discard pile to your hand." />
+      <property name="Text">
+        <b>Action:</b> Choose a character. Until the end of the phase, that character gets +1 STR for each plot card in your used pile and gains a challenge icon of your choice. 
+<b>Reaction:</b> After you lose a challenge, pay 1 gold to return The Prince's Plan from your discard pile to your hand.</property>
       <property name="Traits" value="" />
-      <property name="CardNumber" value="16" />
+      <property name="Card Number" value="16" />
       <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
       <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Ygritte" id="a3a6f31a-63ec-42b6-ace1-f71228491e69">
       <property name="Type" value="Character" />
       <property name="Faction" value="Neutral" />
-      <property name="Text" value="Ygritte cannot be knelt by card effects.&#xD;&#xA;While you control another &lt;Wildling&gt; character, Ygritte gains stealth." />
+      <property name="Text">Ygritte cannot be knelt by card effects.
+While you control another <i>Wildling</i> character, Ygritte gains stealth.</property>
       <property name="Traits" value="Wildling." />
-      <property name="CardNumber" value="17" />
+      <property name="Card Number" value="17" />
       <property name="Illustrator" value="Dani Hartel" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -220,42 +279,57 @@
       <property name="Power" value="No" />
       <property name="Cost" value="4" />
       <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
     </card>
     <card name="Alliance" id="841ff92f-f266-42f9-835e-eb4899c233fb">
       <property name="Type" value="Agenda" />
       <property name="Faction" value="Neutral" />
-      <property name="Text" value="Your minimum deck size is 75 cards.&#xD;&#xA;You may run 2 &lt;Banner&gt; agendas in addition to this agenda." />
+      <property name="Text">Your minimum deck size is 75 cards.
+You may run 2 <i>Banner</i> agendas in addition to this agenda.</property>
       <property name="Traits" value="" />
-      <property name="CardNumber" value="18" />
+      <property name="Card Number" value="18" />
       <property name="Illustrator" value="Tim Durning" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
+      <property name="Deck Limit" value="1" />
     </card>
     <card name="Barring the Gates" id="33ff3b65-8df2-4e4a-915d-b10864121b70" size="HorizontalCards">
       <property name="Type" value="Plot" />
       <property name="Faction" value="Neutral" />
-      <property name="Text" value="Card abilities cannot cause characters to enter play." />
+      <property name="Text">Card abilities cannot cause characters to enter play.</property>
       <property name="Traits" value="Edict. Winter." />
-      <property name="CardNumber" value="19" />
+      <property name="Card Number" value="19" />
       <property name="Illustrator" value="Lukas Banas" />
+      <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="DeckLimit" value="2" />
-      <property name="PlotGoldIncome" value="5" />
-      <property name="PlotInitiative" value="2" />
-      <property name="PlotClaim" value="1" />
-      <property name="PlotReserve" value="5" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="5" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="5" />
     </card>
     <card name="Late Summer Feast" id="3d6f90f0-f1b5-45a5-895e-8f8bc1a33763" size="HorizontalCards">
       <property name="Type" value="Plot" />
       <property name="Faction" value="Neutral" />
-      <property name="Text" value="&lt;Forced Reaction:&gt; After you win a challenge, the losing opponent may draw 1 card." />
+      <property name="Text">
+        <b>Forced Reaction:</b> After you win a challenge, the losing opponent may draw 1 card.</property>
       <property name="Traits" value="Kingdom. Summer." />
-      <property name="CardNumber" value="20" />
+      <property name="Card Number" value="20" />
       <property name="Illustrator" value="Logan Feliciano" />
+      <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="DeckLimit" value="2" />
-      <property name="PlotGoldIncome" value="9" />
-      <property name="PlotInitiative" value="0" />
-      <property name="PlotClaim" value="1" />
-      <property name="PlotReserve" value="5" />
+      <property name="Military" value="No" />
+      <property name="Intrigue" value="No" />
+      <property name="Power" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="9" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="5" />
     </card>
   </cards>
 </set>

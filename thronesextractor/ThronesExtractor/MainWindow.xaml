@@ -28,7 +28,7 @@
                 <ColumnDefinition Width="250" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <TreeView Margin="5" x:Name="SetsPanel" Background="White" Opacity="0.7">
+            <TreeView Margin="5" x:Name="SetsPanel" Background="White" Opacity="0.7" SelectedItemChanged="UpdateDataGrid">
                 <TreeView.Resources>
                     <HierarchicalDataTemplate DataType="{x:Type local:Card}">
                         <TextBlock Text="{Binding Name}" />
@@ -38,7 +38,14 @@
                     </HierarchicalDataTemplate>
                 </TreeView.Resources>
             </TreeView>
-            <DataGrid Grid.Column="1" x:Name="Output"></DataGrid>
+            <DataGrid Grid.Column="1" IsReadOnly="True" x:Name="OutputGrid" AutoGenerateColumns="False"
+                      AlternatingRowBackground="LightGray"  AlternationCount="2">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="Auto" />
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="Auto" />
+                    <DataGridTextColumn Header="Size" Binding="{Binding Size}" Width="Auto" />
+                </DataGrid.Columns>
+            </DataGrid>
         </Grid>
         <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
             <Button  Width="Auto" Margin="5" Content="Update selected set" Click="UpdateXml"/>
