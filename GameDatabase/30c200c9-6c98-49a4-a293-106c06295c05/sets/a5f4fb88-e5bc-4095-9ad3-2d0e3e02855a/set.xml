@@ -7,16 +7,17 @@
       <property name="Text">Stealth.
 <b>Reaction:</b> After Jojen Reed stands, reveal the top card of each player's deck. You may either: discard each of those cards, or have each player draw 1 card.</property>
       <property name="Traits" value="House Reed." />
-      <property name="Card Number" value="61" />
-      <property name="Illustrator" value="Joel Hustak" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joel Hustak" />
+      <property name="Card Number" value="61" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="The Wolf King" id="fbe59c68-7b45-4ca0-8ead-c796139c5a68">
       <property name="Type" value="Attachment" />
@@ -25,15 +26,12 @@
         <s value="stark">[House Stark]</s> character only.
 Attached character gains the <i>King</i> trait and does not kneel when declared as an attacker in a <s value="military">[Military]</s> challenge.</property>
       <property name="Traits" value="Title." />
-      <property name="Card Number" value="62" />
-      <property name="Illustrator" value="" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="" />
+      <property name="Card Number" value="62" />
     </card>
     <card name="King Renly's Host" id="44250f56-8ddf-4805-bfab-bb3eec76abdf">
       <property name="Type" value="Character" />
@@ -42,16 +40,17 @@ Attached character gains the <i>King</i> trait and does not kneel when declared 
 While there is a <i>Summer</i> plot card revealed, King Renly's Host gets +4 STR.
 While there is a <i>Winter</i> plot card revealed, King Renly's Host cannot be declared as an attacker.</property>
       <property name="Traits" value="Army." />
-      <property name="Card Number" value="63" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="6" />
       <property name="Strength" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="63" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Caswell's Keep" id="ef76aca1-0ad8-423e-9de0-c271943b8b4a">
       <property name="Type" value="Location" />
@@ -59,15 +58,12 @@ While there is a <i>Winter</i> plot card revealed, King Renly's Host cannot be d
       <property name="Text">
         <b>Reaction:</b> After you reveal a plot card, choose a player. Look at the top 2 cards of that player's deck. Place 1 of those cards on the bottom of that deck, and the other on top.</property>
       <property name="Traits" value="The Reach." />
-      <property name="Card Number" value="64" />
-      <property name="Illustrator" value="Sergey Glushakov" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sergey Glushakov" />
+      <property name="Card Number" value="64" />
     </card>
     <card name="Shadow Tower Mason" id="c76e98fe-03c3-4836-b2d3-ef0570282a10">
       <property name="Type" value="Character" />
@@ -75,16 +71,16 @@ While there is a <i>Winter</i> plot card revealed, King Renly's Host cannot be d
       <property name="Text">No attachments except <i>Weapon</i>.
 While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locations and/or attachments, Shadow Tower Mason gains a <s value="military">[Military]</s> and an <s value="intrigue">[Intrigue]</s> icon.</property>
       <property name="Traits" value="Builder." />
-      <property name="Card Number" value="65" />
-      <property name="Illustrator" value="Antonio José Manzanedo" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="2" />
       <property name="Strength" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Antonio José Manzanedo" />
+      <property name="Card Number" value="65" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="The Haunted Forest" id="4e554070-0667-4bd1-832a-5018faff11b8">
       <property name="Type" value="Location" />
@@ -92,15 +88,12 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">While The Haunted Forest is standing, it contributes 1 STR to your side during any challenge in which you are the defending player.
 <b>Forced Reaction:</b> After you lose a challenge, kneel The Haunted Forest.</property>
       <property name="Traits" value="The North." />
-      <property name="Card Number" value="66" />
-      <property name="Illustrator" value="Juan Carlos Barquet" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Juan Carlos Barquet" />
+      <property name="Card Number" value="66" />
     </card>
     <card name="Stannis Baratheon" id="0add28a1-ac16-4b9f-b17d-711130395b4d">
       <property name="Type" value="Character" />
@@ -108,31 +101,29 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">During <s value="power">[Power]</s> challenges, each participating non-<i>King</i> character gets -1 STR.
 <b>Reaction:</b> After you win dominance, choose a non-loyal character. That character cannot stand during the standing phase this round.</property>
       <property name="Traits" value="King. Lord." />
-      <property name="Card Number" value="67" />
-      <property name="Illustrator" value="Nicholas Gregory" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="7" />
       <property name="Strength" value="6" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Card Number" value="67" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Red God's Blessing" id="ff33a0f8-70f7-4950-94b6-c896d7d5f1e6">
       <property name="Type" value="Attachment" />
       <property name="Faction" value="House Baratheon" />
       <property name="Text">Attached character gains the <i>R'hllor</i> trait and gets +1 STR for each <i>R'hllor</i> character you control.</property>
       <property name="Traits" value="Blessing. R'hllor." />
-      <property name="Card Number" value="68" />
-      <property name="Illustrator" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="" />
+      <property name="Card Number" value="68" />
     </card>
     <card name="Tanda Stokeworth" id="88cd924d-e0dc-48e1-8009-ddbce502a531">
       <property name="Type" value="Character" />
@@ -140,16 +131,16 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">
         <b>Reaction:</b> After you marshal Tanda Stokeworth, each player gains 3 gold.</property>
       <property name="Traits" value="Lady." />
-      <property name="Card Number" value="69" />
-      <property name="Illustrator" value="" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="" />
+      <property name="Card Number" value="69" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Without His Beard" id="76bd1fd2-2e4b-48de-a9e9-44d6da8a335a">
       <property name="Type" value="Event" />
@@ -157,15 +148,12 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">
         <b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge, discard up to 3 cards at random from the losing opponent's hand. Then, that player draws 2 cards.</property>
       <property name="Traits" value="" />
-      <property name="Card Number" value="70" />
-      <property name="Illustrator" value="Nikolas Hagialas" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="0" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Nikolas Hagialas" />
+      <property name="Card Number" value="70" />
     </card>
     <card name="Aeron Damphair" id="ffdf0b1b-ea89-4c8f-9419-1d268b7af6f5">
       <property name="Type" value="Character" />
@@ -173,16 +161,17 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">
         <b>Reaction:</b> After a character is saved, either: stand it, or kneel it.</property>
       <property name="Traits" value="Drowned God. Ironborn. Lord." />
-      <property name="Card Number" value="71" />
-      <property name="Illustrator" value="" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="6" />
       <property name="Strength" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="" />
+      <property name="Card Number" value="71" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="King Balon's Solar" id="4b12d6d2-1515-4d9d-8069-2afcdadd6ce8">
       <property name="Type" value="Location" />
@@ -190,15 +179,12 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">
         <b>Reaction:</b> After you win initiative, gain 1 gold.</property>
       <property name="Traits" value="Iron Islands." />
-      <property name="Card Number" value="72" />
-      <property name="Illustrator" value="Paolo Puggioni" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="0" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="72" />
     </card>
     <card name="Pyat Pree" id="310ff01c-3581-43c6-bcb7-2949bf6fb2fe">
       <property name="Type" value="Character" />
@@ -206,16 +192,17 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">
         <b>Reaction:</b> After you win a challenge in which Pyat Pree is participating, search the top X cards of your deck for a <s value="targaryen">[House Targaryen]</s> attachment or event, reveal it, and add it to your hand. Shuffle your deck. X is the STR by which you won the challenge.</property>
       <property name="Traits" value="Warlock." />
-      <property name="Card Number" value="73" />
-      <property name="Illustrator" value="Victor Manuel Leza Moreno" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="6" />
       <property name="Strength" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Victor Manuel Leza Moreno" />
+      <property name="Card Number" value="73" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Vaes Tolorro" id="19872cad-e572-4864-9842-97e6f0b9296f">
       <property name="Type" value="Location" />
@@ -223,15 +210,12 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">
         <b>Interrupt:</b> When a character with 1 or more power is killed, kneel Vaes Tolorro to move 1 power from that character to Vaes Tolorro. (Up to 2 power instead if that character's STR is 0.)</property>
       <property name="Traits" value="Essos." />
-      <property name="Card Number" value="74" />
-      <property name="Illustrator" value="Jokubas Uogintas" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jokubas Uogintas" />
+      <property name="Card Number" value="74" />
     </card>
     <card name="Elia Sand" id="60c2339f-a882-423a-9e58-185c776508ab">
       <property name="Type" value="Character" />
@@ -239,16 +223,16 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">
         <b>Reaction:</b> After you lose a challenge, choose a character. Until the end of the phase, that character gains stealth. (Limit twice per phase.)</property>
       <property name="Traits" value="Bastard. Sand Snake." />
-      <property name="Card Number" value="75" />
-      <property name="Illustrator" value="Nicholas Gregory" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="No" />
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Card Number" value="75" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
     </card>
     <card name="Burning on the Sand" id="75e89567-1815-437a-bbab-0ddbac560fff">
       <property name="Type" value="Event" />
@@ -256,15 +240,12 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">
         <b>Reaction:</b> After you lose an unopposed challenge, set the claim value on the winning opponent's revealed plot card to 0 until the end of the challenge.</property>
       <property name="Traits" value="" />
-      <property name="Card Number" value="76" />
-      <property name="Illustrator" value="Jim Brady" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="0" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jim Brady" />
+      <property name="Card Number" value="76" />
     </card>
     <card name="Jaqen H'ghar" id="09b75e08-9c72-4de9-9a15-7e2d3e70de34">
       <property name="Type" value="Character" />
@@ -273,16 +254,18 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
         <b>Reaction:</b> After Jaqen H'ghar enters play, place a Valar Morghulis token on up to 3 different unique characters. If Jaqen H'ghar leaves play, discard those tokens from play.
 <b>Reaction:</b> After you win a challenge in which Jaqen H'ghar is attacking alone, choose and kill a character with a Valar Morghulis token.</property>
       <property name="Traits" value="Ally." />
-      <property name="Card Number" value="77" />
-      <property name="Illustrator" value="Joel Hustak" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="7" />
       <property name="Strength" value="5" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joel Hustak" />
+      <property name="Card Number" value="77" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Isle of Ravens" id="111a39bb-3251-4cb0-a508-b91275643a9b">
       <property name="Type" value="Location" />
@@ -290,15 +273,12 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Text">
         <b>Action:</b> Kneel Isle of Ravens to choose a card in any player's discard pile, and shuffle it into its owner's deck.</property>
       <property name="Traits" value="Oldtown." />
-      <property name="Card Number" value="78" />
-      <property name="Illustrator" value="" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="" />
+      <property name="Card Number" value="78" />
     </card>
     <card name="King Beyond the Wall" id="552d61be-b2ef-4dd5-8821-0de008efc9be">
       <property name="Type" value="Attachment" />
@@ -308,15 +288,12 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
 Attached character gains the <i>King</i> trait.
 While attached character is attacking a player with a higher power total than you, raise the claim value on your revealed plot card by 1.</property>
       <property name="Traits" value="Title." />
-      <property name="Card Number" value="79" />
-      <property name="Illustrator" value="Joshua Cairós" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="79" />
     </card>
     <card name="Valar Morghulis" id="99ff1e49-02ae-4606-bffe-0c614ed5e5dd" size="HorizontalCards">
       <property name="Type" value="Plot" />
@@ -324,17 +301,15 @@ While attached character is attacking a player with a higher power total than yo
       <property name="Text">
         <b>When Revealed:</b> Kill each character.</property>
       <property name="Traits" value="Omen." />
-      <property name="Card Number" value="80" />
-      <property name="Illustrator" value="Dimitri Bielak" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="1" />
       <property name="Income" value="2" />
+      <property name="Initiative" value="0" />
       <property name="Claim" value="0" />
       <property name="Reserve" value="5" />
+      <property name="Illustrator" value="Dimitri Bielak" />
+      <property name="Card Number" value="80" />
     </card>
   </cards>
 </set>

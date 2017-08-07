@@ -3,7 +3,10 @@
     <scripts>
         <script src="scripts/newactions.py"/>
     </scripts>
-    <events/>
+    <events>
+    <event name="OverrideTurnPassed" action="passTurnOverride" />
+    <event name="OverridePhaseClicked" action="phaseClickOverride" />
+    </events>
     <symbols>
         <symbol name="Stark" id="stark" src="symbols/stark.png" />
         <symbol name="Lannister" id="lannister" src="symbols/lannister.png" />
@@ -19,36 +22,36 @@
     </symbols>
     <proxygen definitionsrc="proxy/proxydef.xml"/>
     <phases>
-        <phase name="Plot" icon="phases/plot.png" />
-        <phase name="Draw" icon="phases/draw.png" />
-        <phase name="Marshaling" icon="phases/marshaling.png" />
-        <phase name="Challenge" icon="phases/challenge.png" />
-        <phase name="Dominance" icon="phases/dominance.png" />
-        <phase name="Standing" icon="phases/standing.png" />
-        <phase name="Taxation" icon="phases/taxation.png" />
+        <phase name="Plot Phase" icon="phases/plot.png" />
+        <phase name="Draw Phase" icon="phases/draw.png" />
+        <phase name="Marshalling Phase" icon="phases/marshaling.png" />
+        <phase name="Challenge Phase" icon="phases/challenge.png" />
+        <phase name="Dominance Phase" icon="phases/dominance.png" />
+        <phase name="Standing Phase" icon="phases/standing.png" />
+        <phase name="Taxation Phase" icon="phases/taxation.png" />
     </phases>
     <documents/>
     <gameModes/>
-    <globalvariables/>
+    <globalvariables>
+        <globalvariable name="firstplayer" value="None" />
+    </globalvariables>
     <card back="cards/back.png" front="cards/front.png" width="63" height="88" cornerRadius="2">
-        <property name="Faction" type="String"/>
+        <property name="Cost" type="String"/>
         <property name="Type" type="String"/>
+        <property name="Faction" type="String"/>
         <property name="Traits" type="String" textKind="Tokens"/>
+        <property name="Icons" type="String"/>
         <property name="Text" type="String"/>
+        <property name="Strength" type="String"/>
         <property name="Unique" type="String"/>
         <property name="Loyal" type="String"/>
-        <property name="Cost" type="String"/>
-        <property name="Strength" type="String"/>
-        <property name="Military" type="String"/>
-        <property name="Intrigue" type="String"/>
-        <property name="Power" type="String"/>
         <property name="Income" type="String"/>
         <property name="Initiative" type="String"/>
         <property name="Claim" type="String"/>
         <property name="Reserve" type="String"/>
         <property name="Deck Limit" type="String"/>
         <property name="Illustrator" type="String"/>
-        <property name="Number" type="String"/>
+        <property name="Card Number" type="String"/>
         <size name="HorizontalCards" width="88" height="63" backWidth="88" backHeight="63" back="cards/backH.png" front="cards/frontH.png" cornerRadius="2"/>
     </card>
     <table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill" >
@@ -61,7 +64,8 @@
         <groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie" />
         <groupaction menu="Change Die" shortcut="ctrl+shift+R" execute="setDie" />
         <groupaction menu="Respond" shortcut="Enter" execute="respond" />
-        <groupaction menu="Pass Priority" shortcut="Tab" execute="passPriority" />
+        <groupaction menu="Become First Player" execute="becomeFirstPlayer" />
+        <groupaction menu="Pass Phase/Priority" shortcut="Tab" execute="passPriority" />
         <cardaction menu="Kneel / Stand" default="True" execute="kneelStand" />
         <cardaction menu="Activate Ability" shortcut="CTRL+Z" execute="activateAbility" />
         <cardaction menu="Reveal / Hide Card" shortcut="CTRL+F" execute="revealHide" />

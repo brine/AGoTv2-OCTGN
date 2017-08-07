@@ -7,16 +7,17 @@
       <property name="Text">No attachments.
 While there are fewer than 3 plots in your used pile, Greatjon's Vanguard gets +2 STR and gains renown.</property>
       <property name="Traits" value="Army. House Umber." />
-      <property name="Card Number" value="81" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="5" />
       <property name="Strength" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="81" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Winterfell Crypt" id="f79de2ff-4b49-4c6e-8a22-d49f8040010e">
       <property name="Type" value="Location" />
@@ -24,15 +25,12 @@ While there are fewer than 3 plots in your used pile, Greatjon's Vanguard gets +
       <property name="Text">
         <b>Reaction:</b> After a unique <s value="stark">[House Stark]</s> character you control is killed or sacrificed during the challenges phase, sacrifice Winterfell Crypt to choose a character with equal or lower printed STR. At the end of the phase, if that character is still in play, shuffle it back into its owner's deck.</property>
       <property name="Traits" value="Winterfell." />
-      <property name="Card Number" value="82" />
-      <property name="Illustrator" value="Michael Komarck" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michael Komarck" />
+      <property name="Card Number" value="82" />
     </card>
     <card name="Roseroad Patrol" id="b5c87361-de05-44db-8062-42cefb20b9e3">
       <property name="Type" value="Character" />
@@ -40,16 +38,17 @@ While there are fewer than 3 plots in your used pile, Greatjon's Vanguard gets +
       <property name="Text">No attachments.
 While you control a character with the highest STR in play, Roseroad Patrol gains stealth.</property>
       <property name="Traits" value="Army." />
-      <property name="Card Number" value="83" />
-      <property name="Illustrator" value="Federico Musetti" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="4" />
       <property name="Strength" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="83" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Pulling the Strings" id="28288527-476c-453f-8bb4-04e01ebe7cea" size="HorizontalCards">
       <property name="Type" value="Plot" />
@@ -57,17 +56,15 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Text">
         <b>When Revealed:</b> Choose an <i>Edict</i>, <i>Kingdom</i>, or <i>Scheme</i> plot card in an opponent's used pile. Initiate the when revealed ability on that card as if you had just revealed it.</property>
       <property name="Traits" value="Scheme." />
-      <property name="Card Number" value="84" />
-      <property name="Illustrator" value="Drazenka Kimpel" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="1" />
       <property name="Income" value="5" />
+      <property name="Initiative" value="2" />
       <property name="Claim" value="1" />
       <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Drazenka Kimpel" />
+      <property name="Card Number" value="84" />
     </card>
     <card name="Chett" id="8b97ebcf-4cf8-48a1-91ca-45496776640b">
       <property name="Type" value="Character" />
@@ -75,16 +72,16 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Text">No attachments except <i>Weapon</i>.
 <b>Dominance Action:</b> Kneel a <i>Steward</i> character to return a <i>Direwolf</i> or <i>Raven</i> card from your discard pile to your hand. (Limit once per phase.)</property>
       <property name="Traits" value="Steward." />
-      <property name="Card Number" value="85" />
-      <property name="Illustrator" value="Anthony Feliciano" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="No" />
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Anthony Feliciano" />
+      <property name="Card Number" value="85" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
     </card>
     <card name="Northern Rookery" id="f88dd3c7-cae8-4e52-b810-8fbd8f70fd23">
       <property name="Type" value="Location" />
@@ -93,15 +90,12 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
         <b>Reaction:</b> After you marshal Northern Rookery, draw 1 card.
 +1 Reserve.</property>
       <property name="Traits" value="The North." />
-      <property name="Card Number" value="86" />
-      <property name="Illustrator" value="Thomas Denmark" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Thomas Denmark" />
+      <property name="Card Number" value="86" />
     </card>
     <card name="Kingswood" id="2f2d781c-f2a9-4214-8939-0e1aaf2bae17">
       <property name="Type" value="Location" />
@@ -109,15 +103,12 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Text">During <s value="power">[Power]</s> challenges in which you are the defending player, each attacking character gets -1 STR.
 <b>Forced Reaction:</b> After you lose a <s value="power">[Power]</s> challenge, sacrifice Kingswood.</property>
       <property name="Traits" value="Westeros." />
-      <property name="Card Number" value="87" />
-      <property name="Illustrator" value="Juan Carlos Barquet" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Juan Carlos Barquet" />
+      <property name="Card Number" value="87" />
     </card>
     <card name="Stinking Drunk" id="495f1553-c28b-49a7-b1d6-9cace43d9d2a">
       <property name="Type" value="Attachment" />
@@ -125,15 +116,12 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Text">Opponent's character only.
 <b>Reaction:</b> After attached character stands, sacrifice Stinking Drunk to kneel that character.</property>
       <property name="Traits" value="Condition." />
-      <property name="Card Number" value="88" />
-      <property name="Illustrator" value="JB Casacop" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="0" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Card Number" value="88" />
     </card>
     <card name="Bronn" id="d8f39831-ef30-4f90-a8cb-8bbc4c659c7d">
       <property name="Type" value="Character" />
@@ -141,16 +129,16 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Text">During a challenge in which you are the defending player, Bronn gains a <s value="military">[Military]</s>, an <s value="intrigue">[Intrigue]</s>, and a <s value="power">[Power]</s> icon.
 <b>Marshaling Action:</b> Pay 1 gold to take control of Bronn. (Any player may initiate this ability.)</property>
       <property name="Traits" value="Mercenary." />
-      <property name="Card Number" value="89" />
-      <property name="Illustrator" value="Romain Leguay" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Strength" value="5" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Romain Leguay" />
+      <property name="Card Number" value="89" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
     </card>
     <card name="Trial by Combat" id="f2626ce8-be3d-4e63-b2a6-0b33ae5e6f60">
       <property name="Type" value="Event" />
@@ -158,31 +146,28 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Text">
         <b>Interrupt:</b> When claim is applied for an <s value="intrigue">[Intrigue]</s> challenge, apply <s value="military">[Military]</s> claim instead.</property>
       <property name="Traits" value="" />
-      <property name="Card Number" value="90" />
-      <property name="Illustrator" value="Marius Bota" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Marius Bota" />
+      <property name="Card Number" value="90" />
     </card>
     <card name="Raider from Pyke" id="ae4178c4-d902-436c-b5d5-ea7440f9e6e8">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">Each<i> Weapon</i> card in your hand gains ambush (X). X is that card's printed cost.</property>
       <property name="Traits" value="Raider." />
-      <property name="Card Number" value="91" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Strength" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="91" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
     </card>
     <card name="Iron Mines" id="5ad0b950-40c8-4a29-8128-10c81eb862e0">
       <property name="Type" value="Location" />
@@ -190,15 +175,12 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Text">
         <b>Interrupt:</b> When a character would be killed, sacrifice Iron Mines to save that character.</property>
       <property name="Traits" value="Iron Islands." />
-      <property name="Card Number" value="92" />
-      <property name="Illustrator" value="Matthew Cowdery" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Matthew Cowdery" />
+      <property name="Card Number" value="92" />
     </card>
     <card name="Mirri Maz Duur" id="5807c40f-5560-44b6-a745-992eabfcfda0">
       <property name="Type" value="Character" />
@@ -206,16 +188,17 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Text">
         <b>Interrupt:</b> When claim is applied for a challenge in which Mirri Maz Duur is attacking alone, choose a character controlled by the losing opponent. Instead of the normal claim effects, kill that character.</property>
       <property name="Traits" value="Lhazareen. Maegi." />
-      <property name="Card Number" value="93" />
-      <property name="Illustrator" value="Marius Bota" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="7" />
       <property name="Strength" value="5" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Marius Bota" />
+      <property name="Card Number" value="93" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Blood Magic Ritual" id="0bc969c3-8e91-4a9b-80bf-77ef223dbeed">
       <property name="Type" value="Event" />
@@ -223,15 +206,12 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Text">
         <b>Interrupt:</b> When a non-<i>Army</i> character would be killed, save it. Then, attach Blood Magic Ritual to that character as a <i>Condition</i> attachment with the text: "Terminal. Treat attached character's printed text box as if it were blank (except for <i>Traits</i>)."</property>
       <property name="Traits" value="" />
-      <property name="Card Number" value="94" />
-      <property name="Illustrator" value="Xia Taptara" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Xia Taptara" />
+      <property name="Card Number" value="94" />
     </card>
     <card name="Knights of the Sun" id="7a4d2704-9b60-4fca-bcef-9288151693db">
       <property name="Type" value="Character" />
@@ -239,16 +219,17 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Text">No attachments except <i>Weapon</i>.
 While there are 3 or more plot cards in your used pile, Knights of the Sun gains renown.</property>
       <property name="Traits" value="Army. Knight." />
-      <property name="Card Number" value="95" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="4" />
       <property name="Strength" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="95" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Vengeance for Elia" id="b6a02e7e-8bc7-43dd-82b3-1cdf89079fea">
       <property name="Type" value="Event" />
@@ -256,15 +237,12 @@ While there are 3 or more plot cards in your used pile, Knights of the Sun gains
       <property name="Text">
         <b>Interrupt:</b> When claim is applied for a challenge in which you are the defending player, choose an opponent. That player must satisfy the normal claim effect instead of you as if he or she were the defending player.</property>
       <property name="Traits" value="" />
-      <property name="Card Number" value="96" />
-      <property name="Illustrator" value="Jan-Wah Li" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jan-Wah Li" />
+      <property name="Card Number" value="96" />
     </card>
     <card name="Street of Steel" id="f25460d6-2897-41ae-97ff-d433855d4294">
       <property name="Type" value="Location" />
@@ -272,15 +250,12 @@ While there are 3 or more plot cards in your used pile, Knights of the Sun gains
       <property name="Text">
         <b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge, kneel your faction card to search the top 10 cards of your deck for a <i>Weapon</i> or <i>Item</i> attachment, reveal it, and add it to your hand. Shuffle your deck.</property>
       <property name="Traits" value="King's Landing." />
-      <property name="Card Number" value="97" />
-      <property name="Illustrator" value="Matthew Cowdery" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Matthew Cowdery" />
+      <property name="Card Number" value="97" />
     </card>
     <card name="The Eyrie" id="b36e1dba-88fe-4c14-919b-80ca08fe9e81">
       <property name="Type" value="Location" />
@@ -288,15 +263,12 @@ While there are 3 or more plot cards in your used pile, Knights of the Sun gains
       <property name="Text">
         <b>Reaction:</b> After a phase begins, kneel The Eyrie to choose a character. Until the end of the phase, that character cannot be killed.</property>
       <property name="Traits" value="House Arryn. Stronghold." />
-      <property name="Card Number" value="98" />
-      <property name="Illustrator" value="Sergey Glushakov" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sergey Glushakov" />
+      <property name="Card Number" value="98" />
     </card>
     <card name="Nightmares" id="9d81eee2-2281-4bad-933c-9915b9eb9aca">
       <property name="Type" value="Event" />
@@ -304,32 +276,27 @@ While there are 3 or more plot cards in your used pile, Knights of the Sun gains
       <property name="Text">
         <b>Action: </b>Choose a character or location. Until the end of the phase, treat that card's printed text box as if it were blank (except for <i>Traits</i>).</property>
       <property name="Traits" value="Dream." />
-      <property name="Card Number" value="99" />
-      <property name="Illustrator" value="Jeremy Wilson" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jeremy Wilson" />
+      <property name="Card Number" value="99" />
     </card>
     <card name="Famine" id="f9abc810-826c-40d1-a65b-bcf828fb747b" size="HorizontalCards">
       <property name="Type" value="Plot" />
       <property name="Faction" value="Neutral" />
       <property name="Text">Increase the cost for each opponent to marshal each of his or her characters by 1.</property>
       <property name="Traits" value="Winter." />
-      <property name="Card Number" value="100" />
-      <property name="Illustrator" value="Tristan Denecke" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="2" />
       <property name="Income" value="2" />
+      <property name="Initiative" value="0" />
       <property name="Claim" value="2" />
       <property name="Reserve" value="4" />
+      <property name="Illustrator" value="Tristan Denecke" />
+      <property name="Card Number" value="100" />
     </card>
   </cards>
 </set>

@@ -5,12 +5,42 @@ GoldMarker = ("Gold", "4e8046ba-759b-428c-917f-7e9268a5af90")
 RenownMarker = ("Renown", "d115ea96-ed05-4bf7-ba22-a34c8675c676")
 CounterMarker = ("Counter", "6238a357-41b7-4bca-b394-925fc1b2caf8")
 
+firstPlayerToken = "73a6655b-60b6-4080-b428-f4e0099e0f77"
+
 diesides = 6
 
 ######################################
 ##     EVENT FUNCTIONS              ##
 ######################################
 
+def passTurnOverride(args):
+    mute()
+    if turnNumber() == 0: ## make the turn counter start at 1 on plot phase
+        nextTurn()
+        setPhase(1)
+        return
+    firstPlayer = getGlobalVariable("firstplayer")
+    if firstPlayer == "None":
+        setActivePlayer(args.player)
+        notify("{} becomes the First Player".format(args.player))
+        setGlobalVariable("firstplayer", str(args.player._id))
+    else:
+        firstPlayer = Player(eval(firstPlayer))
+        if getActivePlayer() == firstPlayer:  ## when the active player passes to the next player
+            setPhase(currentPhase()[1])
+            setActivePlayer(getPlayers()[1])
+        else:
+            phaseName, phaseId = currentPhase()
+            if phaseId == 7: ## passing at end of turn
+                setGlobalVariable("firstplayer", "None")
+                nextTurn()
+                setPhase(1)
+            else:
+                setActivePlayer(firstPlayer)
+                setPhase(phaseId + 1)
+            
+def phaseClickOverride(args):
+    mute()
 
 ######################################
 ##           TABLE ACTIONS          ##
@@ -89,12 +119,17 @@ def dieFunct(num):
         n = rnd(1, num)
         notify("{} rolls {} on a {}-sided die.".format(me, n, num))
 
-
 def respond(group, x = 0, y = 0):
     notify('{} RESPONDS!'.format(me))
 
 def passPriority(group, x = 0, y = 0):
-    notify('{} passes.'.format(me))
+    passTurnOverride(EventArgument({"player": me}))
+
+def becomeFirstPlayer(group, x = 0, y = 0):
+    mute()
+    setActivePlayer(me)
+    notify("{} becomes the First Player".format(me))
+    setGlobalVariable("firstplayer", str(me._id))
 
 
 ######################################

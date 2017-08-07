@@ -6,16 +6,17 @@
       <property name="Faction" value="House Stark" />
       <property name="Text">Reduce the cost of the first loyal card you marshal or play each round by 1.</property>
       <property name="Traits" value="House Hornwood. Lady." />
-      <property name="Card Number" value="21" />
-      <property name="Illustrator" value="Christine Thomas" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="4" />
       <property name="Strength" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Christine Thomas" />
+      <property name="Card Number" value="21" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Fear Cuts Deeper Than Swords" id="9e020dc3-fb0a-4b2d-aa2e-f38532fbed13">
       <property name="Type" value="Event" />
@@ -23,31 +24,29 @@
       <property name="Text">
         <b>Interrupt:</b> When the effects of an ability that chooses a <s value="stark">[House Stark]</s> character you control as its only target would initiate, cancel those effects and stand that character.</property>
       <property name="Traits" value="" />
-      <property name="Card Number" value="22" />
-      <property name="Illustrator" value="Joshua Cairós" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="22" />
     </card>
     <card name="Knight of Summer" id="dbc64c37-28a6-45a7-a0b0-ed1bd10da97c">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Tyrell" />
       <property name="Text">While there are more <i>Summer</i> plot cards than <i>Winter</i> plot cards revealed, Knight of Summer gets +2 STR and gains renown.</property>
       <property name="Traits" value="Knight" />
-      <property name="Card Number" value="23" />
-      <property name="Illustrator" value="Nicholas Gregory" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="4" />
       <property name="Strength" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Card Number" value="23" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="There Is My Claim" id="aba6b8cd-e7c4-4203-ade1-1a71aede12f3">
       <property name="Type" value="Event" />
@@ -55,15 +54,12 @@
       <property name="Text">Play only during a challenge.
 <b>Challenges Action:</b> Reveal 4 <s value="tyrell">[House Tyrell]</s> characters from your hand to raise the claim value on your revealed plot card by 1 until the end of the challenge. (Max 1 per challenge.)</property>
       <property name="Traits" value="" />
-      <property name="Card Number" value="24" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="0" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="24" />
     </card>
     <card name="Dolorous Edd" id="df885067-7be0-4457-a36a-cc16d00983bd">
       <property name="Type" value="Character" />
@@ -71,16 +67,16 @@
       <property name="Text">
         <b>Action:</b> During an <s value="intrigue">[Intrigue]</s> challenge in which you are the defending player, kneel your faction card to put Dolorous Edd into play from your hand knelt, participating as a defender. If you win the challenge, you may return him to your hand.</property>
       <property name="Traits" value="Steward." />
-      <property name="Card Number" value="25" />
-      <property name="Illustrator" value="JB Casacop" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="No" />
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Card Number" value="25" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
     </card>
     <card name="Craven" id="641d02df-9a6b-4b7e-ba28-c9f25f36ed40">
       <property name="Type" value="Attachment" />
@@ -88,46 +84,40 @@
       <property name="Text">Terminal.
 Attached character cannot be declared as an attacker.</property>
       <property name="Traits" value="Condition." />
-      <property name="Card Number" value="26" />
-      <property name="Illustrator" value="Marius Bota" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Marius Bota" />
+      <property name="Card Number" value="26" />
     </card>
     <card name="Maester Pylos" id="27af4d0c-ce1f-452c-8758-1f366755c895">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Baratheon" />
       <property name="Text">Stealth.</property>
       <property name="Traits" value="Maester." />
-      <property name="Card Number" value="27" />
-      <property name="Illustrator" value="Joshua Cairós" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="27" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="The Stone Drum" id="7ba5eea4-65c4-4a08-94ce-1c0382e65e35">
       <property name="Type" value="Location" />
       <property name="Faction" value="House Baratheon" />
       <property name="Text">While there is a <i>Kingdom</i> plot card revealed, increase the gold value on your revealed plot card by 1.</property>
       <property name="Traits" value="Dragonstone." />
-      <property name="Card Number" value="28" />
-      <property name="Illustrator" value="Sergey Glushakov" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="0" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sergey Glushakov" />
+      <property name="Card Number" value="28" />
     </card>
     <card name="Shae" id="7274c2f1-54a6-4646-84f0-b53d3ae02541">
       <property name="Type" value="Character" />
@@ -135,16 +125,17 @@ Attached character cannot be declared as an attacker.</property>
       <property name="Text">
         <b>Challenges Action:</b> Pay 1 gold to stand Shae. (Limit twice per phase.)</property>
       <property name="Traits" value="Ally. Companion." />
-      <property name="Card Number" value="29" />
-      <property name="Illustrator" value="Adam Duff" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Adam Duff" />
+      <property name="Card Number" value="29" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="The Boy King" id="99d111dd-707f-419e-b977-5c8bdf401ed2">
       <property name="Type" value="Attachment" />
@@ -154,15 +145,12 @@ Attached character cannot be declared as an attacker.</property>
 Attached character gains the <i>King</i> trait.
 <b>Reaction:</b> After a character with printed cost 3 or lower is killed, kneel The Boy King to have attached character gain 1 power.</property>
       <property name="Traits" value="Title." />
-      <property name="Card Number" value="30" />
-      <property name="Illustrator" value="David Griffith" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="David Griffith" />
+      <property name="Card Number" value="30" />
     </card>
     <card name="Balon Greyjoy" id="a3400087-4d9d-450f-ad75-78de71a60ace">
       <property name="Type" value="Character" />
@@ -171,16 +159,17 @@ Attached character gains the <i>King</i> trait.
 Balon Greyjoy does not kneel when declared as an attacker in a <s value="military">[Military]</s> challenge against an opponent who does not control a <i>King</i> character.
 <b>Action:</b> Kneel a <s value="greyjoy">[House Greyjoy]</s> location to give each loyal character you control +1 STR until the end of the challenge. (Limit once per challenge.)</property>
       <property name="Traits" value="Ironborn. King. Lord." />
-      <property name="Card Number" value="31" />
-      <property name="Illustrator" value="Ryan Valle" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="7" />
       <property name="Strength" value="5" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ryan Valle" />
+      <property name="Card Number" value="31" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Ours is the Old Way" id="e5b206cc-3a61-4c16-a214-fb311fd55fc2">
       <property name="Type" value="Event" />
@@ -188,31 +177,29 @@ Balon Greyjoy does not kneel when declared as an attacker in a <s value="militar
       <property name="Text">
         <b>Challenges Action:</b> Until the end of the phase, either: each <s value="greyjoy">[House Greyjoy]</s> character you control gains stealth, or each non-<s value="greyjoy">[House Greyjoy]</s> character loses stealth.</property>
       <property name="Traits" value="" />
-      <property name="Card Number" value="32" />
-      <property name="Illustrator" value="Victor Garcia" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Victor Garcia" />
+      <property name="Card Number" value="32" />
     </card>
     <card name="Doreah" id="71782a0f-38a9-4eab-96e2-64625040394d">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Targaryen" />
       <property name="Text">During a challenge in which you control a participating <i>Lord</i> or <i>Lady</i> character, Doreah gains insight.</property>
       <property name="Traits" value="Companion." />
-      <property name="Card Number" value="33" />
-      <property name="Illustrator" value="Glen Osterberger" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="2" />
       <property name="Strength" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Glen Osterberger" />
+      <property name="Card Number" value="33" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Beggar King" id="bd2c4a34-6f5b-4328-898f-11765b5fe46d">
       <property name="Type" value="Attachment" />
@@ -222,15 +209,12 @@ Balon Greyjoy does not kneel when declared as an attacker in a <s value="militar
 Attached character gains the <i>King</i> trait.
 <b>Reaction:</b> After an opponent reveals a plot card with a higher printed gold value than yours, kneel Beggar King to gain 1 gold. (2 gold instead if no opponent controls a <i>King</i> character.)</property>
       <property name="Traits" value="Title." />
-      <property name="Card Number" value="34" />
-      <property name="Illustrator" value="Jason Jenicke" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jason Jenicke" />
+      <property name="Card Number" value="34" />
     </card>
     <card name="Starfall Cavalry" id="e2a2b799-e346-4c14-94c8-ab81e1824de4">
       <property name="Type" value="Character" />
@@ -238,16 +222,17 @@ Attached character gains the <i>King</i> trait.
       <property name="Text">No attachments except <i>Weapon</i>.
 <b>Reaction:</b> After Starfall Cavalry enters play, draw 1 card. (3 cards instead if there are 3 or more plot cards in your used pile.)</property>
       <property name="Traits" value="Army. House Dayne." />
-      <property name="Card Number" value="35" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="No" />
       <property name="Cost" value="6" />
       <property name="Strength" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="35" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
     </card>
     <card name="Venomous Blade" id="d85cb75b-4e6e-4688-abda-284fad29f410">
       <property name="Type" value="Attachment" />
@@ -257,15 +242,12 @@ Attached character gains the <i>King</i> trait.
 Attached character gets +1 STR.
 <b>Reaction:</b> After Venomous Blade enters play, place a poison token on a character with printed STR 2 or lower. At the end of the phase, if that character still has that poison token, remove it and kill that character.</property>
       <property name="Traits" value="Weapon." />
-      <property name="Card Number" value="36" />
-      <property name="Illustrator" value="Zezhou Chen" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Zezhou Chen" />
+      <property name="Card Number" value="36" />
     </card>
     <card name="Kings of Summer" id="c7d80dca-d1ca-4913-afba-d043efd81d38">
       <property name="Type" value="Agenda" />
@@ -273,14 +255,11 @@ Attached character gets +1 STR.
       <property name="Text">You cannot include <i>Winter</i> plot cards in your plot deck.
 Increase the reserve value on each player's revealed plot card by 1. While there are no <i>Winter</i> plot cards revealed, increase the gold value on your revealed <i>Summer</i> plot card by 1.</property>
       <property name="Traits" value="Summer." />
-      <property name="Card Number" value="37" />
-      <property name="Illustrator" value="Tim Durning" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="Tim Durning" />
+      <property name="Card Number" value="37" />
     </card>
     <card name="Kings of Winter" id="ce0198ca-48a3-48bb-bb20-9b3673ace684">
       <property name="Type" value="Agenda" />
@@ -288,14 +267,11 @@ Increase the reserve value on each player's revealed plot card by 1. While there
       <property name="Text">You cannot include <i>Summer</i> plot cards in your plot deck.
 Reduce the reserve value on each player's revealed plot card by 1. While you have a <i>Winter</i> plot card revealed, reduce the gold value on each opponent's non-<i>Summer</i> plot card by 1.</property>
       <property name="Traits" value="Winter." />
-      <property name="Card Number" value="38" />
-      <property name="Illustrator" value="Tim Durning" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="Tim Durning" />
+      <property name="Card Number" value="38" />
     </card>
     <card name="Summer Harvest" id="9804cffd-3269-4860-8285-135446dd3dba" size="HorizontalCards">
       <property name="Type" value="Plot" />
@@ -303,16 +279,14 @@ Reduce the reserve value on each player's revealed plot card by 1. While you hav
       <property name="Text">
         <b>When Revealed:</b> Choose an opponent. X is 2 higher than the printed gold value on that player's revealed plot card.</property>
       <property name="Traits" value="Summer." />
-      <property name="Card Number" value="39" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="2" />
+      <property name="Initiative" value="4" />
       <property name="Claim" value="1" />
       <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="39" />
     </card>
     <card name="Winter Festival" id="987542a3-65f3-4af8-9907-d701f4139f13" size="HorizontalCards">
       <property name="Type" value="Plot" />
@@ -320,17 +294,15 @@ Reduce the reserve value on each player's revealed plot card by 1. While you hav
       <property name="Text">
         <b>Interrupt:</b> When the challenges phase ends, if there are no <i>Summer</i> plot cards revealed, gain 2 power for your faction.</property>
       <property name="Traits" value="Winter." />
-      <property name="Card Number" value="40" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="2" />
       <property name="Income" value="5" />
+      <property name="Initiative" value="2" />
       <property name="Claim" value="1" />
       <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="40" />
     </card>
   </cards>
 </set>

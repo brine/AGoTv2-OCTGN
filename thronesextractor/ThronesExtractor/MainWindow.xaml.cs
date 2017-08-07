@@ -23,13 +23,37 @@ namespace ThronesExtractor
         private List<Card> cardList = new List<Card>();
         private List<Set> setList = new List<Set>();
 
+        private List<Property> Properties = new List<Property>();
+
+        private string cardsurl;
+        private string packsurl;
+        private XDocument setGuidTable;
+
+        private void LoadConfig()
+        {
+            var doc = XDocument.Load("config.xml");
+            foreach (var propdef in doc.Descendants("property"))
+            {
+                var prop = new Property()
+                {
+                    DbName = propdef.Attribute("db_name").Value,
+                    OctgnName = propdef.Attribute("octgn_name").Value,
+                    Type = (propdef.Attribute("type") == null) ? PropertyTypes.String : PropertyTypes.Bool
+                };
+                Properties.Add(prop);
+            }
+            cardsurl = doc.Document.Descendants("cardsUrl").First().Attribute("value").Value;
+            packsurl = doc.Document.Descendants("packsUrl").First().Attribute("value").Value;
+            setGuidTable = XDocument.Load("setguids.xml");
+        }
+        
+
         public MainWindow()
         {
             InitializeComponent();
-            LoadPropertyTable();
+            LoadConfig();
 
-            string cardsurl = new WebClient().DownloadString("http://www.thronesdb.com/api/public/cards/");
-            JArray cardsjson = (JArray)JsonConvert.DeserializeObject(cardsurl);
+            JArray cardsjson = (JArray)JsonConvert.DeserializeObject(new WebClient().DownloadString(cardsurl));
             foreach (var jcard in cardsjson)
             {
                 var card = new Card();
@@ -48,17 +72,32 @@ namespace ThronesExtractor
                         card.Properties.Add(prop, value);
                     }
                 }
+                var iconsProp = new Property();
+                iconsProp.OctgnName = "Icons";
+                iconsProp.Type = PropertyTypes.String;
+                string iconsValue = "";
+                if (jcard.Value<string>("is_military") == "True")
+                    iconsValue += "[military]";
+                if (jcard.Value<string>("is_intrigue") == "True")
+                    iconsValue += "[intrigue]";
+                if (jcard.Value<string>("is_power") == "True")
+                    iconsValue += "[power]";
+                if (iconsValue != "")
+                    card.Properties.Add(iconsProp, MakeXMLSafe(iconsValue));
                 card.Size = card.getProperty("Type") == "Plot" ? "HorizontalCards" : null;
                 cardList.Add(card);
             }
-
-            string url = new WebClient().DownloadString("http://www.thronesdb.com/api/public/packs");
-            JArray json = (JArray)JsonConvert.DeserializeObject(url);
-            foreach (var jset in json)
+            
+            JArray packsjson = (JArray)JsonConvert.DeserializeObject(new WebClient().DownloadString(packsurl));
+            foreach (var jset in packsjson)
             {
                 if (jset.Value<string>("available") == "") continue;
                 var set = new Set();
-                set.Id = GetSetGuid(jset.Value<string>("cycle_position"), jset.Value<string>("position"));
+                set.Id = setGuidTable.Descendants("cycle")
+                    .First(x => x.Attribute("value").Value == jset.Value<string>("cycle_position"))
+                    .Descendants("set")
+                    .First(x => x.Attribute("name").Value == jset.Value<string>("position"))
+                    .Attribute("value").Value;
                 set.Name = jset.Value<string>("name");
                 set.Code = jset.Value<string>("code");
                 set.Cards = new List<Card>(cardList.Where(x => x.Pack == set.Code));
@@ -78,17 +117,20 @@ namespace ThronesExtractor
             }
             SetsPanel.ItemsSource = setList;
         }
-                
-
+        
+        
         private void UpdateDataGrid(object sender, RoutedPropertyChangedEventArgs<object> e)
         {
-            OutputGrid.ItemsSource = ((Set)e.NewValue).Cards;
+            if (e.NewValue is Set)
+                OutputGrid.ItemsSource = ((Set)e.NewValue).Cards;
         }
 
 
         public static string MakeXMLSafe(string makeSafe)
         {
             makeSafe = makeSafe.Replace("&", "&amp;");
+            makeSafe = makeSafe.Replace("<em>", "<i>");
+            makeSafe = makeSafe.Replace("</em>", "</i>");
             makeSafe = makeSafe.Replace("\n", "&#xd;&#xa;");
             makeSafe = makeSafe.Replace("[thenightswatch]", "<s value=\"nightswatch\">[The Night's Watch]</s>");
             makeSafe = makeSafe.Replace("[baratheon]", "<s value=\"baratheon\">[House Baratheon]</s>");
@@ -103,40 +145,7 @@ namespace ThronesExtractor
             makeSafe = makeSafe.Replace("[power]", "<s value=\"power\">[Power]</s>");
             return (makeSafe);
         }
-
-        private static List<Property> Properties = new List<Property>();
-
-        private static void LoadPropertyTable()
-        {
-            foreach (var propdef in XDocument.Load("propertytable.xml").Document.Descendants("property"))
-            {
-                var prop = new Property()
-                {
-                    DbName = propdef.Attribute("db_name").Value,
-                    OctgnName = propdef.Attribute("octgn_name").Value,
-                    Type = (propdef.Attribute("type") == null) ? PropertyTypes.String : PropertyTypes.Bool
-                };
-                Properties.Add(prop);
-            }
-        }
-
-        private static XDocument setGuidTable = null;
-
-        private static XDocument GetSetGuidTable()
-        {
-            if (setGuidTable == null)
-            {
-                setGuidTable = XDocument.Load("setguids.xml");
-            }
-            return (setGuidTable);
-        }
-
-        private static string GetSetGuid(string cycle, string set)
-        {
-            XDocument doc = GetSetGuidTable();
-            var ret = doc.Document.Descendants("cycle").First(x => x.Attribute("value").Value == cycle).Descendants("set").First(x => x.Attribute("name").Value == set).Attribute("value").Value;
-            return (ret);
-        }
+        
 
         private void UpdateAllXml(object sender, RoutedEventArgs e)
         {
@@ -196,7 +205,7 @@ namespace ThronesExtractor
                 {
                     XmlNode prop = xml.CreateElement("property");
                     prop.Attributes.Append(CreateAttribute(xml, "name", kvi.Key.OctgnName));
-                    if (kvi.Key.OctgnName == "Text")
+                    if (kvi.Key.OctgnName == "Text" || kvi.Key.OctgnName == "Icons")
                     {
                         var propdoc = new XmlDocument();
                         propdoc.LoadXml("<root>" + kvi.Value + "</root>");
@@ -216,8 +225,7 @@ namespace ThronesExtractor
                                                 
             xml.Save(savePath);
         }
-
-
+        
         private XmlAttribute CreateAttribute(XmlDocument doc, string name, string value)
         {
             XmlAttribute ret = doc.CreateAttribute(name);

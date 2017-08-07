@@ -8,16 +8,17 @@
 Hodor cannot be declared as an attacker unless you control Bran Stark.
 Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Traits" value="Companion." />
-      <property name="Card Number" value="61" />
-      <property name="Illustrator" value="John Stanko" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="2" />
       <property name="Strength" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="John Stanko" />
+      <property name="Card Number" value="61" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Wardens of the North" id="d6db24e4-410d-42dc-8175-05eae8de54ec" size="HorizontalCards">
       <property name="Type" value="Plot" />
@@ -25,17 +26,15 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Text">
         <b>Challenges Action:</b> During a challenge in which you control a participating <s value="stark">[House Stark]</s> character, kneel another <s value="stark">[House Stark]</s> character to have it participate in that challenge on your side. (Limit twice per round.)</property>
       <property name="Traits" value="War." />
-      <property name="Card Number" value="62" />
-      <property name="Illustrator" value="Sergey Glushakov" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="1" />
       <property name="Income" value="5" />
+      <property name="Initiative" value="5" />
       <property name="Claim" value="1" />
       <property name="Reserve" value="5" />
+      <property name="Illustrator" value="Sergey Glushakov" />
+      <property name="Card Number" value="62" />
     </card>
     <card name="Ser Horas Redwyne" id="9041e5bf-fcb6-4f94-b8ca-85c5a932d171">
       <property name="Type" value="Character" />
@@ -43,16 +42,17 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Text">
         <b>Reaction:</b> After Ser Horas Redwyne is knelt, choose and stand a <i>Lady</i> character.</property>
       <property name="Traits" value="House Redwyne. Knight." />
-      <property name="Card Number" value="63" />
-      <property name="Illustrator" value="Joshua Cairós" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="5" />
       <property name="Strength" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="63" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="The Arbor" id="c3ba26a2-a3d7-47fc-b3c8-4a01b9f456e5">
       <property name="Type" value="Location" />
@@ -60,15 +60,12 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Text">Limited.
 +3 Income.</property>
       <property name="Traits" value="House Redwyne." />
-      <property name="Card Number" value="64" />
-      <property name="Illustrator" value="Mauricio Calle" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Mauricio Calle" />
+      <property name="Card Number" value="64" />
     </card>
     <card name="Halder" id="ba89a709-fe0b-4c19-bc2e-5a55c1ef4659">
       <property name="Type" value="Character" />
@@ -76,16 +73,16 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Text">No attachments except <i>Weapon</i>.
 <b>Action:</b> Kneel a <s value="nightswatch">[The Night's Watch]</s> location or attachment to choose a <s value="nightswatch">[The Night's Watch]</s> character. Until the end of the phase, that character gets +1 STR.</property>
       <property name="Traits" value="Builder." />
-      <property name="Card Number" value="65" />
-      <property name="Illustrator" value="Richard Hanuschek" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Richard Hanuschek" />
+      <property name="Card Number" value="65" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="The Watcher on the Walls" id="3284b689-5354-4148-bcb4-9be6f05c2e67">
       <property name="Type" value="Event" />
@@ -93,32 +90,27 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Text">Play only during a <s value="military">[Military]</s> challenge.
 <b>Challenges Action:</b> Kneel 2 <i>Ranger</i> characters to kill each attacking character.</property>
       <property name="Traits" value="Ranger." />
-      <property name="Card Number" value="66" />
-      <property name="Illustrator" value="Jim Brady" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jim Brady" />
+      <property name="Card Number" value="66" />
     </card>
     <card name="For the Watch!" id="fc066770-d985-45dd-bfd3-354add73c516" size="HorizontalCards">
       <property name="Type" value="Plot" />
       <property name="Faction" value="The Night's Watch" />
-      <property name="Text">You cannot lose <em>(and your opponent cannot win)</em> the first challenge initiated against you each phase.</property>
+      <property name="Text">You cannot lose <i>(and your opponent cannot win)</i> the first challenge initiated against you each phase.</property>
       <property name="Traits" value="Siege." />
-      <property name="Card Number" value="67" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="1" />
       <property name="Income" value="4" />
+      <property name="Initiative" value="6" />
       <property name="Claim" value="1" />
       <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="67" />
     </card>
     <card name="Gendry" id="b1384b69-2885-4f64-9417-ce24be0dce80">
       <property name="Type" value="Character" />
@@ -127,16 +119,17 @@ Hodor does not contribute his STR to your total for dominance.</property>
         <b>Reaction:</b> After you win dominance, Gendry gains 1 power.
 <b>Forced Reaction:</b> After an opponent wins dominance, you may discard 1 power from Gendry. If you do not, sacrifice a <i>Bastard</i> character.</property>
       <property name="Traits" value="Bastard." />
-      <property name="Card Number" value="68" />
-      <property name="Illustrator" value="Jason Jenicke" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="4" />
       <property name="Strength" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jason Jenicke" />
+      <property name="Card Number" value="68" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Tobho Mott's Armory" id="f1ad4682-6d5b-43b7-9b18-0b6c3900081e">
       <property name="Type" value="Location" />
@@ -144,15 +137,12 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Text">
         <b>Reaction:</b> After you win dominance, kneel Tobho Mott's Armory to draw 1 card.</property>
       <property name="Traits" value="King's Landing." />
-      <property name="Card Number" value="69" />
-      <property name="Illustrator" value="Logan Feliciano" />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Logan Feliciano" />
+      <property name="Card Number" value="69" />
     </card>
     <card name="Red Cloaks" id="170f6c43-1cf5-460a-bd32-996d26dc0cd9">
       <property name="Type" value="Character" />
@@ -160,16 +150,17 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Text">During <s value="intrigue">[Intrigue]</s> challenges, Red Cloaks gets +1 STR for each gold on it.
 <b>Action:</b> Move 1 gold from your gold pool to Red Cloaks. (Limit once per phase.)</property>
       <property name="Traits" value="Army. Mercenary." />
-      <property name="Card Number" value="70" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Strength" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="70" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
     </card>
     <card name="Paid Off" id="8b2811a3-3058-48ee-a62d-c4ed6d571c2c">
       <property name="Type" value="Attachment" />
@@ -177,31 +168,29 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Text">Opponent's character only. Ambush (1). 
 <b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge, kneel attached character. Then, that character's controller may give you 1 gold from his or her gold pool to stand that character.</property>
       <property name="Traits" value="Condition." />
-      <property name="Card Number" value="71" />
-      <property name="Illustrator" value="Thomas Denmark" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Thomas Denmark" />
+      <property name="Card Number" value="71" />
     </card>
     <card name="Priest of the Drowned God" id="91b7190f-d0ba-4c3b-b9e2-5e7d2c872acb">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">Each <i>Drowned God</i> character you control gets +1 STR.</property>
       <property name="Traits" value="Drowned God." />
-      <property name="Card Number" value="72" />
-      <property name="Illustrator" value="Sebastian Ciaffaglione" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Ciaffaglione" />
+      <property name="Card Number" value="72" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Loot" id="b4556df9-14cd-41cd-9ec9-4e077e4c1ca5">
       <property name="Type" value="Event" />
@@ -209,14 +198,11 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Text">You may only use gold from the losing opponent's gold pool to pay for Loot.
 <b>Reaction:</b> After you win an unopposed challenge, discard the top X cards from the losing opponent's deck.</property>
       <property name="Traits" value="" />
-      <property name="Card Number" value="73" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="73" />
     </card>
     <card name="Dothraki Outriders" id="b785b7fc-2a11-4ba5-87e7-7c06c79d6210">
       <property name="Type" value="Character" />
@@ -224,33 +210,32 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Text">No attachments. Pillage.
 Reduce the cost to marshal Dothraki Outriders by 1 for each <i>Dothraki</i> character you control.</property>
       <property name="Traits" value="Army. Dothraki." />
-      <property name="Card Number" value="74" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="Yes" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="8" />
       <property name="Strength" value="7" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="74" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Blood of the Dragon" id="19d4d3d0-19a4-436b-8f70-aaa28060dffe" size="HorizontalCards">
       <property name="Type" value="Plot" />
       <property name="Faction" value="House Targaryen" />
       <property name="Text">Each non-<i>Dragon</i> character gets -1 STR and is killed if its STR is 0.</property>
       <property name="Traits" value="Legacy." />
-      <property name="Card Number" value="75" />
-      <property name="Illustrator" value="Kerry Barnett" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="1" />
       <property name="Income" value="2" />
+      <property name="Initiative" value="2" />
       <property name="Claim" value="1" />
       <property name="Reserve" value="5" />
+      <property name="Illustrator" value="Kerry Barnett" />
+      <property name="Card Number" value="75" />
     </card>
     <card name="Maester of Starfall" id="578da716-55b2-4306-8f8f-c96f21db7136">
       <property name="Type" value="Character" />
@@ -258,16 +243,16 @@ Reduce the cost to marshal Dothraki Outriders by 1 for each <i>Dothraki</i> char
       <property name="Text">
         <b>Challenges Action:</b> Kneel Maester of Starfall to choose a character. Until the end of the phase, that character loses (choose one): insight, intimidate, pillage, or renown.</property>
       <property name="Traits" value="House Dayne. Maester." />
-      <property name="Card Number" value="76" />
-      <property name="Illustrator" value="Thomas Denmark" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="Yes" />
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Thomas Denmark" />
+      <property name="Card Number" value="76" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Condemned" id="820eaee8-862e-4e4e-8bde-c30432c6995d">
       <property name="Type" value="Attachment" />
@@ -275,15 +260,12 @@ Reduce the cost to marshal Dothraki Outriders by 1 for each <i>Dothraki</i> char
       <property name="Text">Opponent's character only.
 Attached character loses a <s value="power">[Power]</s> icon.</property>
       <property name="Traits" value="Condition." />
-      <property name="Card Number" value="77" />
-      <property name="Illustrator" value="Marius Bota" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Marius Bota" />
+      <property name="Card Number" value="77" />
     </card>
     <card name="Wildling Scout" id="09ff3aa5-b660-4085-9dc8-f79f46ff1f28">
       <property name="Type" value="Character" />
@@ -291,16 +273,16 @@ Attached character loses a <s value="power">[Power]</s> icon.</property>
       <property name="Text">
         <b>Action:</b> Sacrifice Wildling Scout to choose a character. Until the end of the phase, that character gains stealth.</property>
       <property name="Traits" value="Wildling." />
-      <property name="Card Number" value="78" />
-      <property name="Illustrator" value="Marius Bota" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="Yes" />
-      <property name="Power" value="No" />
       <property name="Cost" value="2" />
       <property name="Strength" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Marius Bota" />
+      <property name="Card Number" value="78" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
     </card>
     <card name="The First Snow of Winter" id="3d6b03c9-34d4-4baf-9403-67930d71ca2d" size="HorizontalCards">
       <property name="Type" value="Plot" />
@@ -309,34 +291,30 @@ Attached character loses a <s value="power">[Power]</s> icon.</property>
         <b>Forced Reaction:</b> After the challenges phase begins, return each character with printed cost 3 or lower to its owner's hand.
 <b>Card design by 2005 World Champion, John M. Bruno.</b></property>
       <property name="Traits" value="Omen. Winter." />
-      <property name="Card Number" value="79" />
-      <property name="Illustrator" value="Thomas Denmark" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="1" />
       <property name="Income" value="3" />
+      <property name="Initiative" value="5" />
       <property name="Claim" value="1" />
       <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Thomas Denmark" />
+      <property name="Card Number" value="79" />
     </card>
     <card name="Wraiths in Their Midst" id="93552737-ce98-4bf7-97df-3dc3ac91bbf9" size="HorizontalCards">
       <property name="Type" value="Plot" />
       <property name="Faction" value="Neutral" />
       <property name="Text">Reduce the reserve value on each opponent's revealed plot card by 2 (to a minimum of 2).</property>
       <property name="Traits" value="Winter." />
-      <property name="Card Number" value="80" />
-      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Military" value="No" />
-      <property name="Intrigue" value="No" />
-      <property name="Power" value="No" />
       <property name="Deck Limit" value="2" />
       <property name="Income" value="4" />
+      <property name="Initiative" value="1" />
       <property name="Claim" value="1" />
       <property name="Reserve" value="5" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="80" />
     </card>
   </cards>
 </set>

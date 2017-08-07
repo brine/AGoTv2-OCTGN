@@ -5,7 +5,7 @@
 	 gameId="30c200c9-6c98-49a4-a293-106c06295c05" 
 	 gameVersion="1.0.0.8" 
 	 version="1.2"
-     ignore="True">
+     hidden="true">
 	 
 	<markers>
 		<marker id="4e8046ba-759b-428c-917f-7e9268a5af90" name="Gold Counter"/>
@@ -25,4 +25,9 @@
 		<marker id="7dadfabe-8024-4d93-91a7-81c11a51ff24" name="Removed Intrigue Icon"/>
 		<marker id="d042dab3-176a-471e-a917-1041c64c6579" name="Removed Power Icon"/>
 	</markers>
+    <cards>
+		<card id="73a6655b-60b6-4080-b428-f4e0099e0f77" name="1st Player Token">
+			<property name="Type" value="Internal" />
+		</card>
+    </cards>
 </set>
