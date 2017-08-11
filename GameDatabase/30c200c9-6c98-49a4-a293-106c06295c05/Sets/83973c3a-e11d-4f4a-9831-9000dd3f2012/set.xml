@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Oberyn's Revenge" id="83973c3a-e11d-4f4a-9831-9000dd3f2012" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Bran Stark" id="d0e1cc6b-5413-4b0e-8b49-8e87155ee3da">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">
+        <b>Action:</b> Kneel Bran Stark to choose and stand a <i>Direwolf</i> character. Until the end of the phase, that character gains a challenge icon of your choice.</property>
+      <property name="Traits" value="Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="81" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Passing the Black Gate" id="b8c58f65-f25f-4c87-b1b0-069814d7c7df">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">
+        <b>Marshaling Action:</b> Kneel your faction card to reduce the cost of each <s value="stark">[House Stark]</s> character you marshal this phase by 1.</property>
+      <property name="Traits" value="" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Frej Agelii" />
+      <property name="Card Number" value="82" />
+    </card>
+    <card name="Ser Garlan Tyrell" id="83280a49-a306-455a-bae4-ae5791fad99d">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Bestow (3). Renown.
+Ser Garlan Tyrell gets +1 STR for each gold he has.
+<b>Action:</b> Discard 1 gold from Ser Garlan Tyrell to choose a <s value="tyrell">[House Tyrell]</s> character. Until the end of the phase, that character gets +2 STR.</property>
+      <property name="Traits" value="Knight. Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Aaron Miller" />
+      <property name="Card Number" value="83" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Olenna's Machinations" id="f1229bb7-2373-42b7-954d-7ef91dd0e7b7">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">
+        <b>Challenges Action:</b> You may initiate an additional <s value="power">[Power]</s> challenge this phase. (Max 1 per phase.)
+<b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge by 5 or more STR, pay 1 gold to return Olenna's Machinations from your discard pile to your hand.</property>
+      <property name="Traits" value="" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Rafał Hrynkiewicz" />
+      <property name="Card Number" value="84" />
+    </card>
+    <card name="Defender of the Wall" id="f87e9134-4854-4bf7-897f-dd2d73769453">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">No attachments except <i>Weapon</i>.
+While Defender of the Wall is defending, it gets +2 STR.</property>
+      <property name="Traits" value="Ranger." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andreia Ugrai" />
+      <property name="Card Number" value="85" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="Mutiny At Craster's Keep" id="e917d74f-65f6-473c-b663-2b56da490c4b">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Dominance Action:</b> Choose a character with the highest printed cost among characters you control. Sacrifice that character to choose a character an opponent controls and discard it from play.</property>
+      <property name="Traits" value="" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Victor Garcia" />
+      <property name="Card Number" value="86" />
+    </card>
+    <card name="Stannis's Cavalry" id="c72ed343-4ca4-40ac-8c6d-edffc9ed8c6d">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Bestow (8). No attachments.
+Each character an opponent controls with printed cost X cannot stand during the standing phase. X is the number of gold Stannis's Cavalry has.
+<b>Standing Action:</b> Move 1 gold from your gold pool to Stannis's Cavalry. (Limit twice per phase.)</property>
+      <property name="Traits" value="Army." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jason Juta" />
+      <property name="Card Number" value="87" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Northern Encampment" id="52a2eb3e-f6d3-4c17-a6db-efeddf2d9355">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Limited.
+Northern Encampment cannot stand during the standing phase unless you have won dominance this round.
+<b>Marshaling Action:</b> Kneel Northern Encampment to gain 2 gold.</property>
+      <property name="Traits" value="The North." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Alfred Khamidullin" />
+      <property name="Card Number" value="88" />
+    </card>
+    <card name="Kayce Merchant" id="6b8c808e-4cee-4106-ab6b-bf464e413520">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Bestow (3).
+<b>Reaction:</b> After you collect income, discard 1 gold from Kayce Merchant to gain 2 gold.</property>
+      <property name="Traits" value="Merchant." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Gabriela Birchal" />
+      <property name="Card Number" value="89" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="A Task For Every Tool" id="d8e8f4d0-be83-4920-a0c0-ba5df0b5d5cd">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Challenges Action:</b> Put a <s value="lannister">[House Lannister]</s> character with printed STR 2 or lower into play from your hand.</property>
+      <property name="Traits" value="" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Josu Hernaiz" />
+      <property name="Card Number" value="90" />
+    </card>
+    <card name="Nute the Barber" id="1b54aa80-92c1-4857-9831-df0d24ab2876">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Pillage.
+<b>Reaction:</b> After a character you control discards a card using pillage, return a card from the losing opponent's discard pile to its owner's hand. Then, draw 1 card. (Limit 3 times per phase.)</property>
+      <property name="Traits" value="Ironborn." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Rodriguez" />
+      <property name="Card Number" value="91" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Iron Victory" id="d913276c-8bb0-4912-8deb-808bb57e245d">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">While you control Victarion Greyjoy, he gets +1 STR for each power he has.
+<b>Reaction:</b> After a <s value="greyjoy">[House Greyjoy]</s> character is saved, that character gains 1 power. (Limit twice per phase.)</property>
+      <property name="Traits" value="Warship." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sergey Glushakov" />
+      <property name="Card Number" value="92" />
+    </card>
+    <card name="Irri" id="8cefc0b1-89dc-45ea-806c-57de4fc66573">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Bestow (2).
+<b>Action:</b> Discard 1 gold from Irri to choose and stand a <i>Lord</i> or <i>Lady</i> character. (Limit once per phase.)</property>
+      <property name="Traits" value="Companion. Dothraki." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Kate Laird" />
+      <property name="Card Number" value="93" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Overthrowing the Masters" id="cf2f159f-fb68-48ca-857d-4f0413a161c7">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Action:</b> During a challenge in which you are the attacking player, choose a defending character with X STR or lower and remove it from the challenge. X is the number of characters in the defending player's dead pile.</property>
+      <property name="Traits" value="" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jason Jenicke" />
+      <property name="Card Number" value="94" />
+    </card>
+    <card name="The Red Viper" id="236249d3-a5b0-4f81-845c-a39edab28b29">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Renown.
+While The Red Viper is attacking, each defending character with fewer than 2 challenge icons does not contribute its STR to the challenge.</property>
+      <property name="Traits" value="Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Arden Beckwith" />
+      <property name="Card Number" value="95" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Dornish Revenge" id="6b8c808e-4cee-4106-ab6b-bf464e413520">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Reaction:</b> After you initiate a challenge, choose a character controlled by the defending player. That character must be declared as a defender for this challenge, if able. If you win this challenge by 5 or more STR, the losing opponent must choose and kill a defending character.</property>
+      <property name="Traits" value="" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Stéphane Richard" />
+      <property name="Card Number" value="96" />
+    </card>
+    <card name="Begging Brother" id="222a9c82-ae74-4273-be8f-b6f0b2b968de">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Bestow (3).
+<b>Interrupt:</b> When the effects of a triggered character ability would initiate, discard 1 gold from Begging Brother to cancel those effects.</property>
+      <property name="Traits" value="The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Victor Garcia" />
+      <property name="Card Number" value="97" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Flea Bottom" id="d44f725d-c630-4ef3-8c4a-06d0234ee468">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Challenges Action:</b> Pay 1 gold and kneel Flea Bottom to put a character with printed cost 3 or lower into play from your discard pile. At the end of the phase, if that card is still in play, place it on the bottom of your deck.
+<b>Card design by 2004 World Champion, Greg Atkinson.</b></property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Regis Moulun" />
+      <property name="Card Number" value="98" />
+    </card>
+    <card name="The Iron Bank Will Have Its Due" id="93fd533e-11fb-4bc2-8cd1-43a76c650264">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Action:</b> If it is not the taxation phase, kneel your faction card and return a character to your hand to gain gold equal to that character's printed cost. Until the end of the round, you cannot marshal or put into play any card with the same title as that character.
+<b>Card design by 2013 Melee World Champion, Ryan Jones.</b></property>
+      <property name="Traits" value="" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Christine Thomas" />
+      <property name="Card Number" value="99" />
+    </card>
+    <card name="Wheels Within Wheels" id="35324fe0-f165-462c-9cd8-002d105c996e" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Search the top 10 cards of your deck for any number of events and reveal them. Add 1 to your hand, and place the others in your discard pile. Shuffle your deck.</property>
+      <property name="Traits" value="Scheme." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="1" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="7" />
+      <property name="Illustrator" value="Nacho Molina" />
+      <property name="Card Number" value="100" />
+    </card>
+  </cards>
+</set>

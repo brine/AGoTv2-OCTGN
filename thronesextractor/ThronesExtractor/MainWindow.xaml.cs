@@ -91,7 +91,7 @@ namespace ThronesExtractor
             JArray packsjson = (JArray)JsonConvert.DeserializeObject(new WebClient().DownloadString(packsurl));
             foreach (var jset in packsjson)
             {
-                if (jset.Value<string>("available") == "") continue;
+              //  if (jset.Value<string>("available") == "") continue;
                 var set = new Set();
                 set.Id = setGuidTable.Descendants("cycle")
                     .First(x => x.Attribute("value").Value == jset.Value<string>("cycle_position"))
