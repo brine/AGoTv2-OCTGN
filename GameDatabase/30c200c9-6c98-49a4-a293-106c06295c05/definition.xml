@@ -78,8 +78,8 @@
         <cardaction menu="Clear Card" shortcut="esc" execute="clear" />
         <cardaction menu="Add 1 Gold to Card" shortcut="CTRL+G" execute="addGold" />
         <cardaction menu="Add X Gold to Card" shortcut="CTRL+SHIFT+G" execute="addXGold" />
-        <cardaction menu="Add 1 Renown to Card" shortcut="CTRL+R" execute="addRenown" />
-        <cardaction menu="Add X Renown to Card" shortcut="CTRL+SHIFT+R" execute="addXRenown" />
+        <cardaction menu="Add 1 Power to Card" shortcut="CTRL+R" execute="addRenown" />
+        <cardaction menu="Add X Power to Card" shortcut="CTRL+SHIFT+R" execute="addXRenown" />
         <cardaction menu="Add 1 Counter to Card" shortcut="CTRL+C" execute="addCounter" />
         <cardaction menu="Add X Counters to Card" shortcut="CTRL+SHIFT+C" execute="addXCounter" />
     </table>
