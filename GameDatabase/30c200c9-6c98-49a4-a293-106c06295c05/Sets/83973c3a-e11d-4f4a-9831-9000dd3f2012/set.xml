@@ -238,7 +238,7 @@ While The Red Viper is attacking, each defending character with fewer than 2 cha
         <s value="power">[Power]</s>
       </property>
     </card>
-    <card name="Dornish Revenge" id="6b8c808e-4cee-4106-ab6b-bf464e413520">
+    <card name="Dornish Revenge" id="302b7212-b545-4b1d-a8e3-10bc84590f60">
       <property name="Type" value="Event" />
       <property name="Faction" value="House Martell" />
       <property name="Text">
