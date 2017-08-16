@@ -36,7 +36,7 @@
         <globalvariable name="firstplayer" value="None" />
     </globalvariables>
     <card back="cards/back.png" front="cards/front.png" width="63" height="88" cornerRadius="2">
-        <property name="Cost" type="String"/>
+        <property name="Cost" type="Integer"/>
         <property name="Type" type="String"/>
         <property name="Faction" type="String"/>
         <property name="Traits" type="String" textKind="Tokens"/>
@@ -45,13 +45,13 @@
         <property name="Strength" type="String"/>
         <property name="Unique" type="String"/>
         <property name="Loyal" type="String"/>
-        <property name="Income" type="String"/>
-        <property name="Initiative" type="String"/>
-        <property name="Claim" type="String"/>
-        <property name="Reserve" type="String"/>
+        <property name="Income" type="Integer"/>
+        <property name="Initiative" type="Integer"/>
+        <property name="Claim" type="Integer"/>
+        <property name="Reserve" type="Integer"/>
         <property name="Deck Limit" type="String"/>
         <property name="Illustrator" type="String"/>
-        <property name="Card Number" type="String"/>
+        <property name="Card Number" type="Integer"/>
         <size name="HorizontalCards" width="88" height="63" backWidth="88" backHeight="63" back="cards/backH.png" front="cards/frontH.png" cornerRadius="2"/>
     </card>
     <table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill" >

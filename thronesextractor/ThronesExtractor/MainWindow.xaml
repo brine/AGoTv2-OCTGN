@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ThronesExtractor"
+        xmlns:entities="clr-namespace:ExtractorUtils.Entities;assembly=ExtractorUtils"
         mc:Ignorable="d"
         Title="MainWindow" Height="650" Width="825">
     <Grid>
@@ -30,10 +31,10 @@
             </Grid.ColumnDefinitions>
             <TreeView Margin="5" x:Name="SetsPanel" Background="White" Opacity="0.7" SelectedItemChanged="UpdateDataGrid">
                 <TreeView.Resources>
-                    <HierarchicalDataTemplate DataType="{x:Type local:Card}">
+                    <HierarchicalDataTemplate DataType="{x:Type entities:Card}">
                         <TextBlock Text="{Binding Name}" />
                     </HierarchicalDataTemplate>
-                    <HierarchicalDataTemplate DataType="{x:Type local:Set}" ItemsSource="{Binding Cards}">
+                    <HierarchicalDataTemplate DataType="{x:Type entities:Set}" ItemsSource="{Binding Cards}">
                         <TextBlock Text="{Binding Name}" />
                     </HierarchicalDataTemplate>
                 </TreeView.Resources>

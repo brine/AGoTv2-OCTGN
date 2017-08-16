@@ -1,16 +1,19 @@
-namespace ThronesImageFetcer
+
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Windows;
+using Octgn.Core.DataExtensionMethods;
+using Octgn.Core.DataManagers;
+using Octgn.Core.Plugin;
+using System.Net;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
+using ExtractorUtils;
+using System.Linq;
+
+namespace ThronesImageFetcher
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Reflection;
-    using System.Windows;
-    using Octgn.Core.DataExtensionMethods;
-    using Octgn.Core.DataManagers;
-    using Octgn.Core.Plugin;
-    using System.Net;
-    using Newtonsoft.Json.Linq;
-    using Newtonsoft.Json;
-    using global::ThronesImageFetcher;
 
     public class ThronesImageFetcher : IDeckBuilderPlugin 
     {
@@ -90,12 +93,11 @@ namespace ThronesImageFetcer
                 return;
             }
 
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.cards = con.GetLoadedGame().AllCards();
-
-            string cardsurl = new WebClient().DownloadString("http://www.thronesdb.com/api/public/cards/");
-            mainWindow.cardsjson = (JArray)JsonConvert.DeserializeObject(cardsurl);
-            
+            ImageFetcherWindow mainWindow = new ImageFetcherWindow()
+            {
+                cards = con.GetLoadedGame().AllCards(),
+                database = new ThronesDb()
+            };
             mainWindow.ShowDialog();
         }
     }

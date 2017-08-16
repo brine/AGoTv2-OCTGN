@@ -11,23 +11,26 @@ using System.Net;
 using System.Windows.Controls;
 using System.Windows;
 using System.Windows.Media.Imaging;
+using ExtractorUtils;
 
 namespace ThronesImageFetcher
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ImageFetcherWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ImageFetcherWindow : Window
     {
         private BackgroundWorker backgroundWorker = new BackgroundWorker();
         public IEnumerable<Card> cards;
-        public JArray cardsjson;
+        public ThronesDb database;
 
         public bool OverwriteBool = false;
+        public bool UseThronesDb = true;
 
-        public MainWindow()
+        public ImageFetcherWindow()
         {
             this.InitializeComponent();
+            this.Closing += CancelWorkers;
             backgroundWorker.WorkerReportsProgress = true;
             backgroundWorker.WorkerSupportsCancellation = true;
             backgroundWorker.DoWork += DoWork;
@@ -56,8 +59,8 @@ namespace ThronesImageFetcher
             {
                 if (backgroundWorker.CancellationPending) break;
                 i++;
-                var jcard = cardsjson.FirstOrDefault(x => x.Value<string>("octgn_id") == card.Id.ToString());
-                if (jcard == null) continue;
+                var dbcard = database.cardList.FirstOrDefault(x => x.Id == card.Id);
+                if (dbcard == null) continue;
 
                 var cardset = card.GetSet();
                 var garbage = Config.Instance.Paths.GraveyardPath;
@@ -70,25 +73,46 @@ namespace ThronesImageFetcher
                         .Where(x => System.IO.Path.GetFileNameWithoutExtension(x).Equals(imageUri, StringComparison.InvariantCultureIgnoreCase))
                         .OrderBy(x => x.Length)
                         .ToArray();
-
+                
                 if (files.Length > 0 && OverwriteBool == false)
                 {
+                    //skip overwrite if a saved image was located and overwrite is set to false 
                     backgroundWorker.ReportProgress(i, card);
                     continue;
                 }
-
+                
                 foreach (var f in files.Select(x => new FileInfo(x)))
                 {
                     f.MoveTo(System.IO.Path.Combine(garbage, f.Name));
                 }
+                
+                var url = "";
+                var newPath = "";
+                
 
-                var newPath = System.IO.Path.Combine(cardset.ImagePackUri, imageUri + ".png");
-
-                var url = "http://www.thronesdb.com" + jcard.Value<string>("imagesrc");
+                if (UseThronesDb) // thronesdb
+                {
+                    url = database.dbImageUrl + dbcard.DbImageUrl + ".png";
+                    newPath = System.IO.Path.Combine(cardset.ImagePackUri, imageUri + ".png");
+                }
+                else
+                {
+                    url = database.cgImageUrl + dbcard.Set.cgCode + "_" + dbcard.CgImageUrl + ".jpg";
+                    newPath = System.IO.Path.Combine(cardset.ImagePackUri, imageUri + ".jpg");
+                }
+                
 
                 using (WebClient webClient = new WebClient())
                 {
-                    webClient.DownloadFile(new Uri(url), newPath);
+                    try
+                    {
+                        webClient.DownloadFile(new Uri(url), newPath);
+                    }
+                    catch
+                    {
+
+                    }
+                    
                 }
                 backgroundWorker.ReportProgress(i, card);
             }
@@ -117,7 +141,7 @@ namespace ThronesImageFetcher
             CurrentCard.Text = "DONE";
         }
 
-        private void CancelWorker(object sender, EventArgs e)
+        private void CancelWorkers(object sender, EventArgs e)
         {
             if (backgroundWorker.IsBusy)
             {
@@ -129,6 +153,11 @@ namespace ThronesImageFetcher
         private void Overwrite(object sender, RoutedEventArgs e)
         {
             OverwriteBool = (sender as CheckBox).IsChecked ?? false;
+        }
+
+        private void DatabaseSelector(object sender, RoutedEventArgs e)
+        {
+            UseThronesDb = (sender as ComboBox).SelectedIndex == 0;
         }
     }
 }
