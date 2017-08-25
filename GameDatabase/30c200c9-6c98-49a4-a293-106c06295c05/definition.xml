@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="A Game of Thrones - The Card Game Second Edition" id="30c200c9-6c98-49a4-a293-106c06295c05" octgnVersion="3.1.0.0" version="3.0.0.0" scriptVersion="3.1.0.2" markersize="16" tags="OCTGN aGoT LCG Game of Thrones" description="A Game of Thrones: The Card Game Second Edition, featuring cunning plots, iconic characters, and deadly encounters for two players. " setsurl="http://tinyurl.com/qehmd3z" gameurl="http://octgngames.com/agot2/" authors="TassLehoff, Snowfrost, Khudzlin, Hedjman, Gualdo, DC Denis, Unfamiliar, Jackey" iconurl="http://s29.postimg.org/qsmlsels5/Boite_de_base.png">
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="A Game of Thrones - The Card Game Second Edition" id="30c200c9-6c98-49a4-a293-106c06295c05" octgnVersion="3.1.0.0" version="3.0.1.0" scriptVersion="3.1.0.2" markersize="16" tags="OCTGN aGoT LCG Game of Thrones" description="A Game of Thrones: The Card Game Second Edition, featuring cunning plots, iconic characters, and deadly encounters for two players. " setsurl="http://tinyurl.com/qehmd3z" gameurl="http://octgngames.com/agot2/" authors="TassLehoff, Snowfrost, Khudzlin, Hedjman, Gualdo, DC Denis, Unfamiliar, Jackey" iconurl="http://s29.postimg.org/qsmlsels5/Boite_de_base.png">
     <scripts>
-        <script src="scripts/newactions.py"/>
+        <script src="scripts/newactions.py"/>>
+        <script src="scripts/changelog.py"/>
     </scripts>
     <events>
     <event name="OverrideTurnPassed" action="passTurnOverride" />
     <event name="OverridePhaseClicked" action="phaseClickOverride" />
+	<event name="OnTableLoaded" action="initializeGame" />
     </events>
     <symbols>
         <symbol name="Stark" id="stark" src="symbols/stark.png" />
@@ -49,7 +51,7 @@
         <property name="Initiative" type="Integer"/>
         <property name="Claim" type="Integer"/>
         <property name="Reserve" type="Integer"/>
-        <property name="Deck Limit" type="String"/>
+        <property name="Deck Limit" type="Integer"/>
         <property name="Illustrator" type="String"/>
         <property name="Card Number" type="Integer"/>
         <size name="HorizontalCards" width="88" height="63" backWidth="88" backHeight="63" back="cards/backH.png" front="cards/frontH.png" cornerRadius="2"/>
@@ -65,6 +67,7 @@
         <groupaction menu="Change Die" shortcut="ctrl+shift+R" execute="setDie" />
         <groupaction menu="Respond" shortcut="Enter" execute="respond" />
         <groupaction menu="Become First Player" execute="becomeFirstPlayer" />
+        <groupaction menu="Create Titles" execute="createTitles" />
         <groupaction menu="Pass Phase/Priority" shortcut="Tab" execute="passPriority" />
         <cardaction menu="Kneel / Stand" default="True" execute="kneelStand" />
         <cardaction menu="Activate Ability" shortcut="CTRL+Z" execute="activateAbility" />
@@ -97,17 +100,19 @@
             <groupaction menu="Pillage 1" execute="pillage"/>
         </group>
         <group name="Plot Deck" visibility="me" width="63" height="88" icon="groups/plot.png">
-            <groupaction menu="View Plot Deck" shortcut="F1" execute="viewPlots"/>
+            <groupaction menu="View Plot Deck" shortcut="F1" default="True" execute="viewGroup"/>
         </group>
         <group name="Used Plot Pile" visibility="all" width="63" height="88" icon="groups/plot.png" collapsed="True">
             <groupaction menu="Move to Plot Deck" execute="moveToPlot"/>
+            <groupaction menu="View Used Plots" default="True" execute="viewGroup"/>
         </group>
-        <group name="Dead Pile" visibility="all" width="63" height="88" icon="groups/dead.png"/>
-        <group name="Discard Pile" visibility="all" width="63" height="88" icon="groups/discard.png" shortcut="del"/>
+        <group name="Dead Pile" visibility="all" width="63" height="88" icon="groups/dead.png">
+            <groupaction menu="View Dead Pile" default="True" execute="viewGroup"/>
+        </group>
+        <group name="Discard Pile" visibility="all" width="63" height="88" icon="groups/discard.png" shortcut="del">
+            <groupaction menu="View Discard Pile" default="True" execute="viewGroup"/>
+        </group>
     </player>
-    <shared>
-        <group name="Titles" visibility="none" width="63" height="88" icon="groups/blank.png" collapsed="True"/>
-    </shared>
     <deck>
         <section name="Faction" group="Hand"/>
         <section name="Agenda" group="Hand"/>

@@ -19,32 +19,95 @@ def passTurnOverride(args):
         nextTurn()
         setPhase(1)
         return
-    firstPlayer = getGlobalVariable("firstplayer")
-    if firstPlayer == "None":
-        setActivePlayer(args.player)
-        notify("{} becomes the First Player".format(args.player))
-        setGlobalVariable("firstplayer", str(args.player._id))
+    firstPlayer = getFirstPlayer()
+    if firstPlayer == None: ## clicking a turn button with no first player will assign it to that player
+        setFirstPlayer(args.player)
+    elif getActivePlayer() == None: ## when there's no active player but first player was already assigned
+        setActivePlayer(firstPlayer)
     else:
-        firstPlayer = Player(eval(firstPlayer))
-        if getActivePlayer() == firstPlayer:  ## when the active player passes to the next player
-            setPhase(currentPhase()[1])
-            setActivePlayer(getPlayers()[1])
-        else:
+        nextPlayer = getNextPlayer(getActivePlayer())
+        if nextPlayer == firstPlayer:  ## when the turn is being passed to the first player, it should go to the next phase
             phaseName, phaseId = currentPhase()
             if phaseId == 7: ## passing at end of turn
-                setGlobalVariable("firstplayer", "None")
+                setFirstPlayer(None)
                 nextTurn()
                 setPhase(1)
             else:
-                setActivePlayer(firstPlayer)
+                setActivePlayer(nextPlayer)
                 setPhase(phaseId + 1)
-            
+        else:
+            setActivePlayer(nextPlayer)
+            setPhase(currentPhase()[1]) #do this just to announce the new active player in the chat
+
 def phaseClickOverride(args):
     mute()
+    if getActivePlayer() == me: ## only the active player can change phases
+        setPhase(args.id)
+        if getFirstPlayer() == None:
+            setFirstPlayer(me)
+
+def getFirstPlayer():
+    mute()
+    firstPlayer = getGlobalVariable("firstplayer")
+    if firstPlayer == "None":
+        return None
+    try:
+        firstPlayer = Player(int(firstPlayer))
+        return firstPlayer
+    except:
+        setFirstPlayer(None)
+        return None
+
+def getNextPlayer(currentPlayer):
+    mute()
+    playerList = sorted([x._id for x in getPlayers()])
+    nextPlayers = [x for x in playerList if x > currentPlayer._id]
+    if len(nextPlayers) == 0: ##if we're at the end of the players list
+        nextPlayerId = playerList[0]
+    else:
+        nextPlayerId = nextPlayers[0]
+    return Player(nextPlayerId)
+
+def setFirstPlayer(player):
+    mute()
+    setActivePlayer(player)
+    if player == None: ## removes the first player
+        setGlobalVariable("firstplayer", "None")
+    else:
+        notify("{} becomes the First Player".format(player))
+        setGlobalVariable("firstplayer", str(player._id))
+
+def initializeGame():
+    mute()
+    #### LOAD UPDATES
+    v1, v2, v3, v4 = gameVersion.split('.')  ## split apart the game's version number
+    v1 = int(v1) * 1000000
+    v2 = int(v2) * 10000
+    v3 = int(v3) * 100
+    v4 = int(v4)
+    currentVersion = v1 + v2 + v3 + v4  ## An integer interpretation of the version number, for comparisons later
+    lastVersion = getSetting("lastVersion", convertToString(currentVersion - 1))  ## -1 is for players experiencing the system for the first time
+    lastVersion = int(lastVersion)
+    for log in sorted(changelog):  ## Sort the dictionary numerically
+        if lastVersion < log:  ## Trigger a changelog for each update they haven't seen yet.
+            stringVersion, date, text = changelog[log]
+            updates = '\n-'.join(text)
+            confirm("What's new in {} ({}):\n-{}".format(stringVersion, date, updates))
+    setSetting("lastVersion", convertToString(currentVersion))  ## Store's the current version to a setting
 
 ######################################
 ##           TABLE ACTIONS          ##
 ######################################
+
+def respond(group, x = 0, y = 0):
+    notify('{} RESPONDS!'.format(me))
+
+def passPriority(group, x = 0, y = 0):
+    passTurnOverride(EventArgument({"player": me}))
+
+def becomeFirstPlayer(group, x = 0, y = 0):
+    mute()
+    setFirstPlayer(me)
 
 def initiateMilitary(group, x = 0, y = 0):
     mute()
@@ -119,18 +182,19 @@ def dieFunct(num):
         n = rnd(1, num)
         notify("{} rolls {} on a {}-sided die.".format(me, n, num))
 
-def respond(group, x = 0, y = 0):
-    notify('{} RESPONDS!'.format(me))
-
-def passPriority(group, x = 0, y = 0):
-    passTurnOverride(EventArgument({"player": me}))
-
-def becomeFirstPlayer(group, x = 0, y = 0):
+def createTitles(group, x = 0, y = 0):
     mute()
-    setActivePlayer(me)
-    notify("{} becomes the First Player".format(me))
-    setGlobalVariable("firstplayer", str(me._id))
-
+    tableCards = [card.model for card in table]
+    for title in queryCard({"Type": "Title"}):
+        if title not in tableCards:
+            titleCard = table.create(title, x, y, 1)
+            x += 10
+            if titleCard.isInverted():
+                y -= 10
+            else:
+                y += 10
+    notify("{} loaded the Title cards.".format(me))
+        
 
 ######################################
 ##            CARD ACTIONS          ##
@@ -306,7 +370,7 @@ def moveToPlot(group, x = 0, y = 0):
         card.moveTo(card.owner.piles["Plot Deck"])
     notify("{} moved all used plots to their Plot Deck.".format(me))
 
-def viewPlots(group, x = 0, y = 0):
+def viewGroup(group, x = 0, y = 0):
     group.lookAt(-1)
 
 
