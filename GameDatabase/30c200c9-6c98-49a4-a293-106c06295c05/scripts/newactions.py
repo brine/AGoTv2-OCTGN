@@ -115,6 +115,7 @@ def initiateMilitary(group, x = 0, y = 0):
         if card.controller == me:
             card.highlight = None
     notify("{} initiates a Military challenge".format(me))
+    setGlobalVariable("challenge", "mil")
 
 def initiateIntrigue(group, x = 0, y = 0):
     mute()
@@ -122,6 +123,7 @@ def initiateIntrigue(group, x = 0, y = 0):
         if card.controller == me:
             card.highlight = None
     notify("{} initiates an Intrigue challenge".format(me))
+    setGlobalVariable("challenge", "int")
 
 def initiatePower(group, x = 0, y = 0):
     mute()
@@ -129,6 +131,7 @@ def initiatePower(group, x = 0, y = 0):
         if card.controller == me:
             card.highlight = None
     notify("{} initiates a Power challenge".format(me))
+    setGlobalVariable("challenge", "pow")
 
 def activateAbility(card, x = 0, y = 0):
     notify("{} activates {}'s ability.".format(me, card))
@@ -199,7 +202,26 @@ def createTitles(group, x = 0, y = 0):
 ######################################
 ##            CARD ACTIONS          ##
 ######################################
-
+def getChallengeColor(block = False):
+    mute()
+    challenge = getGlobalVariable("challenge")
+    if challenge == "mil":
+        if block == True:
+            return "#880000"
+        else:
+            return "#FF0000"
+    elif challenge == "int":
+        if block == True:
+            return "#008800"
+        else:
+            return "#00FF00"
+    elif challenge == "pow":
+        if block == True:
+            return "#000088"
+        else:
+            return "#0000FF"
+    else:
+        return "#FFFFFF"
 
 def kneelStand(card, x = 0, y = 0):
     mute()
@@ -224,14 +246,14 @@ def assignAttacker(card, x = 0, y = 0):
     if card.orientation == Rot90:
         if not confirm("Can't declare a knelt character as an attacker. Ignore?"): return
     card.orientation = Rot90
-    card.highlight = AttackerColor
+    card.highlight = getChallengeColor()
     notify("{} declares {} as an attacker.".format(me, card))
 
 def assignAttackerNoKneel(card, x = 0, y = 0):
     mute()
     if card.orientation == Rot90:
         if not confirm("Can't declare a knelt character as an attacker. Ignore?"): return
-    card.highlight = AttackerColor
+    card.highlight = getChallengeColor()
     notify("{} declares {} as an attacker.".format(me, card))
     
 def assignDefender(card, x = 0, y = 0):
@@ -239,14 +261,14 @@ def assignDefender(card, x = 0, y = 0):
     if card.orientation == Rot90:
         if not confirm("Can't declare a knelt character as a defender. Ignore?"): return
     card.orientation = Rot90
-    card.highlight = DefenderColor
+    card.highlight = getChallengeColor(True)
     notify("{} declares {} as a defender.".format(me, card))
 
 def assignDefenderNoKneel(card, x = 0, y = 0):
     mute()
     if card.orientation == Rot90:
         if not confirm("Can't declare a knelt character as a defender. Ignore?"): return
-    card.highlight = DefenderColor
+    card.highlight = getChallengeColor(True)
     notify("{} declares {} as a defender.".format(me, card))
 
 def addGold(card, x = 0, y = 0):

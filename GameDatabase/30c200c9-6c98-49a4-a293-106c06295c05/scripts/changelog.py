@@ -7,5 +7,8 @@ changelog = {
         "Most of the game actions you're familiar with have changed or been removed.  Please take some time to explore the new options.",
         "The game now emphasizes a more natural, manual gameplay style.  Automated scripting has been removed but select scripts may return in the future.",
         "I am interested in hearing your feedback.  Check out www.octgngames.com/agot2 for contact links."
+        ]),
+    3000101: ("3.0.1.1", "28 August 2017", [
+        "Using the Initiate Military/Intrigue/Power Challenge actions will change the attack/defend highlight color to that challenge icon's color."
         ])
 }
