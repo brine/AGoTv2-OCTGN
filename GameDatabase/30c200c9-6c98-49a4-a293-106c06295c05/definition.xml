@@ -43,8 +43,8 @@
         <property name="Type" type="String"/>
         <property name="Faction" type="String"/>
         <property name="Traits" type="String" textKind="Tokens"/>
-        <property name="Icons" type="String"/>
-        <property name="Text" type="String"/>
+        <property name="Icons" type="RichText"/>
+        <property name="Text" type="RichText"/>
         <property name="Strength" type="String"/>
         <property name="Unique" type="String"/>
         <property name="Loyal" type="String"/>
