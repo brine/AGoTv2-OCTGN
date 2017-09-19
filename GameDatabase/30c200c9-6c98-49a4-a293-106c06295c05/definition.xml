@@ -9,6 +9,8 @@
     <event name="OverridePhaseClicked" action="phaseClickOverride" />
 	<event name="OnTableLoaded" action="initializeGame" />
 	<event name="OnCardsMoved" action="moveCardEvent" />
+	<event name="OnMarkerChanged" action="changeMarkerEvent" />
+	<event name="OnCounterChanged" action="changeCounterEvent" />
     </events>
     <symbols>
         <symbol name="Stark" id="stark" src="symbols/stark.png" />

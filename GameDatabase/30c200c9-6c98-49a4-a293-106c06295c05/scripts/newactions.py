@@ -2,7 +2,7 @@
 AttackerColor = "#FF0000"
 DefenderColor = "#00FF00"
 GoldMarker = ("Gold", "4e8046ba-759b-428c-917f-7e9268a5af90")
-RenownMarker = ("Renown", "d115ea96-ed05-4bf7-ba22-a34c8675c676")
+RenownMarker = ("Power", "d115ea96-ed05-4bf7-ba22-a34c8675c676")
 CounterMarker = ("Counter", "6238a357-41b7-4bca-b394-925fc1b2caf8")
 
 firstPlayerToken = "73a6655b-60b6-4080-b428-f4e0099e0f77"
@@ -12,6 +12,31 @@ diesides = 6
 ######################################
 ##     EVENT FUNCTIONS              ##
 ######################################
+
+
+def changeCounterEvent(args):
+    mute()
+    if args.player == me:
+        if args.counter == me.counters["Power"] and args.scripted == False:
+            faction = getMyFactionCard()
+            if faction != None:
+                faction.markers[RenownMarker] = me.Power - (countPower() - faction.markers[RenownMarker])
+        elif args.counter == me.counters["Gold"] and args.scripted == False:
+            plot = getMyCurrentPlot()
+            if plot != None:
+                plot.markers[GoldMarker] = me.Gold ## the last plot in the list is the most recently played
+
+def changeMarkerEvent(args):
+    mute()
+    if args.marker == "Power" and args.card.controller == me:
+        power = countPower()
+        if me.Power != power:
+            me.Power = power
+    elif args.marker == "Gold" and args.card.controller == me:
+        if args.card == getMyCurrentPlot():
+            if me.Gold != args.card.markers[GoldMarker]:
+                me.Gold = args.card.markers[GoldMarker]
+            
 
 def moveCardEvent(args):
     if args.player == me:
@@ -295,14 +320,14 @@ def addXGold(card, x = 0, y = 0):
 def addRenown(card, x = 0, y = 0):
     mute()
     card.markers[RenownMarker] += 1
-    notify("{} added a renown marker to {}.".format(me, card))
+    notify("{} added a Power marker to {}.".format(me, card))
 
 def addXRenown(card, x = 0, y = 0):
     mute()
     num = askInteger("Add how many renown markers?", 0)
     if num == 0 or num == None: return
     card.markers[RenownMarker] += num
-    notify("{} added {} renown marker{} to {}.".format(me, num, pluralize(num), card))
+    notify("{} added {} Power marker{} to {}.".format(me, num, pluralize(num), card))
 
 def addCounter(card, x = 0, y = 0):
     mute()
@@ -496,3 +521,21 @@ def alignAttachments(card, attachments = None):  ## Aligns all attachments on th
         c.index = lastCard.index
         lastCard = c
         count += 1
+
+def getMyCurrentPlot():
+    mute()
+    plots = [c for c in table if c.controller == me and c.Type == "Plot"]
+    if len(plots) > 0:
+        return plots[-1]
+    return None
+
+def getMyFactionCard():
+    mute()
+    factions = [c for c in table if c.controller == me and c.Type == "Faction"]
+    if len(factions) > 0:
+        return factions[-1]
+    return None
+
+def countPower():
+    mute()
+    return sum(c.markers[RenownMarker] for c in table if c.controller == me)
