@@ -13,6 +13,15 @@ diesides = 6
 ##     EVENT FUNCTIONS              ##
 ######################################
 
+def moveCardEvent(args):
+    if args.player == me:
+        cattach = eval(getGlobalVariable("cattach"))
+        for card in args.cards:
+            if card.group.name != "Table" or card._id in cattach:
+                attach(card)
+            alignAttachments(card, getAttachments(card, cattach))
+
+
 def passTurnOverride(args):
     mute()
     if turnNumber() == 0: ## make the turn counter start at 1 on plot phase
@@ -325,6 +334,53 @@ def clear(card, x = 0, y = 0):
     card.target(False)
     notify("{} clears {}.".format(me, card))
 
+def getAttachments(card, attachdict):
+    mute()
+    return [k for k,v in attachdict.iteritems() if v == card._id]
+
+def attach(card, x = 0, y = 0):
+    mute()
+    target = [c for c in table if c.targetedBy]
+    if len(target) > 1:
+        whisper("Invalid targets, select up to 1 target.")
+    else:
+        cattach = eval(getGlobalVariable('cattach'))
+        if len(target) == 0 or card in target:
+            ## DETACH
+            card.target(False)
+            if card._id in cattach:  ## if this card's an attachment
+                notify("{} detaches {} from {}.".format(me, card, Card(cattach[card._id])))
+                del cattach[card._id]
+                if card.owner != card.controller: ## return card to its owner
+                    if card.controller == me:
+                        card.controller = card.owner
+            for id in getAttachments(card, cattach): ## if the card has attachments
+                attachment = Card(id)
+                del cattach[id]
+                notify("{} detaches {} from {}.".format(me, attachment, card))
+                if attachment.owner != attachment.controller:
+                    if attachment.controller == me:
+                        attachment.controller = attachment.owner
+            setGlobalVariable('cattach', str(cattach))
+        else:
+            ## ATTACH
+            targetcard = target[0]
+            if targetcard._id in cattach:
+                whisper("WARNING: Cannot attach {} to other attachments.".format(targetcard))
+                return
+            if len(getAttachments(card, cattach)) > 0:  ## Catch cases where you try to attach to another attachment
+                whisper("WARNING: Cannot attach {} to other attachments.".format(targetcard))
+                return
+            cattach[card._id] = targetcard._id
+            targetcard.target(False)
+            setGlobalVariable('cattach', str(cattach))
+            notify("{} attaches {} to {}.".format(me, card, targetcard))
+            if targetcard.controller == me:
+                alignAttachments(targetcard, getAttachments(targetcard, cattach))
+            else:
+                card.controller = targetcard.controller
+                remoteCall(targetcard.controller, 'alignAttachments', [targetcard, getAttachments(targetcard, cattach)])
+
 ######################################
 ##            PILE ACTIONS          ##
 ######################################
@@ -405,3 +461,38 @@ def pluralize(num):
        return ""
    else:
        return "s"
+
+playerside = None
+       
+def playerSide():  ## Initializes the player's top/bottom side of table variables
+    mute()
+    global playerside
+    if playerside == None:  ## script skips this if playerside has already been determined
+        if Table.isTwoSided():
+            if me.isInverted:
+                playerside = -1  # inverted (negative) side of the table
+            else:
+                playerside = 1
+        else:  ## If two-sided table is disabled, assume the player is on the normal side.
+            playerside = 1
+    return playerside
+
+def alignAttachments(card, attachments = None):  ## Aligns all attachments on the card
+    mute()
+    side = playerSide()
+    if attachments == None:
+        return
+    lastCard = card
+    x, y = card.position
+    count = 1
+    if side*y < 0:  ## A position modifier that has to take into account the vertical orientation of the card
+        yyy = -1
+    else:
+        yyy = 1
+    for id in attachments:
+        c = Card(id)
+        attachY = y + 11 * yyy * side * count ## the equation to identify the y coordinate of the new card
+        c.moveToTable(x, attachY)
+        c.index = lastCard.index
+        lastCard = c
+        count += 1
