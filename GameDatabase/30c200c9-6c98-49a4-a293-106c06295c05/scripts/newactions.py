@@ -41,10 +41,17 @@ def changeMarkerEvent(args):
 def moveCardEvent(args):
     if args.player == me:
         cattach = eval(getGlobalVariable("cattach"))
+        i = 0
         for card in args.cards:
-            if card.group.name != "Table" or card._id in cattach:
-                attach(card)
-            alignAttachments(card, getAttachments(card, cattach))
+            if args.fromGroups[0] != table and args.toGroups[0] == table:
+                if card.Type == "Plot":
+                    if card.Income.isdigit():
+                        card.markers[GoldMarker] = int(card.Income)
+            else:
+                if card.group.name != "Table" or card._id in cattach:
+                    attach(card)
+                alignAttachments(card, getAttachments(card, cattach))
+            i += 1
 
 
 def passTurnOverride(args):
