@@ -3,6 +3,7 @@ AttackerColor = "#FF0000"
 DefenderColor = "#00FF00"
 GoldMarker = ("Gold", "4e8046ba-759b-428c-917f-7e9268a5af90")
 RenownMarker = ("Power", "d115ea96-ed05-4bf7-ba22-a34c8675c676")
+StrengthMarker = ("Strength", "7898d5a0-1d59-42b2-bbfb-5051cc420cd8")
 CounterMarker = ("Counter", "6238a357-41b7-4bca-b394-925fc1b2caf8")
 
 firstPlayerToken = "73a6655b-60b6-4080-b428-f4e0099e0f77"
@@ -315,31 +316,43 @@ def assignDefenderNoKneel(card, x = 0, y = 0):
 def addGold(card, x = 0, y = 0):
     mute()
     card.markers[GoldMarker] += 1
-    notify("{} added a gold marker to {}.".format(me, card))
+    notify("{} added a Gold to {}.".format(me, card))
 
 def addXGold(card, x = 0, y = 0):
     mute()
-    num = askInteger("Add how many gold markers?", 0)
+    num = askInteger("Add how much Gold?", 0)
     if num == 0 or num == None: return
     card.markers[GoldMarker] += num
-    notify("{} added {} gold marker{} to {}.".format(me, num, pluralize(num), card))
+    notify("{} added {} Gold to {}.".format(me, num, card))
 
 def addRenown(card, x = 0, y = 0):
     mute()
     card.markers[RenownMarker] += 1
-    notify("{} added a Power marker to {}.".format(me, card))
+    notify("{} added 1 Power to {}.".format(me, card))
 
 def addXRenown(card, x = 0, y = 0):
     mute()
-    num = askInteger("Add how many renown markers?", 0)
+    num = askInteger("Add how much Power?", 0)
     if num == 0 or num == None: return
     card.markers[RenownMarker] += num
-    notify("{} added {} Power marker{} to {}.".format(me, num, pluralize(num), card))
+    notify("{} added {} Power to {}.".format(me, num, card))
+
+def addStrength(card, x = 0, y = 0):
+    mute()
+    card.markers[StrengthMarker] += 1
+    notify("{} added 1 Strength to {}.".format(me, card))
+
+def addXStrength(card, x = 0, y = 0):
+    mute()
+    num = askInteger("Add how much Strength?", 0)
+    if num == 0 or num == None: return
+    card.markers[StrengthMarker] += num
+    notify("{} added {} Strength to {}.".format(me, num, card))
 
 def addCounter(card, x = 0, y = 0):
     mute()
     card.markers[CounterMarker] += 1
-    notify("{} added a counter to {}.".format(me, card))
+    notify("{} added 1 counter to {}.".format(me, card))
 
 def addXCounter(card, x = 0, y = 0):
     mute()

@@ -85,12 +85,14 @@
         <cardaction menu="Discard Card" shortcut="del" execute="discardCard" />
         <cardaction menu="Clear Card" shortcut="esc" execute="clear" />
         <cardaction menu="Attach Card to Target" shortcut="CTRL+X" execute="attach" />
-        <cardaction menu="Add 1 Gold to Card" shortcut="CTRL+G" execute="addGold" />
-        <cardaction menu="Add X Gold to Card" shortcut="CTRL+SHIFT+G" execute="addXGold" />
-        <cardaction menu="Add 1 Power to Card" shortcut="CTRL+R" execute="addRenown" />
-        <cardaction menu="Add X Power to Card" shortcut="CTRL+SHIFT+R" execute="addXRenown" />
-        <cardaction menu="Add 1 Counter to Card" shortcut="CTRL+C" execute="addCounter" />
-        <cardaction menu="Add X Counters to Card" shortcut="CTRL+SHIFT+C" execute="addXCounter" />
+        <cardaction menu="Add 1 Power to Card" shortcut="CTRL+1" execute="addRenown" />
+        <cardaction menu="Add 1 Gold to Card" shortcut="CTRL+2" execute="addGold" />
+        <cardaction menu="Add 1 Strength to Card" shortcut="CTRL+3" execute="addStrength" />
+        <cardaction menu="Add 1 Counter to Card" shortcut="CTRL+4" execute="addCounter" />
+        <cardaction menu="Add X Power to Card" shortcut="CTRL+SHIFT+1" execute="addXRenown" />
+        <cardaction menu="Add X Gold to Card" shortcut="CTRL+SHIFT+2" execute="addXGold" />
+        <cardaction menu="Add X Strength to Card" shortcut="CTRL+SHIFT+3" execute="addXStrength" />
+        <cardaction menu="Add X Counters to Card" shortcut="CTRL+SHIFT+4" execute="addXCounter" />
     </table>
     <player summary="Power: {#Power} / Gold: {#Gold} / Hand: {#Hand}">
         <counter name="Power" icon="counters/power.png"/>
@@ -105,7 +107,7 @@
             <groupaction menu="Draw Many" shortcut="CTRL+SHIFT+D" execute="drawMany"/>
             <groupaction menu="Pillage 1" execute="pillage"/>
         </group>
-        <group name="Plot Deck" visibility="me" width="63" height="88" icon="groups/plot.png">
+        <group name="Plot Deck" visibility="me" width="63" height="88" icon="groups/plot.png" ordered="False">
             <groupaction menu="View Plot Deck" shortcut="F1" default="True" execute="viewGroup"/>
         </group>
         <group name="Used Plot Pile" visibility="all" width="63" height="88" icon="groups/plot.png" collapsed="True">
