@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="A Game of Thrones - The Card Game Second Edition" id="30c200c9-6c98-49a4-a293-106c06295c05" octgnVersion="3.1.0.0" version="3.0.1.1" scriptVersion="3.1.0.2" markersize="16" tags="OCTGN aGoT LCG Game of Thrones" description="A Game of Thrones: The Card Game Second Edition, featuring cunning plots, iconic characters, and deadly encounters for two players. " setsurl="http://tinyurl.com/qehmd3z" gameurl="http://octgngames.com/agot2/" authors="TassLehoff, Snowfrost, Khudzlin, Hedjman, Gualdo, DC Denis, Unfamiliar, Jackey" iconurl="http://s29.postimg.org/qsmlsels5/Boite_de_base.png">
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="A Game of Thrones - The Card Game Second Edition" id="30c200c9-6c98-49a4-a293-106c06295c05" octgnVersion="3.1.0.0" version="3.0.2.0" scriptVersion="3.1.0.2" markersize="16" tags="OCTGN aGoT LCG Game of Thrones" description="A Game of Thrones: The Card Game Second Edition, featuring cunning plots, iconic characters, and deadly encounters for two or more players. " setsurl="http://octgngames.com/agot2/" gameurl="http://octgngames.com/agot2/" authors="TassLehoff, Snowfrost, Khudzlin, Hedjman, Gualdo, DC Denis, Unfamiliar, Jackey" iconurl="http://s29.postimg.org/qsmlsels5/Boite_de_base.png">
     <scripts>
         <script src="scripts/newactions.py"/>
         <script src="scripts/changelog.py"/>
@@ -42,7 +42,7 @@
         <globalvariable name="challenge" value="None" />
         <globalvariable name="cattach" value="{ }" />
     </globalvariables>
-    <card back="cards/back.png" front="cards/front.png" width="63" height="88" cornerRadius="2">
+    <card back="cards/back.png" front="cards/front.png" width="63" height="88" cornerRadius="3">
         <property name="Cost" type="Integer"/>
         <property name="Type" type="String"/>
         <property name="Faction" type="String"/>
@@ -59,7 +59,7 @@
         <property name="Deck Limit" type="Integer"/>
         <property name="Illustrator" type="String"/>
         <property name="Card Number" type="Integer"/>
-        <size name="HorizontalCards" width="88" height="63" backWidth="88" backHeight="63" back="cards/backH.png" front="cards/frontH.png" cornerRadius="2"/>
+        <size name="HorizontalCards" width="88" height="63" backWidth="88" backHeight="63" back="cards/backH.png" front="cards/frontH.png" cornerRadius="3"/>
     </card>
     <table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill" >
         <groupaction menu="Stand All Cards" shortcut="F2" execute="standAll"/>
