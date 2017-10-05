@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="A Game of Thrones - The Card Game Second Edition" id="30c200c9-6c98-49a4-a293-106c06295c05" octgnVersion="3.1.0.0" version="3.0.2.0" scriptVersion="3.1.0.2" markersize="16" tags="OCTGN aGoT LCG Game of Thrones" description="A Game of Thrones: The Card Game Second Edition, featuring cunning plots, iconic characters, and deadly encounters for two or more players. " setsurl="http://octgngames.com/agot2/" gameurl="http://octgngames.com/agot2/" authors="TassLehoff, Snowfrost, Khudzlin, Hedjman, Gualdo, DC Denis, Unfamiliar, Jackey" iconurl="http://s29.postimg.org/qsmlsels5/Boite_de_base.png">
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="A Game of Thrones - The Card Game Second Edition" id="30c200c9-6c98-49a4-a293-106c06295c05" octgnVersion="3.1.0.0" version="3.0.2.1" scriptVersion="3.1.0.2" markersize="16" tags="OCTGN aGoT LCG Game of Thrones" description="A Game of Thrones: The Card Game Second Edition, featuring cunning plots, iconic characters, and deadly encounters for two or more players. " setsurl="http://octgngames.com/agot2/" gameurl="http://octgngames.com/agot2/" authors="TassLehoff, Snowfrost, Khudzlin, Hedjman, Gualdo, DC Denis, Unfamiliar, Jackey" iconurl="http://s29.postimg.org/qsmlsels5/Boite_de_base.png">
     <scripts>
         <script src="scripts/newactions.py"/>
         <script src="scripts/changelog.py"/>
@@ -35,7 +35,9 @@
         <phase name="Standing Phase" icon="phases/standing.png" />
         <phase name="Taxation Phase" icon="phases/taxation.png" />
     </phases>
-    <documents/>
+    <documents>
+      <document name="Help, Support, Report Issues" icon="counters/burn.png" src="documents/info.txt" />
+    </documents>
     <gameModes/>
     <globalvariables>
         <globalvariable name="firstplayer" value="None" />

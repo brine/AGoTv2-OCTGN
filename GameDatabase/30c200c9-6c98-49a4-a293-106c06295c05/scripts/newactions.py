@@ -45,15 +45,13 @@ def moveCardEvent(args):
         i = 0
         for card in args.cards:
             if args.fromGroups[0] != table and args.toGroups[0] == table:
-                if card.Type == "Plot":
-                    if card.Income.isdigit():
-                        card.markers[GoldMarker] = int(card.Income)
+                if card.isFaceUp:
+                    autoAddGold(card)
             else:
                 if card.group.name != "Table" or card._id in cattach:
                     attach(card)
                 alignAttachments(card, getAttachments(card, cattach))
             i += 1
-
 
 def passTurnOverride(args):
     mute()
@@ -197,11 +195,8 @@ def standAll(group, x = 0, y = 0):
 def revealAll(group, x = 0, y = 0):
     mute()
     for card in table:
-        if card.controller == me:
-            if card.isFaceUp == False:
-                card.isFaceUp = True
-                notify("{} reveals {}.".format(me, card))
-
+        if card.controller == me and card.isFaceUp == False:
+            revealHide(card)
 
 def setDie(group, x = 0, y = 0):
     mute()
@@ -282,6 +277,14 @@ def revealHide(card, x = 0, y = 0):
     else:
         card.isFaceUp = True
         notify("{} reveals {}.".format(me, card))
+        autoAddGold(card)
+
+def autoAddGold(card):
+    mute()
+    notify("test")
+    if card.Income.isdigit():
+        if card.markers[GoldMarker] == 0:
+            card.markers[GoldMarker] = int(card.Income)
 
 def assignAttacker(card, x = 0, y = 0):
     mute()

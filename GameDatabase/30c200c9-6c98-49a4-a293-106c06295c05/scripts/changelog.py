@@ -22,5 +22,10 @@ changelog = {
         "Added a card attachment action (CTRL+X), will attach the card to a single card that has been shift-click targeted.  Works on your opponents cards too.",
         "Moving a card around on the table will bring all its attachments with it.",
         "Using the card attachment action on a card without targets will detach it or detach all cards attached to it."
+        ]),
+    3000201: ("3.0.2.1", "5 October 2017", [
+        "Gold won't be added to face-down plots.",
+        "Revealing a hidden plot will auto-add the gold if there's not already gold on it.",
+        "Added a game document to the in-game documents menu with links to the discord servers and github issue reporter."
         ])
 }
