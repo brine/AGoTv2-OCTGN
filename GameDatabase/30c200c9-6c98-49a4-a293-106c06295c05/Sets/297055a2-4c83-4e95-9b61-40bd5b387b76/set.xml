@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="The Brotherhood Without Banners" id="297055a2-4c83-4e95-9b61-40bd5b387b76" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Sansa's Maid" id="28f9b0d7-625c-494c-b299-d1d7b83ed2e7">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Bestow (3).
+Each <i>Lady</i> character you control gets +1 STR for each gold Sansa's Maid has.</property>
+      <property name="Traits" value="Companion." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Owen William Weber" />
+      <property name="Card Number" value="101" />
+      <property name="Icons">[power]</property>
+    </card>
+    <card name="Northern Keep" id="8d31616f-017e-416a-b281-802a415021a1">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Limited.
+<b>Marshaling Action:</b> Kneel Northern Keep to gain 1 gold. (2 gold instead if there are more <i>Winter</i> plot cards than <i>Summer</i> plot cards revealed.)</property>
+      <property name="Traits" value="The North." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sergey Glushakov" />
+      <property name="Card Number" value="102" />
+    </card>
+    <card name="Highgarden Minstrel" id="035d427a-8dbf-4e5b-8342-85cdd55a7268">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">
+        <b>Reaction:</b> After you play a <i>Song</i> event, gain 1 gold. (Limit 3 times per round.)</property>
+      <property name="Traits" value="Minstrel." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Card Number" value="103" />
+      <property name="Icons">[intrigue][power]</property>
+    </card>
+    <card name="Horn Hill" id="c1714634-00cd-4cd8-88a3-6695e20c1f85">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Bestow (3).
+<b>Challenges Action:</b> Kneel Horn Hill to give each participating <s value="tyrell">[House Tyrell]</s> character you control +X STR until the end of the challenge. X is the number of gold Horn Hill has.</property>
+      <property name="Traits" value="The Reach." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Logan Feliciano" />
+      <property name="Card Number" value="104" />
+    </card>
+    <card name="Donal Noye" id="1fa1d8fb-165b-49c3-a7ac-b65f4bc0f930">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">Bestow (3). No attachments except <i>Weapon</i>.
+<b>Action:</b> Discard 1 gold from Donal Noye to put a <i>Weapon</i> attachment into play from your hand.</property>
+      <property name="Traits" value="Steward." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Josu Hernaiz" />
+      <property name="Card Number" value="105" />
+      <property name="Icons">[military][intrigue]</property>
+    </card>
+    <card name="Ranger's Bow" id="c6f93754-6a76-4cc4-8afb-129798f66229">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <s value="nightswatch">[The Night's Watch]</s> character only.
+Attached character gets +1 STR.
+<b>Challenges Action:</b> Kneel Ranger's Bow to choose a defending <s value="nightswatch">[The Night's Watch]</s> character. Until the end of the challenge, that character gets +2 STR.</property>
+      <property name="Traits" value="Weapon." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jacob Atienza" />
+      <property name="Card Number" value="106" />
+    </card>
+    <card name="Patchface" id="48de5dfe-fab3-4c2b-8d22-68d3b6c07f48">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">While another <i>Fool</i> character has a keyword, Patchface gains that keyword.
+While another <i>Fool</i> character has a challenge icon, Patchface gains that challenge icon.</property>
+      <property name="Traits" value="Fool." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Card Number" value="107" />
+      <property name="Icons">[power]</property>
+    </card>
+    <card name="King's Blood" id="d31256ca-b8ff-4e61-b506-568ddb61858f">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <i>Bastard</i> or <i>King</i> character you control only. Bestow (3).
+<b>Plot Action:</b> Kneel attached character and sacrifice King's Blood to discard X power from each opponent's faction card. X is the number of gold King's Blood has.</property>
+      <property name="Traits" value="Condition." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ivan Dixon" />
+      <property name="Card Number" value="108" />
+    </card>
+    <card name="Genna Frey" id="c3fed1cb-4237-4e69-8809-29d73aa2c2a6">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Reaction:</b> After you win a challenge in which Genna Frey is attacking, if it was the third challenge you initiated this phase, the losing opponent discards 1 card at random from his or her hand. (2 cards instead if you control another attacking <i>House Frey</i> character.)</property>
+      <property name="Traits" value="House Frey. Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Falk Haensel" />
+      <property name="Card Number" value="109" />
+      <property name="Icons">[intrigue][power]</property>
+    </card>
+    <card name="The Goldroad" id="4463a71a-ff45-4b58-a903-03ca35dba6b9">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Limited.
+<b>Challenges Action:</b> Kneel The Goldroad to gain 1 gold.
++1 Income.</property>
+      <property name="Traits" value="Westeros." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sergey Glushakov" />
+      <property name="Card Number" value="110" />
+    </card>
+    <card name="Stony Shore Raider" id="4dd50422-6a7d-425e-a62d-7787a5772e91">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Bestow (3).
+<b>Action:</b> Discard 1 gold from Stony Shore Raider to choose and kneel a location with printed cost 3 or lower. (Limit once per round.)</property>
+      <property name="Traits" value="Ironborn. Raider." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Card Number" value="111" />
+      <property name="Icons">[military]</property>
+    </card>
+    <card name="Pay The Iron Price" id="2b23f4a6-9c73-425a-96be-62eb35912fe8">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">
+        <b>Challenges Action:</b> Choose an attachment in an opponent's discard pile, and put it into play under your control.
+<b>Reaction:</b> After you win an unopposed challenge, pay 1 gold to return Pay The Iron Price from your discard pile to your hand.</property>
+      <property name="Traits" value="" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Card Number" value="112" />
+    </card>
+    <card name="Freedmen" id="ece54e24-702e-486f-80f7-f138deeafad1">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Reaction:</b> After you win a challenge by 5 or more STR as the attacking player, put Freedmen into play from your discard pile.</property>
+      <property name="Traits" value="Ally." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ignacio Bazán Lazcano" />
+      <property name="Card Number" value="113" />
+      <property name="Icons">[intrigue][power]</property>
+    </card>
+    <card name="Warrior's Braid" id="45294af1-9710-4757-89c9-5660d76da683">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <s value="targaryen">[House Targaryen]</s> character only.
+Attached character gains renown, and gets +1 STR for each bell token on Warrior's Braid.
+<b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge in which attached character is attacking, place a bell token on Warrior's Braid.</property>
+      <property name="Traits" value="Item." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jennifer Hrabota Lesser" />
+      <property name="Card Number" value="114" />
+    </card>
+    <card name="Dornish Spy" id="107109e2-ee9c-4929-b439-50abf51b5bc1">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Ambush (4).
+<b>Reaction:</b> After Dornish Spy enters play, choose a character. Until the end of the phase, that character loses a challenge icon of your choice.</property>
+      <property name="Traits" value="Spy." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Gabriela Birchal" />
+      <property name="Card Number" value="115" />
+      <property name="Icons">[military][intrigue]</property>
+    </card>
+    <card name="Locked Away" id="a5bcfe2e-0057-4f72-ac51-185eb92b3034">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Terminal.
+<b>Reaction:</b> After the marshaling phase begins, return attached character to its owner's hand (cannot be saved).</property>
+      <property name="Traits" value="Condition." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jason Jenicke" />
+      <property name="Card Number" value="116" />
+    </card>
+    <card name="Beric Dondarrion" id="228eaa1e-fc46-42ff-a168-f4775b9b4ab7">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Renown.
+X is the number of kiss tokens Beric Dondarrion has.
+<b>Forced Reaction:</b> After you marshal Beric Dondarrion, place 6 kiss tokens on him. (Cannot be canceled.)
+<b>Interrupt:</b> When Beric Dondarrion would be killed, discard a kiss token from him to save him.
+<b>Card design by 2014 European Melee Champion, Jakob Hultman.</b></property>
+      <property name="Traits" value="Knight. Lord. R'hllor." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="7" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joel Hustak" />
+      <property name="Card Number" value="117" />
+      <property name="Icons">[military][power]</property>
+    </card>
+    <card name="Unbridled Generosity" id="e649be6f-157e-49c6-a799-790d2e8f73f4">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Action:</b> Choose up to 3 cards. Move 1 gold from the treasury to each of those cards.</property>
+      <property name="Traits" value="" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Torbjörn Källström" />
+      <property name="Card Number" value="118" />
+    </card>
+    <card name="The Brotherhood Without Banners" id="6f1e41d7-ab6f-45c2-a471-e6c8f8f4fb81">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">You cannot include loyal characters in your deck.
+<b>Reaction:</b> After the challenges phase begins, kneel your faction card to choose a neutral character you control. Until the end of the phase, that character gains (choose one): insight, intimidate, renown, or stealth.</property>
+      <property name="Traits" value="" />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="Tim Durning" />
+      <property name="Card Number" value="119" />
+    </card>
+    <card name="Favors From the Crown" id="bf06c1b4-8daa-4cfb-bd7a-856fa56f13bf" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Reaction:</b> After a card with bestow enters play, place 1 gold from the treasury on that card. (2 gold instead if that card has 3 or more gold on it.)</property>
+      <property name="Traits" value="Kingdom." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="5" />
+      <property name="Initiative" value="4" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="120" />
+    </card>
+  </cards>
+</set>
