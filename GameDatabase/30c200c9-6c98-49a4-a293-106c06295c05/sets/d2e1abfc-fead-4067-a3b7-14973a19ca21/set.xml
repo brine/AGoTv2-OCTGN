@@ -5,7 +5,7 @@
 	 gameId="30c200c9-6c98-49a4-a293-106c06295c05" 
 	 gameVersion="1.0.0.8" 
 	 version="1.2"
-     hidden="true">
+     >
 	 <cards>
         <card id="a8c94f92-2b17-4a78-bf0f-4411838b9826" name="House Baratheon">
             <property name="Faction"                    value="House Baratheon"/>
