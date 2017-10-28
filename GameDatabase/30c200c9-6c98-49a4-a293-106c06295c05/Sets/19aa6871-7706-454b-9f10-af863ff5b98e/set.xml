@@ -614,7 +614,7 @@ While attached character is participating in a challenge, each character without
       <property name="Type" value="Attachment" />
       <property name="Faction" value="Neutral" />
       <property name="Text">Terminal.
-While attached character is participating in a challenge, set its STR to 1. <em>(Other modifiers do not raise or lower its STR.)</em></property>
+While attached character is participating in a challenge, set its STR to 1. <i>(Other modifiers do not raise or lower its STR.)</i></property>
       <property name="Traits" value="Condition. Poison." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
