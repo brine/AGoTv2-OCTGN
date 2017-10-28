@@ -27,5 +27,8 @@ changelog = {
         "Gold won't be added to face-down plots.",
         "Revealing a hidden plot will auto-add the gold if there's not already gold on it.",
         "Added a game document to the in-game documents menu with links to the discord servers and github issue reporter."
+        ]),
+    3000300: ("3.0.3.0", "28 October 2017", [
+        "Added House of Thorns deluxe expansion"
         ])
 }
