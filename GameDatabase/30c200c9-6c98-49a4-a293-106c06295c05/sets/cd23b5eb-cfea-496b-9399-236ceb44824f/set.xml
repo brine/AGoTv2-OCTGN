@@ -89,7 +89,6 @@ Attached character gains the <i>King</i> trait.
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">
         <b>Marshaling Action:</b> Choose an opponent whose reserve value is lower than yours. Until the end of the phase, you may marshal characters from that player's discard pile as if they were in your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -210,7 +209,6 @@ Attached character gains the <i>King</i> trait and pillage.
       <property name="Faction" value="House Targaryen" />
       <property name="Text">
         <b>Challenges Action:</b> Search your deck for a <i>Bloodrider</i> character and put it into play. Shuffle your deck. At the end of the phase, if that card is still in play, return it to your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="3" />
@@ -240,7 +238,6 @@ Attached character gains the <i>King</i> trait and pillage.
       <property name="Faction" value="House Martell" />
       <property name="Text">
         <b>Reaction:</b> After you lose a challenge, choose up to X <s value="martell">[House Martell]</s> characters. Each of those characters gains renown until the end of the phase. X is the number of plot cards in your used pile.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -281,7 +278,6 @@ Attached character gains the <i>King</i> trait and pillage.
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Marshaling Action:</b> Choose an <i>Ally</i> character, and discard it from play.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="2" />

@@ -216,7 +216,6 @@ While Jhogo is attacking, he gets +X STR, where X is the number of characters in
       <property name="Faction" value="House Targaryen" />
       <property name="Text">
         <b>Reaction:</b> After a <i>Lord</i> or <i>Lady</i> character is killed, kneel your faction card to draw 3 cards.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="0" />

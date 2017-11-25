@@ -14,7 +14,9 @@ Each <i>Lady</i> character you control gets +1 STR for each gold Sansa's Maid ha
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Owen William Weber" />
       <property name="Card Number" value="101" />
-      <property name="Icons"><s value="power">[Power]</s></property>
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Northern Keep" id="8d31616f-017e-416a-b281-802a415021a1">
       <property name="Type" value="Location" />
@@ -42,7 +44,10 @@ Each <i>Lady</i> character you control gets +1 STR for each gold Sansa's Maid ha
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Nicholas Gregory" />
       <property name="Card Number" value="103" />
-      <property name="Icons"><s value="intrigue">[Intrigue]</s><s value="power">[Power]</s></property>
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Horn Hill" id="c1714634-00cd-4cd8-88a3-6695e20c1f85">
       <property name="Type" value="Location" />
@@ -70,7 +75,10 @@ Each <i>Lady</i> character you control gets +1 STR for each gold Sansa's Maid ha
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Josu Hernaiz" />
       <property name="Card Number" value="105" />
-      <property name="Icons"><s value="military">[Military]</s><s value="intrigue">[Intrigue]</s></property>
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
     </card>
     <card name="Ranger's Bow" id="c6f93754-6a76-4cc4-8afb-129798f66229">
       <property name="Type" value="Attachment" />
@@ -100,7 +108,9 @@ While another <i>Fool</i> character has a challenge icon, Patchface gains that c
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="JB Casacop" />
       <property name="Card Number" value="107" />
-      <property name="Icons"><s value="power">[Power]</s></property>
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="King's Blood" id="d31256ca-b8ff-4e61-b506-568ddb61858f">
       <property name="Type" value="Attachment" />
@@ -129,7 +139,10 @@ While another <i>Fool</i> character has a challenge icon, Patchface gains that c
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Falk Haensel" />
       <property name="Card Number" value="109" />
-      <property name="Icons"><s value="intrigue">[Intrigue]</s><s value="power">[Power]</s></property>
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="The Goldroad" id="4463a71a-ff45-4b58-a903-03ca35dba6b9">
       <property name="Type" value="Location" />
@@ -158,7 +171,9 @@ While another <i>Fool</i> character has a challenge icon, Patchface gains that c
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Nicholas Gregory" />
       <property name="Card Number" value="111" />
-      <property name="Icons"><s value="military">[Military]</s></property>
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
     </card>
     <card name="Pay The Iron Price" id="2b23f4a6-9c73-425a-96be-62eb35912fe8">
       <property name="Type" value="Event" />
@@ -166,7 +181,6 @@ While another <i>Fool</i> character has a challenge icon, Patchface gains that c
       <property name="Text">
         <b>Challenges Action:</b> Choose an attachment in an opponent's discard pile, and put it into play under your control.
 <b>Reaction:</b> After you win an unopposed challenge, pay 1 gold to return Pay The Iron Price from your discard pile to your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -187,7 +201,10 @@ While another <i>Fool</i> character has a challenge icon, Patchface gains that c
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Ignacio Bazán Lazcano" />
       <property name="Card Number" value="113" />
-      <property name="Icons"><s value="intrigue">[Intrigue]</s><s value="power">[Power]</s></property>
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Warrior's Braid" id="45294af1-9710-4757-89c9-5660d76da683">
       <property name="Type" value="Attachment" />
@@ -217,7 +234,10 @@ Attached character gains renown, and gets +1 STR for each bell token on Warrior'
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Gabriela Birchal" />
       <property name="Card Number" value="115" />
-      <property name="Icons"><s value="military">[Military]</s><s value="intrigue">[Intrigue]</s></property>
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
     </card>
     <card name="Locked Away" id="a5bcfe2e-0057-4f72-ac51-185eb92b3034">
       <property name="Type" value="Attachment" />
@@ -238,8 +258,7 @@ Attached character gains renown, and gets +1 STR for each bell token on Warrior'
       <property name="Text">Renown.
 X is the number of kiss tokens Beric Dondarrion has.
 <b>Forced Reaction:</b> After you marshal Beric Dondarrion, place 6 kiss tokens on him. (Cannot be canceled.)
-<b>Interrupt:</b> When Beric Dondarrion would be killed, discard a kiss token from him to save him.
-<b>Card design by 2014 European Melee Champion, Jakob Hultman.</b></property>
+<b>Interrupt:</b> When Beric Dondarrion would be killed, discard a kiss token from him to save him.</property>
       <property name="Traits" value="Knight. Lord. R'hllor." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -247,14 +266,16 @@ X is the number of kiss tokens Beric Dondarrion has.
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Joel Hustak" />
       <property name="Card Number" value="117" />
-      <property name="Icons"><s value="military">[Military]</s><s value="power">[Power]</s></property>
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
     </card>
     <card name="Unbridled Generosity" id="e649be6f-157e-49c6-a799-790d2e8f73f4">
       <property name="Type" value="Event" />
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Action:</b> Choose up to 3 cards. Move 1 gold from the treasury to each of those cards.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -267,7 +288,6 @@ X is the number of kiss tokens Beric Dondarrion has.
       <property name="Faction" value="Neutral" />
       <property name="Text">You cannot include loyal characters in your deck.
 <b>Reaction:</b> After the challenges phase begins, kneel your faction card to choose a neutral character you control. Until the end of the phase, that character gains (choose one): insight, intimidate, renown, or stealth.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="1" />

@@ -23,7 +23,6 @@
       <property name="Faction" value="House Stark" />
       <property name="Text">
         <b>Interrupt:</b> When the effects of an ability that chooses a <s value="stark">[House Stark]</s> character you control as its only target would initiate, cancel those effects and stand that character.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -53,7 +52,6 @@
       <property name="Faction" value="House Tyrell" />
       <property name="Text">Play only during a challenge.
 <b>Challenges Action:</b> Reveal 4 <s value="tyrell">[House Tyrell]</s> characters from your hand to raise the claim value on your revealed plot card by 1 until the end of the challenge. (Max 1 per challenge.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -176,7 +174,6 @@ Balon Greyjoy does not kneel when declared as an attacker in a <s value="militar
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">
         <b>Challenges Action:</b> Until the end of the phase, either: each <s value="greyjoy">[House Greyjoy]</s> character you control gains stealth, or each non-<s value="greyjoy">[House Greyjoy]</s> character loses stealth.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="4" />

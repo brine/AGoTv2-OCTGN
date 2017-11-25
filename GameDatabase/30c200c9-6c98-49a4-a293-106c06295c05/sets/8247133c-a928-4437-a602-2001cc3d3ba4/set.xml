@@ -42,8 +42,7 @@
       <property name="Type" value="Character" />
       <property name="Faction" value="House Lannister" />
       <property name="Text">
-        <b>Reaction:</b> After you marshal Ser Kevan Lannister, choose a <s value="lannister">[House Lannister]</s> or neutral location or attachment in your discard pile and put it into play.
-<b>Card design by 2012 Chinese National Champion, Bing Ouyang.</b></property>
+        <b>Reaction:</b> After you marshal Ser Kevan Lannister, choose a <s value="lannister">[House Lannister]</s> or neutral location or attachment in your discard pile and put it into play.</property>
       <property name="Traits" value="Knight. Lord. Small Council." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -357,7 +356,6 @@ While you control no <i>Lord</i> or <i>Lady</i> characters with printed cost 4 o
       <property name="Faction" value="House Lannister" />
       <property name="Text">
         <b>Challenges Action:</b> Choose an opponent who has won a challenge against you this phase. You may initiate an additional <s value="military">[Military]</s> and <s value="intrigue">[Intrigue]</s> challenge against that player this phase. (Max 1 per phase.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="3" />
@@ -370,7 +368,6 @@ While you control no <i>Lord</i> or <i>Lady</i> characters with printed cost 4 o
       <property name="Faction" value="House Lannister" />
       <property name="Text">
         <b>Reaction:</b> After claim is applied for an <s value="intrigue">[Intrigue]</s> challenge you won by 5 or more STR, draw 2 cards. (4 cards instead if the losing opponent has no cards in his or her hand.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -383,7 +380,6 @@ While you control no <i>Lord</i> or <i>Lady</i> characters with printed cost 4 o
       <property name="Faction" value="House Lannister" />
       <property name="Text">Play only if you control a <i>Knight</i> character.
 <b>Challenges Action:</b> Return a character you control to its owner's hand. Then, have a <i>Knight</i> character you control gain 1 power.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -475,7 +471,6 @@ While you have more power on your faction card than each opponent, attached char
       <property name="Faction" value="House Martell" />
       <property name="Text">
         <b>Challenges Action:</b> Choose a <s value="martell">[House Martell]</s> character you control. Until the end of the phase, double that character's STR. At the end of the phase, if that character is still in play, kill it.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="2" />
@@ -707,8 +702,7 @@ Attached character gains an <s value="intrigue">[Intrigue]</s> icon and the <i>S
       <property name="Type" value="Agenda" />
       <property name="Faction" value="Neutral" />
       <property name="Text">Your plot deck must be 12 cards, including exactly 5 different <i>Scheme</i> cards. During the plot phase, <i>Scheme</i> cards are not considered to be in your plot deck.
-<b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge by 5 or more STR, kneel your faction card to reveal a <i>Scheme</i> plot. If that card leaves play, remove it from the game.
-<b>Card Design by 2013 Joust World Champion, Álvaro Rodriguez.</b></property>
+<b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge by 5 or more STR, kneel your faction card to reveal a <i>Scheme</i> plot. If that card leaves play, remove it from the game.</property>
       <property name="Traits" value="Song." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />

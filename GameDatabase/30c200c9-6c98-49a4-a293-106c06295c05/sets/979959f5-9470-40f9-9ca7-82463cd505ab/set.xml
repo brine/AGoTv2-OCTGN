@@ -151,7 +151,6 @@ Attached character gets +1 STR and gains a <s value="military">[Military]</s> ic
       <property name="Faction" value="House Lannister" />
       <property name="Text">
         <b>Challenges Action:</b> Kneel your faction card to reveal the bottom 5 cards of your deck. You may put 1 unique <s value="lannister">[House Lannister]</s> character revealed by this effect into play; return the other cards to the bottom of your deck in any order. At the end of the phase, if that card is still in play, discard it from play (cannot be saved).</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="0" />
@@ -163,8 +162,7 @@ Attached character gets +1 STR and gains a <s value="military">[Military]</s> ic
       <property name="Type" value="Character" />
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">
-        <b>Reaction:</b> After you marshal Newly-Made Lord, choose a non-limited location with printed cost 3 or lower, and discard it from play.
-<b>Card design by 2003 World Champion, Casey Galvan.</b></property>
+        <b>Reaction:</b> After you marshal Newly-Made Lord, choose a non-limited location with printed cost 3 or lower, and discard it from play.</property>
       <property name="Traits" value="Lord." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />

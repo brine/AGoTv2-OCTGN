@@ -22,8 +22,7 @@ X is the number of <s value="stark">[House Stark]</s> characters you control.</p
       <property name="Type" value="Location" />
       <property name="Faction" value="House Stark" />
       <property name="Text">
-        <b>Action:</b> During a <s value="military">[Military]</s> challenge, kneel Winterfell Archery Range to choose a participating character with STR 3 or lower, and remove it from the challenge.
-<b>Card Design by 2015 Melee North American Champion, Brian Aurelio.</b></property>
+        <b>Action:</b> During a <s value="military">[Military]</s> challenge, kneel Winterfell Archery Range to choose a participating character with STR 3 or lower, and remove it from the challenge.</property>
       <property name="Traits" value="Winterfell." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -117,7 +116,6 @@ X is the number of <s value="stark">[House Stark]</s> characters you control.</p
       <property name="Text">
         <b>Challenges Action:</b> Choose and kneel a character with STR 3 or lower. That character cannot stand during the standing phase this round.
 <b>Reaction:</b> After you win dominance, pay 1 gold to return Saving the Kingdom from your discard pile to your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -149,7 +147,6 @@ X is the number of <s value="stark">[House Stark]</s> characters you control.</p
       <property name="Text">
         <b>Challenges Action:</b> Choose a character with printed cost 2 or lower controlled by each player. Return each of those characters to its owner's hand.
 <b>Reaction:</b> After a character is discarded from an opponent's hand or deck, pay 1 gold to return Tywin's Stratagem from your discard pile to your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -181,7 +178,6 @@ Silence's Crew gets +2 STR for each gold it has.
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">
         <b>Action:</b> Kneel your faction card to choose an opponent. Gain 1 gold for each location and attachment in that player's discard pile.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -243,7 +239,6 @@ Attached character gets +1 STR for each character you control with printed cost 
       <property name="Faction" value="House Martell" />
       <property name="Text">
         <b>Action:</b> Kneel your faction card to draw X cards. X is the number of plot cards in your used pile.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />

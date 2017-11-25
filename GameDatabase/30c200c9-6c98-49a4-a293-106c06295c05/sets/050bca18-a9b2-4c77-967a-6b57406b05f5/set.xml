@@ -163,7 +163,6 @@ If you control Arya Stark, sacrifice Arry.
       <property name="Faction" value="House Lannister" />
       <property name="Text">
         <b>Reaction:</b> After a player initiates a challenge against you, move up to X gold from that player's gold pool to your own. X is the number of attacking characters.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />

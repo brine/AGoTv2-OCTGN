@@ -55,7 +55,6 @@ While you control a <i>King</i> character or Catelyn Stark, Brienne of Tarth doe
       <property name="Faction" value="House Tyrell" />
       <property name="Text">Play only if you control Renly Baratheon or a <i>Lady</i> character.
 <b>Challenges Action:</b> Choose an attacking character. Stand that character and remove it from the challenge.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -281,7 +280,6 @@ While attached character is participating in a challenge, it gets +2 STR and is 
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Action:</b> Choose a unique character with printed cost 3 or lower. Until the end of the phase, that character gains stealth.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />

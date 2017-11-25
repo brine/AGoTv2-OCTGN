@@ -23,7 +23,6 @@
       <property name="Faction" value="House Stark" />
       <property name="Text">
         <b>Marshaling Action:</b> Kneel your faction card to reduce the cost of each <s value="stark">[House Stark]</s> character you marshal this phase by 1.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -56,7 +55,6 @@ Ser Garlan Tyrell gets +1 STR for each gold he has.
       <property name="Text">
         <b>Challenges Action:</b> You may initiate an additional <s value="power">[Power]</s> challenge this phase. (Max 1 per phase.)
 <b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge by 5 or more STR, pay 1 gold to return Olenna's Machinations from your discard pile to your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -86,7 +84,6 @@ While Defender of the Wall is defending, it gets +2 STR.</property>
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">
         <b>Dominance Action:</b> Choose a character with the highest printed cost among characters you control. Sacrifice that character to choose a character an opponent controls and discard it from play.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -149,7 +146,6 @@ Northern Encampment cannot stand during the standing phase unless you have won d
       <property name="Faction" value="House Lannister" />
       <property name="Text">
         <b>Challenges Action:</b> Put a <s value="lannister">[House Lannister]</s> character with printed STR 2 or lower into play from your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -211,7 +207,6 @@ Northern Encampment cannot stand during the standing phase unless you have won d
       <property name="Faction" value="House Targaryen" />
       <property name="Text">
         <b>Action:</b> During a challenge in which you are the attacking player, choose a defending character with X STR or lower and remove it from the challenge. X is the number of characters in the defending player's dead pile.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -243,7 +238,6 @@ While The Red Viper is attacking, each defending character with fewer than 2 cha
       <property name="Faction" value="House Martell" />
       <property name="Text">
         <b>Reaction:</b> After you initiate a challenge, choose a character controlled by the defending player. That character must be declared as a defender for this challenge, if able. If you win this challenge by 5 or more STR, the losing opponent must choose and kill a defending character.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -273,8 +267,7 @@ While The Red Viper is attacking, each defending character with fewer than 2 cha
       <property name="Type" value="Location" />
       <property name="Faction" value="Neutral" />
       <property name="Text">
-        <b>Challenges Action:</b> Pay 1 gold and kneel Flea Bottom to put a character with printed cost 3 or lower into play from your discard pile. At the end of the phase, if that card is still in play, place it on the bottom of your deck.
-<b>Card design by 2004 World Champion, Greg Atkinson.</b></property>
+        <b>Challenges Action:</b> Pay 1 gold and kneel Flea Bottom to put a character with printed cost 3 or lower into play from your discard pile. At the end of the phase, if that card is still in play, place it on the bottom of your deck.</property>
       <property name="Traits" value="King's Landing." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -287,9 +280,7 @@ While The Red Viper is attacking, each defending character with fewer than 2 cha
       <property name="Type" value="Event" />
       <property name="Faction" value="Neutral" />
       <property name="Text">
-        <b>Action:</b> If it is not the taxation phase, kneel your faction card and return a character to your hand to gain gold equal to that character's printed cost. Until the end of the round, you cannot marshal or put into play any card with the same title as that character.
-<b>Card design by 2013 Melee World Champion, Ryan Jones.</b></property>
-      <property name="Traits" value="" />
+        <b>Action:</b> If it is not the taxation phase, kneel your faction card and return a character to your hand to gain gold equal to that character's printed cost. Until the end of the round, you cannot marshal or put into play any card with the same title as that character.</property>
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />

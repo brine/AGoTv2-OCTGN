@@ -88,7 +88,6 @@ Attached character cannot participate in challenges against you.
       <property name="Text">
         <b>Marshaling Action:</b> Choose a character with printed cost 3 or lower in an opponent's discard pile, and put it into play under your control.
 <b>Reaction:</b> After you win a challenge as the defending player, pay 1 gold to return Guarding the Realm from your discard pile to your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -215,7 +214,6 @@ While Wex Pyke is attacking, each character with printed cost X cannot be declar
       <property name="Text">
         <b>Challenges Action:</b> Choose a character without attachments. That character gets -2 STR until the end of the phase.
 <b>Reaction:</b> After you win a challenge in which you control a participating <i>Dragon</i> character or Daenerys Targaryen, pay 1 gold to return A Dragon Is No Slave from your discard pile to your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -301,8 +299,7 @@ During the third challenge you initiate each phase, Black Walder gains renown an
       <property name="Type" value="Plot" />
       <property name="Faction" value="Neutral" />
       <property name="Text">Each player may play events in his or her discard pile as if they were in his or her hand.
-<b>Forced Reaction:</b> After an event is placed in a discard pile, remove it from the game.
-<b>Card design by 2014 Overall World Champion, Alexander Hynes.</b></property>
+<b>Forced Reaction:</b> After an event is placed in a discard pile, remove it from the game.</property>
       <property name="Traits" value="Legacy." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />

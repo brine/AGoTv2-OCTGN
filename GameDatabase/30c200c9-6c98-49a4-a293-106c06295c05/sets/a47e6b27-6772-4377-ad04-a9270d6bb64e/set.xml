@@ -197,7 +197,6 @@ Hodor does not contribute his STR to your total for dominance.</property>
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">You may only use gold from the losing opponent's gold pool to pay for Loot.
 <b>Reaction:</b> After you win an unopposed challenge, discard the top X cards from the losing opponent's deck.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="3" />
@@ -288,8 +287,7 @@ Attached character loses a <s value="power">[Power]</s> icon.</property>
       <property name="Type" value="Plot" />
       <property name="Faction" value="Neutral" />
       <property name="Text">
-        <b>Forced Reaction:</b> After the challenges phase begins, return each character with printed cost 3 or lower to its owner's hand.
-<b>Card design by 2005 World Champion, John M. Bruno.</b></property>
+        <b>Forced Reaction:</b> After the challenges phase begins, return each character with printed cost 3 or lower to its owner's hand.</property>
       <property name="Traits" value="Omen. Winter." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />

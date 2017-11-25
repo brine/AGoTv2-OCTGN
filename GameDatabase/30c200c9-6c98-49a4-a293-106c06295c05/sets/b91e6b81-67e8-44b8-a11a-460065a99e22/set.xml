@@ -365,7 +365,6 @@ While attached character has:
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">
         <b>Reaction:</b> After a character with printed cost 5 or lower is placed in an opponent's discard pile, put that character into play under your control.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -378,7 +377,6 @@ While attached character has:
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">
         <b>Reaction:</b> After a challenge is initiated against you, kneel 3 <i>Builder</i> characters, 3 <i>Ranger</i> characters, or 3 <i>Steward</i> characters to end the challenge immediately with no winner or loser.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -439,7 +437,6 @@ While attached character has:
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">
         <b>Reaction:</b> After you win a challenge as the attacking player, kneel a <i>Warship</i> location to choose a non-limited location controlled by the losing opponent, and place it on top of its owner's deck.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -470,7 +467,6 @@ While attached character has:
       <property name="Faction" value="House Lannister" />
       <property name="Text">
         <b>Action:</b> Choose a <i>Knight</i> character. Until the end of the phase, that character does not kneel when declared as an attacker or defender in a <s value="military">[Military]</s> challenge.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -686,7 +682,6 @@ Dothraki Honor Guard gets -1 STR for each card in your hand.</property>
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Reaction:</b> After you win a challenge in which you control an attacking <i>Wildling</i> character, choose a non-limited location controlled by the losing opponent. Return that location to its owner's hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />

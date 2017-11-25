@@ -51,7 +51,6 @@
       <property name="Faction" value="House Tyrell" />
       <property name="Text">
         <b>Reaction:</b> After you win a challenge in which you control a <i>Knight</i> character that is attacking or defending alone, that character gains 1 power. (3 power instead if you control a <i>Lady</i> character.) (Max 1 per challenge.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -109,7 +108,6 @@
       <property name="Faction" value="House Baratheon" />
       <property name="Text">Play only during a <s value="military">[Military]</s> challenge in which you are the defending player.
 <b>Action:</b> Kneel your faction card to end this challenge with no winner or loser. Until the end of the phase, you cannot initiate <s value="military">[Military]</s> challenges.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -154,8 +152,7 @@
       <property name="Type" value="Character" />
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">
-        <b>Reaction:</b> After you win an unopposed challenge in which a unique <s value="greyjoy">[House Greyjoy]</s> character is participating, either: draw 1 card, or discard the top 3 cards from each opponent's deck. (Limit once per phase.)
-<b>Card design by 2011 European Joust Champion, Martí Foz Hernandez.</b></property>
+        <b>Reaction:</b> After you win an unopposed challenge in which a unique <s value="greyjoy">[House Greyjoy]</s> character is participating, either: draw 1 card, or discard the top 3 cards from each opponent's deck. (Limit once per phase.)</property>
       <property name="Traits" value="House Harlaw. Lord." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
@@ -233,7 +230,6 @@ Attached character gets -4 STR and is killed if its STR is 0.</property>
       <property name="Faction" value="House Martell" />
       <property name="Text">
         <b>Action:</b> Kneel your faction card to gain X gold. X is the number of plot cards in your used pile.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />

@@ -145,7 +145,6 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Faction" value="House Lannister" />
       <property name="Text">
         <b>Interrupt:</b> When claim is applied for an <s value="intrigue">[Intrigue]</s> challenge, apply <s value="military">[Military]</s> claim instead.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -205,7 +204,6 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
       <property name="Faction" value="House Targaryen" />
       <property name="Text">
         <b>Interrupt:</b> When a non-<i>Army</i> character would be killed, save it. Then, attach Blood Magic Ritual to that character as a <i>Condition</i> attachment with the text: "Terminal. Treat attached character's printed text box as if it were blank (except for <i>Traits</i>)."</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -236,7 +234,6 @@ While there are 3 or more plot cards in your used pile, Knights of the Sun gains
       <property name="Faction" value="House Martell" />
       <property name="Text">
         <b>Interrupt:</b> When claim is applied for a challenge in which you are the defending player, choose an opponent. That player must satisfy the normal claim effect instead of you as if he or she were the defending player.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />

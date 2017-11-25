@@ -60,8 +60,7 @@ Reaction:</b> After you win a <s value="military">[Military]</s> challenge in wh
       <property name="Faction" value="House Stark" />
       <property name="Text">Renown.
 While The Blackfish has 4 or more power, each <i>House Tully </i>character you control does not kneel when declared as an attacker.
-<b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge as the attacking player, draw 1 card. (Limit once per phase.)
-<b>Card design by 2009 World Champion, Erick A. Butzlaff.</b></property>
+<b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge as the attacking player, draw 1 card. (Limit once per phase.)</property>
       <property name="Traits" value="House Tully. Knight. Lord." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
@@ -354,7 +353,6 @@ Treat attached location's printed text box as if it were blank (except for <i>Tr
       <property name="Faction" value="House Stark" />
       <property name="Text">Play only if there is a <i>Winter</i> plot card in your used pile.
 <b>Reaction:</b> After a <s value="stark">[House Stark]</s> character you control is sacrificed or killed, put a <s value="stark">[House Stark]</s> character with equal or lower printed cost into play from your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -367,7 +365,6 @@ Treat attached location's printed text box as if it were blank (except for <i>Tr
       <property name="Faction" value="House Stark" />
       <property name="Text">
         <b>Interrupt:</b> When the effects of an opponent's event would initiate, sacrifice a <i>Direwolf</i> card or kneel 2 <s value="stark">[House Stark]</s> characters to cancel those effects.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="0" />
@@ -380,7 +377,6 @@ Treat attached location's printed text box as if it were blank (except for <i>Tr
       <property name="Faction" value="House Stark" />
       <property name="Text">
         <b>Action:</b> Move an attachment from a <s value="stark">[House Stark]</s> character you control to another eligible character you control.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -407,7 +403,6 @@ Attached character gains the <i>Fool</i> trait.
       <property name="Faction" value="House Baratheon" />
       <property name="Text">
         <b>Action:</b> Choose a standing character controlled by each player. Kneel each of those characters.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="2" />
@@ -437,7 +432,6 @@ Attached character gains the <i>Fool</i> trait.
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">
         <b>Interrupt:</b> When you compare initiative, your revealed plot card gets +3 initiative until the end of the phase. If you win initiative this phase, draw 1 card.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -499,7 +493,6 @@ Attached character gains the <i>Fool</i> trait.
       <property name="Faction" value="House Martell" />
       <property name="Text">
         <b>Reaction:</b> After you lose a <s value="military">[Military]</s> or <s value="power">[Power]</s> challenge as the defending player, look at the winning opponent's hand. Then, choose and discard 1 card from that hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -560,7 +553,6 @@ Attached character gains the <i>Fool</i> trait.
       <property name="Faction" value="House Targaryen" />
       <property name="Text">
         <b>Action:</b> Each participating non-<i>Dragon</i> character gets -1 STR until the end of the challenge.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -591,7 +583,6 @@ Attached character gains the <i>Fool</i> trait.
       <property name="Faction" value="House Tyrell" />
       <property name="Text">
         <b>Marshaling Action:</b> Choose a <s value="tyrell">[House Tyrell]</s> character you control. Gain X gold, where X is that character's STR. Then, sacrifice that character.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -695,7 +686,6 @@ While there is a <i>Winter</i> plot card revealed, reduce the cost to ambush eac
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Action:</b> Kneel a neutral character to gain 2 gold.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -707,8 +697,7 @@ While there is a <i>Winter</i> plot card revealed, reduce the cost to ambush eac
       <property name="Type" value="Plot" />
       <property name="Faction" value="House Stark" />
       <property name="Text">
-        <b>When Revealed:</b> Search your deck for a <i>Direwolf</i> card, reveal it, and add it to your hand. If that card's printed cost is 3 or lower, you may put it into play instead. Shuffle your deck.
-<b>Card design by 2012 North American Champion, Dan Seefeldt.</b></property>
+        <b>When Revealed:</b> Search your deck for a <i>Direwolf</i> card, reveal it, and add it to your hand. If that card's printed cost is 3 or lower, you may put it into play instead. Shuffle your deck.</property>
       <property name="Traits" value="Winter." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />

@@ -388,7 +388,7 @@
       <property name="Initiative" value="4" />
       <property name="Claim" value="2" />
       <property name="Reserve" value="5" />
-      <property name="Illustrator" value="Jason Caffoe" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
       <property name="Card Number" value="25" />
     </card>
     <card name="Wildfire Assault" id="d10a1ced-df94-419b-af8e-4eadc2eb4688" size="HorizontalCards">
@@ -412,7 +412,6 @@
       <property name="Faction" value="Neutral" />
       <property name="Text">You cannot include more than 15 neutral cards in your deck.
 <b>Action:</b> Kneel your faction card to reduce the cost of the next loyal card you marshal or play this phase by 1.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="1" />
@@ -612,7 +611,6 @@ Treat attached character's printed text box as if it were blank (except for <i>T
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge by 5 or more STR as the attacking player, choose and kill a character controlled by the losing opponent. (Max 1 per challenge.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="2" />
@@ -625,7 +623,6 @@ Treat attached character's printed text box as if it were blank (except for <i>T
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge by 5 or more STR as the attacking player, choose a location controlled by the losing opponent, and discard it from play. (Max 1 per challenge.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -638,7 +635,6 @@ Treat attached character's printed text box as if it were blank (except for <i>T
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Reaction:</b> After you win a <s value="power">[Power]</s> challenge by 5 or more STR, gain 2 power for your faction. (Max 1 per challenge.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -664,7 +660,6 @@ Treat attached character's printed text box as if it were blank (except for <i>T
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Interrupt:</b> When the effects of an opponent's event would initiate, cancel those effects. X is that event's printed cost.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="3" />
@@ -939,7 +934,6 @@ If attached character is Stannis Baratheon, he gains renown.
       <property name="Faction" value="House Baratheon" />
       <property name="Text">
         <b>Marshaling Action:</b> Choose and kneel up to 4 total STR worth of characters controlled by the same player. Then, choose one of those characters, and have it gain 1 power.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -952,7 +946,6 @@ If attached character is Stannis Baratheon, he gains renown.
       <property name="Faction" value="House Baratheon" />
       <property name="Text">Play only during a challenge in which you are the defending player.
 <b>Action:</b> Choose a kneeling <s value="baratheon">[House Baratheon]</s> character you control. That character is now participating as a defender. If you win this challenge, stand that character.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -1239,7 +1232,6 @@ Drowned Men gets +1 STR for each <i>Warship</i> location you control.</property>
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">
         <b>Interrupt:</b> When a <s value="greyjoy">[House Greyjoy]</s> character would be killed, save it. Then, attach Risen from the Sea to that character as a <i>Condition</i> attachment with the text: "Terminal. Attached character gets +1 STR."</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -1252,7 +1244,6 @@ Drowned Men gets +1 STR for each <i>Warship</i> location you control.</property>
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">Play only if you are the first player.
 <b>Challenges Action:</b> Choose a defending character with STR 5 or lower. That character does not contribute is STR to this challenge.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="0" />
@@ -1265,7 +1256,6 @@ Drowned Men gets +1 STR for each <i>Warship</i> location you control.</property>
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">
         <b>Reaction:</b> After you win an unopposed challenge, choose an attachment or location controlled by the losing opponent, and discard it from play. (Max 1 per challenge.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -1539,7 +1529,6 @@ If attached character is Joffrey Baratheon, he gains a <s value="military">[Mili
       <property name="Faction" value="House Lannister" />
       <property name="Text">
         <b>Action:</b> Put a <s value="lannister">[House Lannister]</s> character into play from your hand. At the end of the phase, if that card is still in play, discard it from play (cannot be saved).</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -1552,7 +1541,6 @@ If attached character is Joffrey Baratheon, he gains a <s value="military">[Mili
       <property name="Faction" value="House Lannister" />
       <property name="Text">Play only if you control a <s value="lannister">[House Lannister]</s><i>Lord</i> or <i>Lady</i> character.
 <b>Challenges Action:</b> Kneel your faction card to choose a character with printed cost X or lower controlled by an opponent, and return it to its owner's hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="3" />
@@ -1564,7 +1552,6 @@ If attached character is Joffrey Baratheon, he gains a <s value="military">[Mili
       <property name="Faction" value="House Lannister" />
       <property name="Text">Play only if you control a unique <s value="lannister">[House Lannister]</s> character.
 <b>Interrupt:</b> When the effects of a triggered character, location, or attachment ability would initiate, cancel those effects.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -1834,7 +1821,6 @@ While attached character has the <i>House Dayne</i> trait, it gains intimidate.<
       <property name="Faction" value="House Martell" />
       <property name="Text">
         <b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge by 5 or more STR, gain X power for your faction. X is the number of plot cards in your used pile. (Max 1 per challenge.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -1847,7 +1833,6 @@ While attached character has the <i>House Dayne</i> trait, it gains intimidate.<
       <property name="Faction" value="House Martell" />
       <property name="Text">Play only if you are not the first player.
 <b>Reaction:</b> After you lose a challenge as the defending player, name a challenge type. Until the end of the phase, the winner of the challenge cannot initiate challenges of that type. (Max 1 per challenge.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -1860,7 +1845,6 @@ While attached character has the <i>House Dayne</i> trait, it gains intimidate.<
       <property name="Faction" value="House Martell" />
       <property name="Text">
         <b>Action:</b> Choose a character with STR 4 or lower. Until the end of the phase, that character loses a <s value="military">[Military]</s>, an <s value="intrigue">[Intrigue]</s>, and a <s value="power">[Power]</s> icon.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -2135,7 +2119,6 @@ Attached character gets +1 STR and gains renown.</property>
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">
         <b>Reaction:</b> After an opponent collects income, move 1 gold from that player's gold pool to your own. (Max 1 per round.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="0" />
@@ -2148,7 +2131,6 @@ Attached character gets +1 STR and gains renown.</property>
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">
         <b>Dominance Action:</b> Choose a non-unique character with printed cost 6 or lower. Take control of that character. (Max 1 per round.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="3" />
@@ -2161,7 +2143,6 @@ Attached character gets +1 STR and gains renown.</property>
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">Play only during a challenge in which you control a participating <s value="nightswatch">[The Night's Watch]</s> character.
 <b>Reaction:</b> After you win a challenge by 5 or more STR as the defending player, the losing opponent cannot initiate challenges against you this round.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -2435,7 +2416,6 @@ Attached character gets +2 STR.
       <property name="Faction" value="House Stark" />
       <property name="Text">Play only during a <s value="military">[Military]</s> challenge.
 <b>Action:</b> Choose a participating <s value="stark">[House Stark]</s> character. Until the end of the challenge, that character gets +2 STR. If you win the challenge, draw 1 card.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -2448,7 +2428,6 @@ Attached character gets +2 STR.
       <property name="Faction" value="House Stark" />
       <property name="Text">
         <b>Reaction:</b> After you lose an <s value="intrigue">[Intrigue]</s> challenge as the defending player, kneel a <i>Direwolf</i> character to choose and kill an attacking character. (Max 1 per challenge.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -2461,7 +2440,6 @@ Attached character gets +2 STR.
       <property name="Faction" value="House Stark" />
       <property name="Text">Play only during a challenge.
 <b>Action:</b> Until the end of the challenge, raise the claim value on your revealed plot card by 1. (Max 1 per challenge.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -2740,7 +2718,6 @@ If attached character is Khal Drogo, he does not kneel when declared as an attac
       <property name="Faction" value="House Targaryen" />
       <property name="Text">
         <b>Action:</b> Kneel a <i>Dragon</i> character or Daenerys Targaryen to choose a participating character. Until the end of the phase, that character gets -4 STR and is killed if its STR is 0.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -2753,7 +2730,6 @@ If attached character is Khal Drogo, he does not kneel when declared as an attac
       <property name="Faction" value="House Targaryen" />
       <property name="Text">
         <b>Challenges Action:</b> Choose a unique <s value="targaryen">[House Targaryen]</s> character in your dead pile, and shuffle it back into your deck. If that character is a <i>Hatchling</i>, you may put it into play instead.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -2766,7 +2742,6 @@ If attached character is Khal Drogo, he does not kneel when declared as an attac
       <property name="Faction" value="House Targaryen" />
       <property name="Text">
         <b>Action:</b> Choose and stand a unique <s value="targaryen">[House Targaryen]</s> character you control. At the end of the phase, if that character is still in play, return it to your hand.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -3041,7 +3016,6 @@ Wardens of the Reach gets +1 STR for each <i>The Reach</i> location you control.
       <property name="Faction" value="House Tyrell" />
       <property name="Text">
         <b>Challenges Action:</b> Choose up to three <s value="tyrell">[House Tyrell]</s> characters. Until the end of the phase, each of the chosen characters gets +2 STR.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
@@ -3054,7 +3028,6 @@ Wardens of the Reach gets +1 STR for each <i>The Reach</i> location you control.
       <property name="Faction" value="House Tyrell" />
       <property name="Text">
         <b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> or <s value="power">[Power]</s> challenge, the losing opponent names a cardtype (character, location, attachment, or event). Search your deck for a card with a different cardtype, reveal it, and add it to your hand. Shuffle your deck.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
@@ -3179,7 +3152,6 @@ Supports: Hand of the King
 Rivals: Master of Laws, Master of Coin
 You may resolve your <s value="intrigue">[Intrigue]</s> claim against any number of opponents of your choice.
 +1 STR <s value="intrigue">[Intrigue]</s></property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="1" />
@@ -3194,7 +3166,6 @@ Supports: Master of Whispers
 Rivals: Master of Laws, Hand of the King
 Raise the claim value on your revealed plot card by 1 during <s value="military">[Military]</s> challenges in which you are attacking a rival.
 +1 STR <s value="military">[Military]</s></property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="1" />
@@ -3209,7 +3180,6 @@ Supports: Master of Laws.
 Rivals: Master of Coin, Master of Ships.
 You may initiate an additional <s value="power">[Power]</s> challenge during the challenges phase, against a different opponent.
 +1 STR <s value="power">[Power]</s></property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="1" />
@@ -3223,7 +3193,6 @@ You may initiate an additional <s value="power">[Power]</s> challenge during the
 Supports: Master of Ships
 Rivals: Hand of the King, Master of Whispers
 +2 Income.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="1" />
@@ -3238,7 +3207,6 @@ Supports: Master of Coin
 Rivals: Master of Whispers, Master of Ships
 Increase the number of cards you draw in the draw phase by 1.
 +1 Reserve.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="1" />
@@ -3253,7 +3221,6 @@ Supports: None
 Rivals: None
 You may redirect 1 challenge this round.
 +2 STR for Dominance</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Deck Limit" value="1" />

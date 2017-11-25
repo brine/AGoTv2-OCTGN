@@ -66,8 +66,7 @@
       <property name="Type" value="Character" />
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">Renown. No attachments except <i>Weapon</i>.
-<b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge in which Qhorin Halfhand is participating, choose and kill a non-unique character with lower STR than his controlled by the losing opponent.
-<b>Card design by 2009 Melee World Champion, Jonathan Benton.</b></property>
+<b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge in which Qhorin Halfhand is participating, choose and kill a non-unique character with lower STR than his controlled by the losing opponent.</property>
       <property name="Traits" value="Ranger." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -147,7 +146,6 @@
       <property name="Faction" value="House Lannister" />
       <property name="Text">
         <b>Reaction:</b> After you win a challenge in which you control a participating unique <s value="lannister">[House Lannister]</s> character, choose a revealed <i>War</i> plot card. Initiate the when revealed ability on that plot card as if you had just revealed it. (Max 1 per phase.)</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
       <property name="Cost" value="1" />
@@ -271,7 +269,6 @@ Esgred may bypass an additional character using stealth.</property>
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Reaction:</b> After you win a challenge by 5 or more STR as the attacking player, kneel your faction card. Then, you may initiate an additional challenge of that type this phase.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="0" />
@@ -284,7 +281,6 @@ Esgred may bypass an additional character using stealth.</property>
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Reaction:</b> After you win a <s value="power">[Power]</s> challenge, discard 1 card at random from the losing opponent's hand. If that card is a character, place it in its owner's dead pile.</property>
-      <property name="Traits" value="" />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
