@@ -30,5 +30,9 @@ changelog = {
         ]),
     3000300: ("3.0.3.0", "28 October 2017", [
         "Added House of Thorns deluxe expansion"
+        ]),
+    3000400: ("3.0.4.0", "26 November 2017", [
+        "Added Archmaester's Key expansion",
+        "Updated older set data"
         ])
 }
