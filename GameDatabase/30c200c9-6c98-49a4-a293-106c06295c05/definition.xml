@@ -3,7 +3,7 @@
         name="A Game of Thrones - The Card Game Second Edition"
         id="30c200c9-6c98-49a4-a293-106c06295c05"
         octgnVersion="3.1.0.0"
-        version="3.0.4.0"
+        version="3.0.4.1"
         scriptVersion="3.1.0.2"
         markersize="16"
         tags="OCTGN aGoT LCG Game of Thrones"

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Kingsmoot" id="f465a230-e432-48cc-8efd-0fc3e6bfc1ec" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Sparring in Secret" id="65777116-fd79-4c7c-af9b-c1c3fdeb14d1">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Action:</b> Kneel a <i>Knight</i> character to choose and stand another <i>Knight</i> character.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="50" />
+    </card>
+    <card name="Asha Greyjoy" id="7deaa102-5c69-4a7b-9f40-b62e0a5b16d3">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Pillage. Stealth.
+<b>Reaction:</b> After Asha Greyjoy discards a card using pillage, search the top X cards of your deck for a card and add it to your hand. Shuffle your deck. X is the number of cards in the losing opponent's discard pile.</property>
+      <property name="Traits" value="Captain. Ironborn. Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="7" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Magali Villeneuve" />
+      <property name="Card Number" value="51" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Kingsmoot" id="c719492d-fba0-4db5-b277-3d784ae7b3fa">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">
+        <b>Reaction:</b> After you win dominance, choose a unique <s value="greyjoy">[House Greyjoy]</s> character you control. That character gains 1 power for each unique <s value="greyjoy">[House Greyjoy]</s> character you control. (Max 1 per round.)</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jeff Lee Johnson" />
+      <property name="Card Number" value="52" />
+    </card>
+    <card name="The Withering Cold" id="8311f94d-092b-4a9b-8468-a59cbedc7bc2" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Skip the standing phase this round.</property>
+      <property name="Traits" value="Winter." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Income" value="5" />
+      <property name="Initiative" value="6" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Jacob Murray" />
+      <property name="Card Number" value="60" />
+    </card>
+  </cards>
+</set>

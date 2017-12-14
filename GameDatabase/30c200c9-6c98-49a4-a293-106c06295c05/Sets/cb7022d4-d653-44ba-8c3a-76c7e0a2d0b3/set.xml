@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Favor of the Old Gods" id="cb7022d4-d653-44ba-8c3a-76c7e0a2d0b3" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Selyse Baratheon" id="8b428726-8d6f-4003-85e1-385ecf6ec258">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Forced Reaction:</b> After you marshal Selyse Baratheon, kneel your faction card. Then, kneel each non-<i>Lady</i> character.</property>
+      <property name="Traits" value="Lady. Queen. R'hllor." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Owen William Weber" />
+      <property name="Card Number" value="67" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Dragonstone Castle" id="b21499f5-abae-4832-98c4-25cd3beb59ad">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Reaction:</b> After a phase begins, kneel Dragonstone Castle to choose a character. Until the end of the phase, that character cannot stand.</property>
+      <property name="Traits" value="Dragonstone. Stronghold." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ted Nasmith" />
+      <property name="Card Number" value="68" />
+    </card>
+    <card name="Greensight" id="f6dd5eb2-83c4-411f-8ecf-bcae2026f519">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Forced Reaction:</b> After the draw phase begins, reveal the top card of each player's deck. You may kneel your faction card to discard those cards.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="Tim Durning" />
+      <property name="Card Number" value="79" />
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Journey to Oldtown" id="594e41c9-0596-437a-9a76-c3fb96ff6f0f" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Brightwater Knight" id="f27fd7d2-3e86-418d-a8b7-96586f91bcb5">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Bestow (3).
+<b>Marshaling Action:</b> Discard 1 gold from Brightwater Knight to reduce the cost of the next (?) character you marshal this phase by 2. (Limit once per phase.)</property>
+      <property name="Traits" value="House Florent. Knight." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Card Number" value="23" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="Oldtown" id="61956b42-ad14-4c71-89e3-01f2ac7d1814">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">
+        <b>Action:</b> Kneel Oldtown to name a cardtype (character, location, attachment, or event). Then, reveal the top card of your deck. If the revealed card has that cardtype, draw it and gain 1 power for your faction.</property>
+      <property name="Traits" value="Oldtown. The Reach." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Logan Feliciano" />
+      <property name="Card Number" value="24" />
+    </card>
+    <card name="Dareon" id="9f568ac8-bb09-49cc-8bbb-152356054759">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Reaction:</b> After you play a <i>Song</i> event, choose an opponent. Move 1 gold from that player's gold pool to your own. (Limit once per phase.)</property>
+      <property name="Traits" value="Minstrel. Steward." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jan-Wah Li" />
+      <property name="Card Number" value="25" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Tris Botley" id="bb58e287-5a3f-4105-b082-f5822e745d02">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Pillage.
+<b>Action:</b> Choose a card in an opponent's discard pile and remove it from the game. Until Tris Botley leaves play, that player cannot marshal or play any copy of that card. (Limit once per round.)</property>
+      <property name="Traits" value="House Botley. Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tiziano Baracchi" />
+      <property name="Card Number" value="31" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Arianne Martell" id="7b6a4118-af1c-4e3a-af68-96d6e131e8ab">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Insight.
+<b>Challenges Action:</b> Return Arianne Martell to your hand to choose a character with a lower STR than hers, and return it to its owner's hand.</property>
+      <property name="Traits" value="Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="7" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sara Winters" />
+      <property name="Card Number" value="35" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Change of Plans" id="41f9151e-d508-4eac-9caf-34cbcc352fbe">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Reaction:</b> After you lose a challenge, if there are fewer than 5 plot cards in your used pile, move a card from your plot deck to the bottom of your used pile.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Preston Stone" />
+      <property name="Card Number" value="36" />
+    </card>
+    <card name="Thoros of Myr" id="72b7b4b0-1eb4-4ee9-a2f1-d0e801107c09">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Renown.
+<b>Interrupt:</b> When another non-loyal character you control would be killed, kneel Thoros of Myr and discard 1 power from him to save that character.</property>
+      <property name="Traits" value="Brotherhood. R'hllor." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Stephen Somers" />
+      <property name="Card Number" value="37" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Gates of the Moon" id="5ea57a41-86d7-4f82-81c8-65bde54dd06d">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Limited.
+Increase the gold value on each opponent's revealed plot card by 1.
++2 Income.</property>
+      <property name="Traits" value="Contested. House Arryn." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Frédéric Le Martelot" />
+      <property name="Card Number" value="38" />
+    </card>
+    <card name="The House With the Red Door" id="8679b657-93d0-449d-99c6-2a44db3592a6">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">After all agendas are announced, search your deck for a non-limited unique location with printed cost 3 or lower and put it into play. That location cannot be discarded from play by card effects.
+You cannot spend more than 4 gold during setup.</property>
+      <property name="Traits" value="Dream." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="Kristina Carroll" />
+      <property name="Card Number" value="39" />
+    </card>
+  </cards>
+</set>

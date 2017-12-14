@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Sands of Dorne" id="772355bb-0d7a-4691-a1fc-68d9b4da5d43" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Doran Martell" id="6d40bac5-7ba7-4281-8368-a415089ad3bc">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Action:</b> Kneel your faction card to choose a participating character with fewer than 2 challenge icons and remove it from the challenge.
+<b>Reaction:</b> After you lose a challenge, choose a character. Until the end of the phase, that character gains or loses a challenge icon of your choice.</property>
+      <property name="Traits" value="Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="7" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Borja Pindado" />
+      <property name="Card Number" value="1" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Tyene Sand" id="7a9b5a25-a41b-421a-a0ed-4870188419ee">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Stealth.
+<b>Reaction:</b> After you lose a challenge as the defending player, kneel a <i>Sand Snake</i> character to put Tyene Sand into play from your hand.</property>
+      <property name="Traits" value="Bastard. Sand Snake." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Card Number" value="8" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Ser Cletus Yronwood" id="09d3e129-0b87-4fd4-b727-936018c85153">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">No attachments except <i>Weapon</i>.
+Increase the initiative value on your revealed plot card by 1 for each plot card in your used pile.</property>
+      <property name="Traits" value="House Yronwood. Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Alexandre Dainche" />
+      <property name="Card Number" value="12" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Dorne" id="e7de8f31-36d3-4040-8903-f4eee1a20468">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Reaction:</b> After you lose a challenge, look at the top 2 cards of your deck. Add 1 to your hand, and place the other on the bottom of your deck.
++1 Reserve.</property>
+      <property name="Traits" value="Dorne." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Cristi Balanescu" />
+      <property name="Card Number" value="17" />
+    </card>
+    <card name="Patience" id="355f7857-157d-4f9b-915e-adbb66f3f9ac">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Character you control only.
+<b>Challenges Action:</b> Return attached character to its owner's hand.</property>
+      <property name="Traits" value="Skill." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Igor Kieryluk" />
+      <property name="Card Number" value="20" />
+    </card>
+    <card name="Val" id="c37dcc58-1e5e-4e67-820a-923e5a373e60">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Reaction:</b> After Val is declared as an attacker, put a <i>Wildling</i> character with printed cost 4 or lower into play from your hand knelt, participating as an attacker.</property>
+      <property name="Traits" value="Wildling." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Drazenka Kimpel" />
+      <property name="Card Number" value="39" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="The Wars To Come" id="872c4930-782c-4769-8780-c3d9f62ed4ca">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Your plot deck must be exactly 10 cards. You may include a second copy of up to 2 different cards in your plot deck.</property>
+      <property name="Traits" value="Omen." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="Tim Durning" />
+      <property name="Card Number" value="45" />
+    </card>
+    <card name="At Prince Doran's Behest" id="423b506c-2d4f-45e3-96c9-9f43104e971e" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>When Revealed:</b> Choose and reveal a new plot card. (Cannot be canceled.)</property>
+      <property name="Traits" value="Edict." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Deck Limit" value="1" />
+      <property name="Income" value="0" />
+      <property name="Initiative" value="0" />
+      <property name="Claim" value="0" />
+      <property name="Reserve" value="0" />
+      <property name="Illustrator" value="Raymond Bonilla" />
+      <property name="Card Number" value="46" />
+    </card>
+    <card name="Beyond Reproach" id="ba9f1621-a451-4e1c-8906-5d4db2d3169f" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Each player sacrifices each attachment that is attached to a character he or she does not control.</property>
+      <property name="Traits" value="The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="5" />
+      <property name="Initiative" value="1" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="4" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="49" />
+    </card>
+  </cards>
+</set>

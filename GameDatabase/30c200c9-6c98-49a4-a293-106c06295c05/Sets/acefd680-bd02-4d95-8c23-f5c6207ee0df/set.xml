@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Valyrian Draft Set" id="acefd680-bd02-4d95-8c23-f5c6207ee0df" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="The Power of Wealth" id="c27dbadb-8990-4b51-9669-6a588bffe317">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">When you announce The Power of Wealth as your agenda, name 1 faction. You may include cards from that faction in your draw deck and plot deck.
+Reduce the cost of the first in-faction card you marshal or play each round by 1.
+<b>Draft format only.</b></property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="David Griffith" />
+      <property name="Card Number" value="1" />
+    </card>
+    <card name="Protectors of the Realm" id="72f4c23a-c7fd-4d9c-ab8c-7bba4bd4d960">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">You may include <i>Knight</i> and <i>Army</i> characters from any faction in your deck.
+<b>Action:</b> Kneel your faction card to choose a <i>Knight</i> or <i>Army</i> character. Until the end of the phase, that character gains renown.
+<b>Draft format only.</b></property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="David Griffith" />
+      <property name="Card Number" value="2" />
+    </card>
+    <card name="Treaty" id="4e3b6dc7-e64c-4b9a-93dc-d566f6bce63c">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">When you announce Treaty as your agenda, name 2 factions. You may include cards from those factions in your draw deck and plot deck.
+<b>Action:</b> Kneel your faction card to draw 1 card. Then, choose and discard 1 card from your hand.
+<b>Draft format only.</b></property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="David Griffith" />
+      <property name="Card Number" value="3" />
+    </card>
+    <card name="Uniting the Seven Kingdoms" id="c18205d2-7306-4423-b0cb-e02a3db5b217">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">You may include cards from any faction in your draw deck.
+Increase the cost of each out-of-faction card you marshal or play by 1.
+<b>Draft format only.</b></property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="David Griffith" />
+      <property name="Card Number" value="4" />
+    </card>
+    <card name="House Bannerman" id="0f73bff5-0ed3-46a3-8d1c-d6307d353d2e">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Marshaling Action:</b> Kneel House Bannerman to reduce the cost of the next in-faction character you marshal this phase by 1.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="Ally." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Card Number" value="5" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Feast or Famine" id="89134355-fcb8-4979-9dd4-f3f0f66754b1" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> You may increase the gold value on Feast or Famine by 5. If you do, reduce the claim value on Feast of Famine by 2.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="Summer. Winter." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="2" />
+      <property name="Initiative" value="5" />
+      <property name="Claim" value="2" />
+      <property name="Reserve" value="5" />
+      <property name="Card Number" value="6" />
+    </card>
+    <card name="Summoned by the Conclave" id="369c3e3d-fb35-46a3-8aca-8c00b34ceeee" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Search the top 10 cards of your deck for an in-faction card, reveal it, and add it to your hand. Shuffle your deck.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="Kingdom." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="1" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="7" />
+      <property name="Card Number" value="7" />
+    </card>
+    <card name="The Pale Mare" id="6f43f7fa-bf71-4817-8746-39c046b9d66b" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Each player chooses any number of characters he or she controls with total printed cost 10 or lower. Kill each character not chosen (cannot be saved).
+<b>Draft format only.</b></property>
+      <property name="Traits" value="Omen." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="8" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Card Number" value="8" />
+    </card>
+    <card name="Compelled by the King" id="51e5c688-739b-48bc-bd56-daa33c00435c">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Reaction:</b> After the dominance phase begins, choose and stand a character you control. If you win dominance this phase, that character gains 1 power.
+<b>Draft format only.</b></property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="John Matson" />
+      <property name="Card Number" value="9" />
+    </card>
+    <card name="Support of Saltcliffe" id="232c64f1-d311-4d6f-95fb-f2fc75d8c179">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">
+        <s value="greyjoy">[House Greyjoy]</s> character only.
+Attached character gains stealth.
+<b>Reaction:</b> After you win an unopposed challenge in which attached character is attacking, stand attached character.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="Condition." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Eric Braddock" />
+      <property name="Card Number" value="10" />
+    </card>
+    <card name="Tyrion Lannister" id="86cc2dd3-7688-4ffb-af08-0991e4e8a38f">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Stealth.
+<b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge or a challenge in which Tyrion Lannister is participating, pay 1 gold to draw 1 card.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="Lord." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Giacobino" />
+      <property name="Card Number" value="11" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="The Viper's Rage" id="454a0dc8-233c-45ae-b01b-43c1fe2b4a02">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Reaction:</b> After you lose a challenge by 5 or more STR as the defending player, each character controlled by the attacking player loses a <s value="military">[Military]</s>, an <s value="intrigue">[Intrigue]</s>, and a <s value="power">[Power]</s> icon until the end of the phase.
+<b>Draft format only.</b></property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="12" />
+    </card>
+    <card name="The Nightfort" id="88157f06-7cd7-46fa-b38a-7d0eccd05cbc">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Challenges Action:</b> Kneel The Nightfort to choose a defending <s value="nightswatch">[The Night's Watch]</s> character. Until the end of the challenge, that character gets +1 STR for each attacking character.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="The North." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Yoann Boissonnet" />
+      <property name="Card Number" value="13" />
+    </card>
+    <card name="Raventree Elite" id="0e5a0d60-82ea-4072-a11a-f76a682f8b35">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">No attachments. Stealth.
+Each <i>House Tully</i> you control gains "immune to opponents' triggered effects" while it is participating in a challenge.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="Army. House Tully." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="14" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Deadly Khalasar" id="745e2284-7d67-4ca6-897d-d3c115b7acd8">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Challenges Action:</b> Choose an attacking <s value="targaryen">[House Targaryen]</s> character you control. Until the end of the challenge, that character gets +1 STR for each <i>Dothraki</i> character you control and gains intimidate.
+<b>Draft format only.</b></property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Card Number" value="15" />
+    </card>
+    <card name="Blackcrown Knights" id="99a7cda1-a3ff-4203-b887-f5c62bb49698">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">No attachments.
+<b>Reaction:</b> After you win a <s value="power">[Power]</s> challenge in which Blackcrown Knights is participating, discard 1 card from your hand to have Blackcrown Knights gain 2 power.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="Army. Knight." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andrius Anezin" />
+      <property name="Card Number" value="16" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Lyn Corbray" id="0c1bdc77-18b0-479e-be13-3c38e6ba98e5">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Stealth.
+Each non-<i>Army</i> character you control with printed cost 6 or higher gets +2 STR.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="House Arryn. Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Alexandre Dainche" />
+      <property name="Card Number" value="17" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Hollow Hill" id="44f99a37-a708-4477-b2bb-3d3512d52a01">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Reaction:</b> After you marshal a character with a faction affiliation that does not match any other card you control, draw 1 card.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="Westeros." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Card Number" value="18" />
+    </card>
+    <card name="Muster" id="28c2a0cd-798a-489d-baa2-b465d94b72ae">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Marshaling Action:</b> Kneel a <i>Knight</i> character to search your deck for a <i>Knight</i> character, reveal it, and add it to your hand. Shuffle your deck.
+<b>Draft format only.</b></property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Card Number" value="19" />
+    </card>
+    <card name="Holding the Trident" id="64eca240-6449-4401-984b-4b2a8df4ad65" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">While you control fewer characters than each opponent, each character you control gets +2 STR.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="War." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="6" />
+      <property name="Initiative" value="4" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Card Number" value="20" />
+    </card>
+    <card name="Common Cause" id="938932c5-895e-4df2-bcf3-545909d99a74" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">X is the number of different faction affiliations among characters you control.
+<b>Draft format only.</b></property>
+      <property name="Traits" value="Edict." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="3" />
+      <property name="Initiative" value="1" />
+      <property name="Reserve" value="5" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Card Number" value="21" />
+    </card>
+  </cards>
+</set>
