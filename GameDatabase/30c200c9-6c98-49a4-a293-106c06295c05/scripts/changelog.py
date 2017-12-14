@@ -34,5 +34,10 @@ changelog = {
     3000400: ("3.0.4.0", "26 November 2017", [
         "Added Archmaester's Key expansion",
         "Updated older set data"
+        ]),
+    3000500: ("3.0.5.0", "13 December 2017", [
+        "Fixed Image Downloader Plugin",
+        "NOTE: Use LCG Image Fetcher plugin, not Game of Thrones Image Fetcher (obsoleted)",
+        "Added spoiled cards from future releases"
         ])
 }
