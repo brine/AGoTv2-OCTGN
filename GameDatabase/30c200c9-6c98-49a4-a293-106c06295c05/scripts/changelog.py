@@ -39,5 +39,8 @@ changelog = {
         "Fixed Image Downloader Plugin",
         "NOTE: Use LCG Image Fetcher plugin, not Game of Thrones Image Fetcher (obsoleted)",
         "Added spoiled cards from future releases"
+        ]),
+    3000600: ("3.0.6.0", "25 December 2017", [
+        "Added Journey to Oldtown"
         ])
 }

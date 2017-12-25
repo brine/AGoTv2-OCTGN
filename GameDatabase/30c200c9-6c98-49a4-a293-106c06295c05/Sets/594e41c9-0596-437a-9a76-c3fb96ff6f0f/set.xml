@@ -1,16 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set name="Journey to Oldtown" id="594e41c9-0596-437a-9a76-c3fb96ff6f0f" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
   <cards>
+    <card name="Maege Mormont" id="37b9cb46-5cd5-498e-a851-6a635bad5bf6">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Renown.
+<b>Reaction:</b> After you win a challenge in which you control a participating <i>House Mormont</i> character, reveal the top card of your deck. If it is a <s value="stark">[House Stark]</s> card, draw it.</property>
+      <property name="Traits" value="House Mormont. Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Arden Beckwith" />
+      <property name="Card Number" value="21" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="The House of Black and White" id="90cb395d-1ecf-4bef-911f-13d2081c77cc">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Bestow (10).
+<b>Dominance Action:</b> Kneel The House of Black and White and discard X gold from it to choose and kill a character with printed STR X or lower (X cannot be 0). You may move any number of gold from your gold pool to The House of Black and White.</property>
+      <property name="Traits" value="Braavos." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Frej Agelii" />
+      <property name="Card Number" value="22" />
+    </card>
     <card name="Brightwater Knight" id="f27fd7d2-3e86-418d-a8b7-96586f91bcb5">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Tyrell" />
       <property name="Text">Bestow (3).
-<b>Marshaling Action:</b> Discard 1 gold from Brightwater Knight to reduce the cost of the next (?) character you marshal this phase by 2. (Limit once per phase.)</property>
+<b>Marshaling Action:</b> Discard 1 gold from Brightwater Knight to reduce the cost of the next <i>Knight</i> character you marshal this phase by 2. (Limit once per phase.)</property>
       <property name="Traits" value="House Florent. Knight." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Adam Lane" />
       <property name="Card Number" value="23" />
       <property name="Icons">
         <s value="military">[Military]</s>
@@ -46,6 +78,80 @@
         <s value="intrigue">[Intrigue]</s>
       </property>
     </card>
+    <card name="Journey to Oldtown" id="5a5745c1-8caf-4b99-814e-c4cfe90b18c1">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Reaction:</b> After the plot phase begins, choose a character you control. Remove it from the game until the beginning of the next plot phase.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Igor Artyomenko" />
+      <property name="Card Number" value="26" />
+    </card>
+    <card name="Devan Seaworth" id="d563dccf-9132-43de-8f80-0f4090ded0aa">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Bestow (3).
+<b>Reaction:</b> After you win dominance, discard X gold from Devan Seaworth to search your deck for a non-limited location with printed cost X or lower, reveal it, and put it into play (X cannot be 0). Shuffle your deck.</property>
+      <property name="Traits" value="Companion." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jacob Atienza" />
+      <property name="Card Number" value="27" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Stannis's Wrath" id="464f3b41-fa79-4211-b4d5-baa15a0c87e5">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Action:</b> Choose and kneel a character without a <s value="power">[Power]</s> icon.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="28" />
+    </card>
+    <card name="Black Ears" id="c7d30729-5cd4-4b5f-af00-7e3b8079df9b">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Reaction:</b> After a character is killed, pay 2 gold to put Black Ears into play from your hand.</property>
+      <property name="Traits" value="Clansman." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Antonio José Manzanedo" />
+      <property name="Card Number" value="29" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="Kingslayer" id="cc29bed7-4517-4c2a-b91d-2e9c2c4166cd">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <i>Kingsguard</i> character only. Terminal.
+<b>Action:</b> Kneel attached character to choose and kill a character with 2 or more power. (Limit once per game.)
+<b>Forced Interrupt:</b> When attached character leaves play, each opponent gains 2 power for his or her faction.</property>
+      <property name="Traits" value="Title." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ivan Dixon" />
+      <property name="Card Number" value="30" />
+    </card>
     <card name="Tris Botley" id="bb58e287-5a3f-4105-b082-f5822e745d02">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Greyjoy" />
@@ -62,6 +168,48 @@
       <property name="Icons">
         <s value="power">[Power]</s>
       </property>
+    </card>
+    <card name="Black Wind" id="dc8b1274-0431-4abf-9c2a-42e602d6661a">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">While you control Asha Greyjoy, she gains renown.
+<b>Reaction:</b> After a character you control discards a location or attachment using pillage, draw 1 card. (Limit twice per phase.)</property>
+      <property name="Traits" value="Warship." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Igor Artyomenko" />
+      <property name="Card Number" value="32" />
+    </card>
+    <card name="Stormcrows" id="0311bbfa-78d8-4ee9-bb9b-0b63223b93f8">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Bestow (5).
+<b>Challenges Action:</b> Discard X gold from Stormcrows to choose X characters. Until the end of the phase, each of those characters gets -1 STR. (Limit once per phase.)</property>
+      <property name="Traits" value="Mercenary." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Matt Hansen" />
+      <property name="Card Number" value="33" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="Consuming Flames" id="817eb99b-620e-4779-bef7-ea39200b606a">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Challenges Action:</b> Discard another <s value="targaryen">[House Targaryen]</s> card from your hand to choose a participating character. Until the end of the phase, that character gets -3 STR and is killed if its STR is 0.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andreia Ugrai" />
+      <property name="Card Number" value="34" />
     </card>
     <card name="Arianne Martell" id="7b6a4118-af1c-4e3a-af68-96d6e131e8ab">
       <property name="Type" value="Character" />
@@ -136,6 +284,21 @@ You cannot spend more than 4 gold during setup.</property>
       <property name="Deck Limit" value="1" />
       <property name="Illustrator" value="Kristina Carroll" />
       <property name="Card Number" value="39" />
+    </card>
+    <card name="Sailing the Summer Sea" id="e506c4a3-9995-4058-a954-74cfac7798f0" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">You may initiate an additional <s value="power">[Power]</s> challenge during the challenges phase. You cannot initiate <s value="military">[Military]</s> or <s value="intrigue">[Intrigue]</s> challenges.</property>
+      <property name="Traits" value="Summer." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="5" />
+      <property name="Initiative" value="2" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="5" />
+      <property name="Illustrator" value="Igor Artyomenko" />
+      <property name="Card Number" value="40" />
     </card>
   </cards>
 </set>
