@@ -42,5 +42,8 @@ changelog = {
         ]),
     3000600: ("3.0.6.0", "25 December 2017", [
         "Added Journey to Oldtown"
+        ]),
+    3000700: ("3.0.7.0", "24 January 2018", [
+        "Added Kingsmoot"
         ])
 }
