@@ -45,5 +45,8 @@ changelog = {
         ]),
     3000700: ("3.0.7.0", "24 January 2018", [
         "Added Kingsmoot"
+        ]),
+    3000800: ("3.0.8.0", "18 February 2018", [
+        "Added Favor of the Old Gods"
         ])
 }

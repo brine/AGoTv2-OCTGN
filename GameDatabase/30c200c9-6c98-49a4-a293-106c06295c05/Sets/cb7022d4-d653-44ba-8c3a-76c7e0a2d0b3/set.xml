@@ -1,6 +1,98 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set name="Favor of the Old Gods" id="cb7022d4-d653-44ba-8c3a-76c7e0a2d0b3" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
   <cards>
+    <card name="Nymeria" id="e4265625-e62d-421d-9c99-158b8b504aa0">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Intimidate. No attachments.
+<b>Action:</b> During a challenge in which you control a participating <s value="stark">[House Stark]</s> character, kneel Nymeria and any number of other <i>Direwolf</i> characters to have each of those characters participate in the challenge on your side.</property>
+      <property name="Traits" value="Direwolf." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Borja Pindado" />
+      <property name="Card Number" value="61" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="Favor of the Old Gods" id="1e733416-0515-41fb-af97-be0dbcd5ed50">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Attached character gains the <i>Old Gods</i> trait.
+<b>Action:</b> If each character, location and attachment you control has the <s value="stark">[House Stark]</s> affiliation, kneel Favor of the Old Gods to stand attached character.</property>
+      <property name="Traits" value="Blessing. Old Gods." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="62" />
+    </card>
+    <card name="Hightower Spy" id="aafc85f0-c72e-40f2-802f-12bcdf12cb6f">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Ambush (3).
+<b>Reaction:</b> After Hightower Spy enters play, choose a character and reveal the top card of your deck. Until the end of the phase, that character gets +X STR. X is the printed cost of the revealed card.</property>
+      <property name="Traits" value="House Hightower. Spy." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Torbjörn Källström" />
+      <property name="Card Number" value="63" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Blessed by the Maiden" id="fafc469e-5c78-47a2-a93e-977d63b964ed">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Character you control only.
+Attached character gains <i>The Seven</i> trait and "No attachments except <i>Blessing.</i>"</property>
+      <property name="Traits" value="Blessing. The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jennifer Hrabota Lesser" />
+      <property name="Card Number" value="64" />
+    </card>
+    <card name="Garrison on the Wall" id="d7740189-8974-4e48-9c2f-c401557f8fb7">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">No attachments.
+<b>Reaction:</b> After Garrison on the Wall is declared as a defender, kneel a non-<s value="nightswatch">[The Night's Watch]</s> character to stand Garrison on the Wall.</property>
+      <property name="Traits" value="Army." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="6" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Antonio José Manzanedo" />
+      <property name="Card Number" value="65" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Obsidian Arrows" id="87ae1d96-e283-480c-8bb0-8aee22db902d">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">Bestow (4).
+<b>Action:</b> While attached character is attacking, move 1 gold from Obsidian Arrows to a defending character to give that character –3 STR until the end of the challenge. (Limit once per challenge.)</property>
+      <property name="Traits" value="Weapon." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Nikolas Hagialas" />
+      <property name="Card Number" value="66" />
+    </card>
     <card name="Selyse Baratheon" id="8b428726-8d6f-4003-85e1-385ecf6ec258">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Baratheon" />
@@ -32,6 +124,160 @@
       <property name="Illustrator" value="Ted Nasmith" />
       <property name="Card Number" value="68" />
     </card>
+    <card name="Ser Balon Swann" id="ca3cd6ae-40d6-4281-9ad1-3bc2e1107a8e">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Renown.
+<b>Reaction:</b> After a non-<s value="lannister">[House Lannister]</s> Knight character enters play under your control, gain 2 gold. (Limit once per phase.)</property>
+      <property name="Traits" value="Kingsguard. Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Alexandre Dainche" />
+      <property name="Card Number" value="69" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Sweet Cersei" id="1a5d75d9-ea02-4a64-a586-064617a0ef1a">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">During the challenges phase, you may spend gold on Sweet Cersei as if it were in your gold pool.
+<b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge, move 1 gold from the treasury to Sweet Cersei.</property>
+      <property name="Traits" value="Warship." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Igor Artyomenko" />
+      <property name="Card Number" value="70" />
+    </card>
+    <card name="Coastal Reaver" id="302adc7d-9027-4d3c-b195-630a0d6804dd">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">
+        <b>Reaction:</b> After Coastal Reaver enters play, choose an opponent. That player chooses a card in his or her hand and places it on top of his or her deck.</property>
+      <property name="Traits" value="Raider." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jacob Atienza" />
+      <property name="Card Number" value="71" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="Support of Harlaw" id="92e22231-0516-4c5a-9791-c91fad532894">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">
+        <b>Challenges Action:</b> Kneel a <i>Warship</i> location to have attached character gain (choose one): pillage, renown, or stealth until the end of the phase.</property>
+      <property name="Traits" value="House Harlaw." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Igor Artyomenko" />
+      <property name="Card Number" value="72" />
+    </card>
+    <card name="Wise Master" id="2d991d52-dd90-48e1-9be1-8db86faa5871">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Bestow (3).
+<b>Action:</b> Discard 1 gold from Wise Master to return an out-of-faction attachment or event from your discard pile to your hand. (Limit once per round.)</property>
+      <property name="Traits" value="Ally." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tiziano Baracchi" />
+      <property name="Card Number" value="73" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Yunkai" id="0990eac5-8252-46a7-bf50-e93671b22d78">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Bestow (4).
+<b>Action:</b> During a challenge in which you are the attacking player, kneel Yunkai and discard X gold from it to remove each character with STR X or lower from the challenge (X cannot be 0). Then, if you win the challenge, place 2 gold from the treasury on Yunkai.</property>
+      <property name="Traits" value="Essos." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Chris Ostrowski" />
+      <property name="Card Number" value="74" />
+    </card>
+    <card name="Planky Town Trader" id="7d737d03-bdf4-45df-85f2-7c0cad716a15">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Bestow (5).
+<b>Interrupt:</b> When Planky Town Trader leaves play, put a non-<s value="martell">[House Martell]</s> character with printed cost X or lower into play from your hand. X is the number of gold on Planky Town Trader. Until the end of the phase, that character cannot leave play.</property>
+      <property name="Traits" value="Merchant." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Gabriela Birchal" />
+      <property name="Card Number" value="75" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Shandystone" id="8492e717-fae0-4701-bc6a-a78f83573a09">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Reaction:</b> After you lose a challenge as the defending player, kneel Shandystone to choose and stand a character you control.</property>
+      <property name="Traits" value="Dorne. Stronghold." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Frej Agelli" />
+      <property name="Card Number" value="76" />
+    </card>
+    <card name="Warrior's Sons" id="d8bccb52-db9d-46de-8882-5b637e60849e">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">No attachments.
+<b>Reaction:</b> After an opponent plays an event during a challenge in which Warrior’s Sons is participating, move 1 power from that opponent’s faction card to Warrior’s Sons.</property>
+      <property name="Traits" value="Army. The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="77" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Seized by the Guard" id="bbecf1ac-445a-4e85-8799-15b26dbcf7f3">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Non-limited location only. Bestow (4). Terminal.
+Treat attached location as if its printed text box were blank (except for <i>Traits</i>).
+<b>Forced Reaction:</b> After the marshaling phase begins, sacrifice Seized by the Guard unless you discard 1 gold from it.</property>
+      <property name="Traits" value="Condition." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="78" />
+    </card>
     <card name="Greensight" id="f6dd5eb2-83c4-411f-8ecf-bcae2026f519">
       <property name="Type" value="Agenda" />
       <property name="Faction" value="Neutral" />
@@ -42,6 +288,21 @@
       <property name="Deck Limit" value="1" />
       <property name="Illustrator" value="Tim Durning" />
       <property name="Card Number" value="79" />
+    </card>
+    <card name="The King in the North" id="2c292a03-47d1-41fc-912a-2e590a09a00e" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">While a player does not control a <i>King</i> character, he or she cannot trigger abilities on characters, locations, or attachments.</property>
+      <property name="Traits" value="Kingdom." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Income" value="5" />
+      <property name="Initiative" value="2" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Card Number" value="80" />
     </card>
   </cards>
 </set>

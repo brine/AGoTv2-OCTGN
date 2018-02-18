@@ -20,6 +20,43 @@
         <s value="power">[Power]</s>
       </property>
     </card>
+    <card name="Obara Sand" id="9ec4d8be-9b8c-4d1a-8e6d-09ae47414f82">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Challenges Action:</b> Return a <i>Sand Snake</i> character to your hand to put a <s value="martell">[House Martell]</s> character with lower printed cost into play from your hand. (Limit once per phase.)</property>
+      <property name="Traits" value="Bastard. Sand Snake." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andreia Ugrai" />
+      <property name="Card Number" value="5" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Areo Hotah" id="6ad95622-a120-4df4-8ad0-653538ea79b4">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Ambush (6).
+Reduce the cost to ambush Areo Hotah by 1 for each plot in your used pile.
+<b>Reaction:</b> After you win a challenge in which Areo Hotah is defending, return him to your hand to raise the claim value on your revealed plot by 1 until the end of the phase.</property>
+      <property name="Traits" value="Guard." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Henning Ludvigsen" />
+      <property name="Card Number" value="6" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
     <card name="Tyene Sand" id="7a9b5a25-a41b-421a-a0ed-4870188419ee">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Martell" />
@@ -34,6 +71,24 @@
       <property name="Card Number" value="8" />
       <property name="Icons">
         <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Obella Sand" id="51aa3b77-211d-48b1-bdb2-3a56c063a0cb">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Reaction:</b> After Obella Sand is discarded for <s value="intrigue">[Intrigue]</s> claim or killed for <s value="military">[Military]</s> claim, move 1 power from the winning opponent's faction card to your own. Shuffle Obella Sand from your discard or dead pile into your deck.</property>
+      <property name="Traits" value="Bastard. Sand Snake." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tiziano Baracchi" />
+      <property name="Card Number" value="10" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
       </property>
     </card>
     <card name="Ser Cletus Yronwood" id="09d3e129-0b87-4fd4-b727-936018c85153">
@@ -54,6 +109,24 @@ Increase the initiative value on your revealed plot card by 1 for each plot card
         <s value="intrigue">[Intrigue]</s>
       </property>
     </card>
+    <card name="Shadow City Bastard" id="f9bb20e6-38a3-4d6c-bfd3-15a83f0a4e55">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Ambush (3).
+<b>Challenges Action:</b> Sacrifice Shadow City Bastard to choose a character with printed cost 5 or lower. Until the end of the phase, that characters loses a <s value="military">[Military]</s>, an <s value="intrigue">[Intrigue]</s>, and a <s value="power">[Power]</s> icon.</property>
+      <property name="Traits" value="Bastard." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Magali Villeneuve" />
+      <property name="Card Number" value="16" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
     <card name="Dorne" id="e7de8f31-36d3-4040-8903-f4eee1a20468">
       <property name="Type" value="Location" />
       <property name="Faction" value="House Martell" />
@@ -68,6 +141,19 @@ Increase the initiative value on your revealed plot card by 1 for each plot card
       <property name="Illustrator" value="Cristi Balanescu" />
       <property name="Card Number" value="17" />
     </card>
+    <card name="Hotah's Axe" id="08568d81-b2b9-4c4e-b185-ec5d9dccd0c7">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Attached character gets +3 STR.
+<b>Reaction:</b> After a <s value="martell">[House Martell]</s> character enters play during the challenges phase, put Hotah's Axe into play from your hand, attached to that character.</property>
+      <property name="Traits" value="Weapon." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ivan Dixon" />
+      <property name="Card Number" value="19" />
+    </card>
     <card name="Patience" id="355f7857-157d-4f9b-915e-adbb66f3f9ac">
       <property name="Type" value="Attachment" />
       <property name="Faction" value="House Martell" />
@@ -80,6 +166,19 @@ Increase the initiative value on your revealed plot card by 1 for each plot card
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Igor Kieryluk" />
       <property name="Card Number" value="20" />
+    </card>
+    <card name="False Plans" id="431f4104-3d19-4d94-9d24-1086c61f6be6">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Challenges Action:</b> Choose an opponent. That player discards 1 card at random from his or her hand.
+<b>Reaction:</b> After False Plans is discarded for <s value="intrigue">[Intrigue]</s> claim, the winning opponent discards 2 cards at random from his or her hand.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="23" />
     </card>
     <card name="Val" id="c37dcc58-1e5e-4e67-820a-923e5a373e60">
       <property name="Type" value="Character" />

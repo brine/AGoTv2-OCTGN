@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Someone Always Tells" id="db1cc11a-78a8-4388-9786-05fa2abb5957" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Septon Cellador" id="33900f43-f00a-4599-bd63-7792fa07ce8c">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Challenges Action:</b> Kneel Septon Cellador to choose an opponent. That player must choose and discard a character from his or her hand unless he or she reveals a hand containing no characters.</property>
+      <property name="Traits" value="The Seven." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Nikolas Hagialas" />
+      <property name="Card Number" value="105" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Host of the Boneway" id="09a13cd8-14cb-4c16-a0a8-86e2858f0a5e">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Intimidate. No attachments.
+Host of the Boneway gets +1 STR for each plot card in your used pile.</property>
+      <property name="Traits" value="Army." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="115" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Someone Always Tells" id="0cda5d82-0d6f-47ad-bbcd-6b8cca1a1548">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Interrupt:</b> When the effects of an opponent's event or triggered plot ability would initiate, cancel those effects.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Igor Artyomenko" />
+      <property name="Card Number" value="116" />
+    </card>
+  </cards>
+</set>
