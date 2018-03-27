@@ -48,5 +48,8 @@ changelog = {
         ]),
     3000800: ("3.0.8.0", "18 February 2018", [
         "Added Favor of the Old Gods"
+        ]),
+    3000900: ("3.0.9.0", "26 March 2018", [
+        "Added Sands of Dorne"
         ])
 }

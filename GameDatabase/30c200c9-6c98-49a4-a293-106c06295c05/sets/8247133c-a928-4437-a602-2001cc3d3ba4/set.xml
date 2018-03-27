@@ -384,6 +384,7 @@ While you control no <i>Lord</i> or <i>Lady</i> characters with printed cost 4 o
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
       <property name="Card Number" value="24" />
     </card>
     <card name="Edric Storm" id="e5ac9f1c-e422-441d-b155-109040e45b25">

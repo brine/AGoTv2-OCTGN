@@ -30,6 +30,7 @@ Attached character gains the <i>King</i> trait and does not kneel when declared 
       <property name="Loyal" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Antonio José Manzanedo" />
       <property name="Card Number" value="62" />
     </card>
     <card name="King Renly's Host" id="44250f56-8ddf-4805-bfab-bb3eec76abdf">
@@ -121,6 +122,7 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Loyal" value="No" />
       <property name="Cost" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tim Durning" />
       <property name="Card Number" value="68" />
     </card>
     <card name="Tanda Stokeworth" id="88cd924d-e0dc-48e1-8009-ddbce502a531">
@@ -134,6 +136,7 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Cost" value="3" />
       <property name="Strength" value="3" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ken McCuen" />
       <property name="Card Number" value="69" />
       <property name="Icons">
         <s value="power">[Power]</s>
@@ -162,6 +165,7 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Cost" value="6" />
       <property name="Strength" value="4" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Arden Beckwith" />
       <property name="Card Number" value="71" />
       <property name="Icons">
         <s value="intrigue">[Intrigue]</s>
@@ -271,6 +275,7 @@ While you control 3 or more <s value="nightswatch">[The Night's Watch]</s> locat
       <property name="Loyal" value="No" />
       <property name="Cost" value="1" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="David Lecossu" />
       <property name="Card Number" value="78" />
     </card>
     <card name="King Beyond the Wall" id="552d61be-b2ef-4dd5-8821-0de008efc9be">

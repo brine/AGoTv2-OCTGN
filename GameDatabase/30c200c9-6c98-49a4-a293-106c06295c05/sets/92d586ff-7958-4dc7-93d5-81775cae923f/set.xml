@@ -34,7 +34,7 @@
       <property name="Type" value="Character" />
       <property name="Faction" value="House Tyrell" />
       <property name="Text">While there are more <i>Summer</i> plot cards than <i>Winter</i> plot cards revealed, Knight of Summer gets +2 STR and gains renown.</property>
-      <property name="Traits" value="Knight" />
+      <property name="Traits" value="Knight." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
       <property name="Cost" value="4" />
