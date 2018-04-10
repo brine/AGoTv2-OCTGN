@@ -51,5 +51,8 @@ changelog = {
         ]),
     3000900: ("3.0.9.0", "26 March 2018", [
         "Added Sands of Dorne"
+        ]),
+    3001000: ("3.0.10.0", "10 April 2018", [
+        "Added the Faith Militant"
         ])
 }

@@ -1,6 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set name="The Faith Militant" id="0c79a2a5-d1d6-4bf4-81b6-4bf4f338567c" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
   <cards>
+    <card name="Arya Stark" id="7b6229c2-d3ab-44bb-a942-441ab9205404">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">While Arya Stark is standing, characters cannot be saved.</property>
+      <property name="Traits" value="Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tiziano Baracchi" />
+      <property name="Card Number" value="81" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="I Am No One" id="807dd53d-4288-428f-9cbb-f4705dedf1c7">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">
+        <b>Action:</b> Choose a character you control with printed cost 3 or lower. Until the end of the phase, that character loses all faction affiliations and <i>Traits</i>, gains insight and stealth, and does not kneel when declared as an attacker.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Christine Mitzuk" />
+      <property name="Card Number" value="82" />
+    </card>
+    <card name="Highgarden Refugee" id="09918fa0-2cce-4e31-9a30-fb86e4f5a502">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">While there is a <i>Summer</i> plot card revealed, reduce the cost to marshal Highgarden Refugee by 1.</property>
+      <property name="Traits" value="Ally." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Charles Urbach" />
+      <property name="Card Number" value="83" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Arbor Queen" id="30e72996-7303-4e25-87c2-d337b7af6e33">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">
+        <b>Action:</b> Kneel Arbor Queen to choose a <s value="tyrell">[House Tyrell]</s> character and a non-<s value="tyrell">[House Tyrell]</s> character. Until the end of the phase, each of those characters gets +2 STR.</property>
+      <property name="Traits" value="Warship." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Igor Artyomenko" />
+      <property name="Card Number" value="84" />
+    </card>
     <card name="Coldhands" id="93e83257-650d-4271-a43e-a379d8173f04">
       <property name="Type" value="Character" />
       <property name="Faction" value="The Night's Watch" />
@@ -18,6 +77,50 @@
         <s value="power">[Power]</s>
       </property>
     </card>
+    <card name="The Bay of Seals" id="14e15823-a480-4961-a0e2-30ec7e03005a">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Action:</b> Kneel The Bay of Seals to choose and stand a character owned by an opponent.</property>
+      <property name="Traits" value="The North." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Igor Artyomenko" />
+      <property name="Card Number" value="86" />
+    </card>
+    <card name="King's Men" id="8eaa3647-f287-4b5b-b38c-c9c05547ac34">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Reaction:</b> After a phase begins, choose a kneeling character. Until the end of the phase, treat that character as if its printed text box were blank (except for <i>Traits</i>). (Limit once per round.)</property>
+      <property name="Traits" value="Ally. The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Matt Hansen" />
+      <property name="Card Number" value="87" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Sacrificed to the Red God" id="80466580-2726-4853-b8e3-67ec0fcdefc0">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Play only if you control a <i>R'hllor</i> character.
+<b>Marshaling Action:</b> Sacrifice a character to search your deck for a <i>R'hllor</i> character with equal or lower printed cost and add it to your hand.</property>
+      <property name="Traits" value="R'hllor." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="88" />
+    </card>
     <card name="Cersei's Informer" id="2e4ae80a-5853-465f-812c-fad7664d1e53">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Lannister" />
@@ -34,6 +137,113 @@
       <property name="Icons">
         <s value="intrigue">[Intrigue]</s>
       </property>
+    </card>
+    <card name="Ser Pounce" id="b21782c5-958d-49db-b0eb-102791732c30">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Unique character with printed cost 3 or lower only. Ambush (1).
+Attached character gains an <s value="intrigue">[Intrigue]</s> icon and does not kneel when declared as an attacker in an <s value="intrigue">[Intrigue]</s> challenge.</property>
+      <property name="Traits" value="Cat. Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="90" />
+    </card>
+    <card name="Tarle the Thrice-Drowned" id="994de509-cd80-40c5-b0c4-4414582f7638">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">You may marshal non-unique <i>Drowned God</i> characters from your dead pile as if they were in your hand.</property>
+      <property name="Traits" value="Drowned God. Ironborn." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="David Demaret" />
+      <property name="Card Number" value="91" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Given to the Drowned God" id="00b501ec-a81d-4a74-a431-8f97f68787a2">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">
+        <b>Action:</b> Kill a <i>Drowned God</i> character to draw X cards. X is that character's printed cost.</property>
+      <property name="Traits" value="Drowned God." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Stephen Somers" />
+      <property name="Card Number" value="92" />
+    </card>
+    <card name="Daenerys Targaryen" id="eafa40df-5df2-4851-a24f-96c063712929">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Reaction:</b> After you play a <s value="targaryen">[House Targaryen]</s> event, choose a character. Until the end of the phase, that character gets -1 STR and is killed if its STR is 0. (Limit 3 times per round.)</property>
+      <property name="Traits" value="Lady. Queen." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Drazenka Kimpel" />
+      <property name="Card Number" value="93" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Mhysa" id="e8e83284-93ba-4db5-9ee0-e9d0452a8dea">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <i>Lady</i> character only.
+During the first <s value="power">[Power]</s> challenge you initiate each round, attached character does not kneel when declared as an attacker and gets +1 STR for each attacking character.</property>
+      <property name="Traits" value="Title." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Nicholas Elias" />
+      <property name="Card Number" value="94" />
+    </card>
+    <card name="House Yronwood Knight" id="b48d260c-07df-4680-91a6-d1a24a9bc3c4">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Reaction:</b> After you lose a challenge in which House Yronwood Knight is participating, discard 1 card at random from the winning opponent's hand.</property>
+      <property name="Traits" value="House Yronwood. Knight." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Mariana Vieira" />
+      <property name="Card Number" value="95" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Secret Pact" id="801366e1-9e24-4d4f-86d2-84b3a3281880">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Non-<s value="martell">[House Martell]</s> character only. Ambush (3).
+Attached character gains renown.
+Attached character cannot be declared as an attacker in challenges against you.</property>
+      <property name="Traits" value="Condition." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Preston Stone" />
+      <property name="Card Number" value="96" />
     </card>
     <card name="The High Sparrow" id="29061498-bbc2-4f09-9406-31b22db46962">
       <property name="Type" value="Character" />
@@ -77,6 +287,22 @@ Each player cannot draw more than 3 cards each round.</property>
       <property name="Deck Limit" value="1" />
       <property name="Illustrator" value="Tim Durning" />
       <property name="Card Number" value="99" />
+    </card>
+    <card name="Compelled by the Faith" id="a498f83e-01ce-4b4b-9140-3ffe08e060b2" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Move each power from each card in play to its controller's faction card.</property>
+      <property name="Traits" value="The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="6" />
+      <property name="Initiative" value="3" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="4" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="100" />
     </card>
   </cards>
 </set>
