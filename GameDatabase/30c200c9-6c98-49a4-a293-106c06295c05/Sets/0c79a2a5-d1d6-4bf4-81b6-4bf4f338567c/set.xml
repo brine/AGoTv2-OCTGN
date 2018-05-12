@@ -64,7 +64,7 @@
       <property name="Type" value="Character" />
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">Coldhands cannot be saved.
-<b>Reaction:</b> After you marshal Coldhands, choose another non-<i>Army</i> character controlled by each player. Remove each of those characters from the game until Coldhands leaves play.</property>
+<b>Reaction:</b> After you marshal Coldhands, choose 1 other non-<i>Army</i> character controlled by each player. Remove each of those characters from the game until Coldhands leaves play.</property>
       <property name="Traits" value="The North." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -184,8 +184,8 @@ Attached character gains an <s value="intrigue">[Intrigue]</s> icon and does not
     <card name="Daenerys Targaryen" id="eafa40df-5df2-4851-a24f-96c063712929">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Targaryen" />
-      <property name="Text">
-        <b>Reaction:</b> After you play a <s value="targaryen">[House Targaryen]</s> event, choose a character. Until the end of the phase, that character gets -1 STR and is killed if its STR is 0. (Limit 3 times per round.)</property>
+      <property name="Text">Daenerys Targaryen's STR cannot be reduced by card effects.
+<b>Reaction:</b> After you play a <s value="targaryen">[House Targaryen]</s> event, choose a character. Until the end of the phase, that character gets -1 STR and is killed if its STR is 0. (Limit 3 times per round.)</property>
       <property name="Traits" value="Lady. Queen." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />
@@ -280,7 +280,7 @@ Each player cannot draw more than 3 cards each round.</property>
       <property name="Type" value="Agenda" />
       <property name="Faction" value="Neutral" />
       <property name="Text">Non-<i>The Seven</i> characters and locations you control cannot gain power.
-<b>Reaction:</b> After you win a chalenge, kneel your faction card to move 1 power from the losing opponent's faction card to a participating <i>The Seven</i> character you control.</property>
+<b>Reaction:</b> After you win a challenge, kneel your faction card to move 1 power from the losing opponent's faction card to a participating <i>The Seven</i> character you control.</property>
       <property name="Traits" value="The Seven." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />

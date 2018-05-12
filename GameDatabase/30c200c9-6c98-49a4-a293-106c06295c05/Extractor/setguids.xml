@@ -31,5 +31,7 @@
       <set id="SAT" number="28" value="db1cc11a-78a8-4388-9786-05fa2abb5957" />
       <set id="HoT" number="29" value="19aa6871-7706-454b-9f10-af863ff5b98e" />
       <set id="SoD" number="30" value="772355bb-0d7a-4691-a1fc-68d9b4da5d43" />
+      <set id="TSC" number="31" value="ab4f3644-8564-40d7-9e4d-46916d4405df" />
+      <set id="TMoW" number="32" value="63ed578e-2253-4a29-91fc-e2da44f419a1" />
   </sets>
 </xml>

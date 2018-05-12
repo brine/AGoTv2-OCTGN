@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="The Shadow City" id="ab4f3644-8564-40d7-9e4d-46916d4405df" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Beneath the Bridge of Dream" id="ac23c7c1-be95-4618-95c7-5178c6e6848a">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Shadow (0).
+<b>Interrupt:</b> When you choose a plot card to reveal in the plot phase, instead shuffle your used pile into your plot deck and choose a plot card to reveal at random. Until the end of the round, increase the gold value on your revealed plot card by 2.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="11" />
+    </card>
+    <card name="Ser Gerris Drinkwater" id="48917cfb-3933-4553-9ebc-d1492f65dabf">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Renown. Shadow (5).
+<b>Reaction:</b> After Ser Gerris Drinkwater comes out of shadows, choose a card in your plot deck and switch it with a card in your used pile.</property>
+      <property name="Traits" value="Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="16" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="The Shadow City" id="154d9d42-9269-45df-9830-8695cc961d8e">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Shadow (2).
+Reduce the cost to marshal each of your cards into shadows by 1.
+<b>Challenges Action:</b> Kneel The Shadow City and discard 1 card from shadows to draw 2 cards.</property>
+      <property name="Traits" value="Dorne." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="17" />
+    </card>
+    <card name="Nefarious Acolyte" id="906f1bb1-b5c0-4a58-96c1-6ffe13d4ae6e">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Shadow (5).
+<b>Action:</b> Kneel Nefarious Acolyte and pay 1 gold to choose a plot card. Until the end of the phase, treat it as if its printed text box were blank (except for <i>Traits</i>).</property>
+      <property name="Traits" value="Maester." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Card Number" value="18" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+  </cards>
+</set>

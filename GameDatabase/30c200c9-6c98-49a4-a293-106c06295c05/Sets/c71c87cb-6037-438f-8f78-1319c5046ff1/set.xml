@@ -249,7 +249,7 @@ Attached character does not contribute its STR to <s value="power">[Power]</s> c
       <property name="Type" value="Location" />
       <property name="Faction" value="House Martell" />
       <property name="Text">
-        <b>Action:</b> Kneel The Water Gardens to reduce the cost of the next non-character you marshal, play, or ambush this phase by X. X is the number of plot cards in your used pile.</property>
+        <b>Action:</b> Kneel The Water Gardens to reduce the cost of the next non-character card you marshal, play, or ambush this phase by X. X is the number of plot cards in your used pile.</property>
       <property name="Traits" value="Dorne." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />

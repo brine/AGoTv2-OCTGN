@@ -54,5 +54,10 @@ changelog = {
         ]),
     3001000: ("3.0.10.0", "10 April 2018", [
         "Added the Faith Militant"
+        ]),
+    3001100: ("3.0.11.0", "May 13 2018", [
+        "Added Someone Always Tells",
+        "Added Latest spoiled cards from future sets",
+        "Cleaned up some card typos"
         ])
 }
