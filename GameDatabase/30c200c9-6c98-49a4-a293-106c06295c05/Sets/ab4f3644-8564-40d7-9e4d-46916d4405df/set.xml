@@ -1,6 +1,169 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set name="The Shadow City" id="ab4f3644-8564-40d7-9e4d-46916d4405df" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
   <cards>
+    <card name="Varamyr Sixskins" id="6b76ff70-713d-4f3c-8f2f-6122cf058f95">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Reaction:</b> After the challenges phase begins, until the end of the phase, Varamyr Sixskins gains (choose one):
+- the <i>Bear</i> trait and gets +5 STR.
+- the <i>Eagle</i> trait, an <s value="intrigue">[Intrigue]</s> icon, and insight.
+- the <i>Cat</i> trait, a <s value="power">[Power]</s> icon, and stealth.
+- the <i>Wolf</i> trait and intimidate, and gets +2 STR.</property>
+      <property name="Traits" value="Wildling." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Alex Aparin" />
+      <property name="Card Number" value="1" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="Bolton Flayer" id="b90adb9a-4186-409a-a0d3-73b816e774fe">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Shadow (2).
+<b>Forced Interrupt:</b> When the challenges phase ends, choose and kill a character with the lowest printed cost (cannot be saved).</property>
+      <property name="Traits" value="Ally. House Bolton." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Adam Lane" />
+      <property name="Card Number" value="2" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Northern Armory" id="cdbd975b-087b-4734-9563-2f9f49d89070">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Northern Armory cannot stand.
+<b>Action:</b> Kneel Northern Armory to choose and stand a <s value="stark">[House Stark]</s> character.
++1 Income.</property>
+      <property name="Traits" value="The North." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Logan Feliciano" />
+      <property name="Card Number" value="3" />
+    </card>
+    <card name="Scheming Septon" id="ef8d4a71-2a0f-4613-b0fb-b7ac4d7c44d6">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Shadow (2).
+<b>Challenges Action:</b> Draw 1 card and gain 2 gold. Then, place Scheming Septon on top of your deck. (Limit once per phase.)</property>
+      <property name="Traits" value="The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="4" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Margaery's Influence" id="9fc3eb0a-dd4c-43c4-85d4-95e39348d3d0">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Terminal.
+<b>Action:</b> While attached character is participating in a challenge, kneel Margaery's Influence and pay 1 gold to stand attached character and remove it from the challenge.</property>
+      <property name="Traits" value="Condition." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sara Biddle" />
+      <property name="Card Number" value="5" />
+    </card>
+    <card name="Janos Slynt" id="e6597863-e493-4f6b-bda0-2877c8c1c31b">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">Shadow (0).
+<b>Forced Reaction:</b> After Janos Slynt comes out of shadows, sacrifice a <s value="nightswatch">[The Night's Watch]</s> character.</property>
+      <property name="Traits" value="Ally." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Borja Pindado" />
+      <property name="Card Number" value="6" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Fresh Recruits" id="6578b82c-1d88-4b1a-8b7e-1e5eb8f10ab0">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Action:</b> Search your deck for a <i>Ranger</i> character, a <i>Builder</i> character, and a <i>Steward</i> character, reveal them, and add them to your hand. Shuffle your deck.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Niten" />
+      <property name="Card Number" value="7" />
+    </card>
+    <card name="Shadow Priestess" id="e566340c-1eef-4634-b953-477c744e5fbb">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Shadow (3).
+<b>Reaction:</b> After Shadow Priestess comes out of shadows, choose and kneel a character without attachments.</property>
+      <property name="Traits" value="Ally. R'hllor." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Drazenka Kimpel" />
+      <property name="Card Number" value="8" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Stormlands Fiefdom" id="ddb88966-24de-47c6-9e5a-25c042aebdaa">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Action:</b> Kneel Stormlands Fiefdom to move 1 power from a character or location to its owner's faction card.
++1 Income.</property>
+      <property name="Traits" value="Westeros." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="9" />
+    </card>
+    <card name="Ser Robert Strong" id="e5cbfa0e-ae9b-4ca8-b3ec-f906b0b034d3">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Shadow (5).
+<b>Reaction:</b> After Ser Robert Strong comes out of shadows, choose and kill a kneeling character with printed cost 5 or lower.</property>
+      <property name="Traits" value="Kingsguard. Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="8" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="10" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
     <card name="Beneath the Bridge of Dream" id="ac23c7c1-be95-4618-95c7-5178c6e6848a">
       <property name="Type" value="Event" />
       <property name="Faction" value="House Lannister" />
@@ -11,6 +174,65 @@
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Joshua Cairós" />
       <property name="Card Number" value="11" />
+    </card>
+    <card name="Nighttime Marauders" id="5b82e74d-b923-485b-852a-2cb520a2d92b">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Pillage. Shadow (3).
+<b>Reaction:</b> After Nighttime Marauders comes out of shadows, choose a card in an opponent's discard pile. That player reveals his or her hand and discards from it each card with the same printed cost as the chosen card.</property>
+      <property name="Traits" value="Raider." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ramon Ignacio Bunge" />
+      <property name="Card Number" value="12" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Seize the Initiative" id="aa0cb0b1-57f2-4294-ac5d-30f56df9359e">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">X is the number of opponents you have.
+<b>Interrupt:</b> When the marshaling phase ends, you become the first player.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="13" />
+    </card>
+    <card name="Aegon Targaryen" id="7a22b87e-6eb9-4b12-8372-25a0286049de">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Shadow (3).
+<b>Reaction:</b> After Aegon Targaryen enters play, search your deck for an <i>Army</i> or <i>Mercenary</i> character, put it into play, and shuffle your deck. At the end of the phase, if that card is still in play, return it to your hand.</property>
+      <property name="Traits" value="Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="14" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Unexpected Return" id="399bf99e-d401-4588-8a55-eb4b4f1fae7a">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Challenges Action:</b> Choose a character in your discard pile and put it into play.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Borja Pindado" />
+      <property name="Card Number" value="15" />
     </card>
     <card name="Ser Gerris Drinkwater" id="48917cfb-3933-4553-9ebc-d1492f65dabf">
       <property name="Type" value="Character" />
@@ -47,7 +269,7 @@ Reduce the cost to marshal each of your cards into shadows by 1.
     <card name="Nefarious Acolyte" id="906f1bb1-b5c0-4a58-96c1-6ffe13d4ae6e">
       <property name="Type" value="Character" />
       <property name="Faction" value="Neutral" />
-      <property name="Text">Shadow (5).
+      <property name="Text">Shadow (2).
 <b>Action:</b> Kneel Nefarious Acolyte and pay 1 gold to choose a plot card. Until the end of the phase, treat it as if its printed text box were blank (except for <i>Traits</i>).</property>
       <property name="Traits" value="Maester." />
       <property name="Unique" value="No" />
@@ -55,11 +277,40 @@ Reduce the cost to marshal each of your cards into shadows by 1.
       <property name="Cost" value="3" />
       <property name="Strength" value="2" />
       <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Greg Bobrowski" />
       <property name="Card Number" value="18" />
       <property name="Icons">
         <s value="intrigue">[Intrigue]</s>
         <s value="power">[Power]</s>
       </property>
+    </card>
+    <card name="Burning the Dead" id="d3072669-ed75-46dc-8074-fa03e05d04d9">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Action:</b> Remove each non-unique character in each player's dead pile from the game. Draw 1 card.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Niten" />
+      <property name="Card Number" value="19" />
+    </card>
+    <card name="Exchange of Information" id="53c2a46c-edb4-4026-bfce-d25c58eb98d1" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Choose an opponent and reveal the top 10 cards of your deck. That opponent chooses 1 character, 1 location, 1 attachment, and 1 event revealed this way, if able, and adds them to your hand. Shuffle your deck.</property>
+      <property name="Traits" value="Kingdom. Summer." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="3" />
+      <property name="Initiative" value="4" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="8" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="20" />
     </card>
   </cards>
 </set>

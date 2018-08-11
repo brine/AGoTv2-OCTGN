@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Daggers in the Dark" id="6a996ed3-2826-4ee1-9544-ffa8efd2df81" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Daggers in the Dark" id="8d4e3068-37b0-4ea3-8db6-8e9b88c283e9">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">Shadow (2).
+<b>Reaction:</b> After you win a challenge as the defending player, choose and kill an attacking character. The attacking player may sacrifice 2 characters to cancel this effect.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="106" />
+    </card>
+    <card name="Red Ronnet" id="5110fa8f-a269-438f-b8e4-0716301a9df5">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">No attachments except <i>Weapon</i>.
+While Red Ronnet is attacking, if the defending player controls a card in shadows, raise the claim value on your revealed plot card by 1.</property>
+      <property name="Traits" value="House Connington. Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Black Fox Studio" />
+      <property name="Card Number" value="107" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Banished from the Light" id="38917f9c-3347-4b11-8340-e033fb671bc7">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Shadow (2).
+<b>Reaction:</b> After you win a <s value="power">[Power]</s> challenge, choose a character. Place it in shadows with a shadow token on it. While that card is in shadows, it gains shadow (X). X is its printed cost.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Carlos Palma Cruchaga" />
+      <property name="Card Number" value="108" />
+    </card>
+    <card name="Cersei Lannister" id="a77ff812-6e88-4af9-bb78-60c13b24b713">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Shadow (5).
+<b>Reaction:</b> After a card you control comes out of shadows during the challenges phase, each opponent discards 1 card at random from his or her hand. (Limit 3 times per phase.)</property>
+      <property name="Traits" value="Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Magali Villeneuve" />
+      <property name="Card Number" value="109" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Underhand Methods" id="a757673c-93fe-4b50-8623-6aec4c1732be">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Shadow (0).
+Attached character gets +1 STR for each card you control in shadows.</property>
+      <property name="Traits" value="Skill." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Preston Stone" />
+      <property name="Card Number" value="110" />
+    </card>
+    <card name="Moqorro" id="8eba6ada-ba03-4ce9-989d-0f6ddc00a2b7">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Shadow (5).
+<b>Reaction:</b> After Moqorro comes out of shadows during a challenge, choose a defending character and place it on top of its owner's deck.</property>
+      <property name="Traits" value="Ally. R'hllor." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andreia Ugrai" />
+      <property name="Card Number" value="111" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Varys" id="f3f9c8af-815a-4623-b842-15f1470a26c8">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Shadow (8). Stealth.
+Reduce the cost to bring Varys out of shadows by 1 for each other card in shadows.
+<b>Reaction:</b> After Varys comes out of shadows, choose and kill a character with power.</property>
+      <property name="Traits" value="Ally. Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Nicholas Gregory" />
+      <property name="Card Number" value="119" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+  </cards>
+</set>

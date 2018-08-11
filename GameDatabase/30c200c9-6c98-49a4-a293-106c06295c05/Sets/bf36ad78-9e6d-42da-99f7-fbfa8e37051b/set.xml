@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="In Daznak's Pit" id="bf36ad78-9e6d-42da-99f7-fbfa8e37051b" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Three-Finger Hobb" id="9c58ded8-769d-4b09-a16e-0636ad1f62ce">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">No attachments except <i>Weapon</i>.
+<b>Reaction:</b> After you check reserve, if your hand size is lower than your reserve value, draw 2 cards.</property>
+      <property name="Traits" value="Steward." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="85" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Storm's End Maester" id="d02e0af0-3c0d-4e59-9c3e-40f56f551b65">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Challenges Action:</b> Kneel Storm's End Maester to choose an opponent. If you have more power on your faction card than that player, draw ? cards.</property>
+      <property name="Traits" value="Maester." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="87" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Refurbished Hulk" id="85a0d82b-00a3-4a8e-b7e8-f82e524d0dde">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">+1 Income.
++1 Initiative.</property>
+      <property name="Traits" value="Warship." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Juan Carlos Barquet" />
+      <property name="Card Number" value="92" />
+    </card>
+    <card name="Drogon" id="69ebebac-bb7b-4795-b914-fde06418cebb">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Ambush (6). No attachments.
+<b>Reaction:</b> After you win a challenge in which Drogon is attacking, choose a character controlled by the losing opponent. Until the end of the phase, that character gets -4 STR and is killed if its STR is 0.</property>
+      <property name="Traits" value="Dragon." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="6" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Carlos Palma Cruchaga" />
+      <property name="Card Number" value="93" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="In Daznak's Pit" id="8f87e70d-70a6-4fa7-839d-b2d1098b3756">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Shadow (3).
+<b>Interrupt:</b> When the challenges phase ends, stand each character. Following this phase, there is an additional challenges phase. (Max 1 per round.)</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Antonio José Manzanedo" />
+      <property name="Card Number" value="94" />
+    </card>
+    <card name="He Calls It Thinking" id="56960a93-57e1-4ed2-9305-54b8630b5be7">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Interrupt:</b> When the effects of an opponent's non-agenda, non-plot triggered ability would initiate, cancel those effects unless that player pays 1 gold.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Borja Pindado" />
+      <property name="Card Number" value="96" />
+    </card>
+  </cards>
+</set>

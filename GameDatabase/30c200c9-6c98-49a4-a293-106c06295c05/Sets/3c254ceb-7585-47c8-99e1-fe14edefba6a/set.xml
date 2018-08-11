@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Music of Dragons" id="3c254ceb-7585-47c8-99e1-fe14edefba6a" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Shaggydog" id="32d7e52e-a231-4f71-9909-5eecb2821042">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">
+        <s value="stark">[House Stark]</s> character you control only.
+<b>Reaction:</b> After you win a challenge in which attached character is attacking, the losing opponent must choose and kill a defending character.
+<b>Action:</b> Pay 1 gold to attach Shaggydog to a different character. (Limit once per phase.)</property>
+      <property name="Traits" value="Direwolf." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Carlos Palma Cruchaga" />
+      <property name="Card Number" value="62" />
+    </card>
+    <card name="Jon Snow" id="52bfd7ea-4aae-492e-924d-447ae642bcaf">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">While you control a:
+- <i>Builder</i> character, Jon Snow gains stealth.
+- <i>Ranger</i> character, Jon Snow gains intimidate.
+- <i>Steward</i> character, Jon Snow gains insight.</property>
+      <property name="Traits" value="Bastard. Commander. Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="7" />
+      <property name="Strength" value="6" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="65" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Lord Commander" id="4695e041-5cab-4d7b-a3cf-992d3b5d1b22">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <s value="nightswatch">[The Night's Watch]</s> character with printed cost 5 or higher only.
+<b>Reaction:</b> After you win a challenge in which you control a participating <s value="nightswatch">[The Night's Watch]</s> character, attached character gains 1 power.</property>
+      <property name="Traits" value="Title." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Josu Hernaiz" />
+      <property name="Card Number" value="66" />
+    </card>
+    <card name="Clever Feint" id="2ecd5ce6-8916-49e3-ac5c-19f13c8d6120">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Action:</b> Kneel your faction card to choose any number of cards you control with shadow. Return each of those cards to shadows.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jason Jenicke" />
+      <property name="Card Number" value="70" />
+    </card>
+    <card name="Rhaegal" id="25e4528f-a4e2-4657-a87b-aafad53d5b15">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Ambush (5). No attachments.
+<b>Reaction:</b> After an opponent's character is killed by a card effect, stand Rhaegal.</property>
+      <property name="Traits" value="Dragon." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Antonio José Manzanedo" />
+      <property name="Card Number" value="71" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+  </cards>
+</set>

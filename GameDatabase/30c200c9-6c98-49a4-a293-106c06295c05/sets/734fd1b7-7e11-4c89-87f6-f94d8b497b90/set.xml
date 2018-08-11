@@ -266,7 +266,7 @@ While attached character is participating in a challenge, it gets +2 STR and is 
       <property name="Faction" value="Neutral" />
       <property name="Text">
         <b>Reaction:</b> After The Frostfangs enters play, give control of it to an opponent.
--1 Reserve</property>
+-1 Reserve.</property>
       <property name="Traits" value="The North." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />

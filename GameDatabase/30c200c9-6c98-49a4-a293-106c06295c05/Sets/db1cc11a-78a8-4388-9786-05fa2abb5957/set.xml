@@ -177,7 +177,8 @@ Each character you control with 1 or more gold gains stealth.
       <property name="Text">
         <i>Drowned God</i> character only.
 Attached character gets +1 STR for each character in your dead pile.
-<b>Interrupt:</b> When attached character is killed, move Driftwood Cudgel to another eligible character. That character gains 1 power.</property>
+<b>Interrupt:</b> When attached character is killed, move Driftwood Cudgel to another eligible character. That character gains 1 power. (Limit once per phase.)
+<i>Errata from FAQ v1.4</i></property>
       <property name="Traits" value="Drowned God. Weapon." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
@@ -208,7 +209,8 @@ While Raiding Khalasar is attacking, if you control an attacking <i>Bloodrider</
       <property name="Type" value="Event" />
       <property name="Faction" value="House Targaryen" />
       <property name="Text">
-        <b>Dominance Action:</b> Each player may shuffle his or her hand (of at least 1 card) into his or her deck to draw 5 cards.</property>
+        <b>Dominance Action:</b> Each player may shuffle his or her hand (of at least 1 card) into his or her deck. Each player that does draws 5 cards.
+<i>Errata from FAQ v1.4</i></property>
       <property name="Traits" value="Prophecy." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />

@@ -90,7 +90,7 @@ Attached character gets +2 STR.
       <property name="Faction" value="House Tyrell" />
       <property name="Text">Immune to card effects.
 <b>Reaction:</b> After you marshal Pleasure Barge, if you have not yet drawn any cards this phase, draw 3 cards.
--1 Income</property>
+-1 Income.</property>
       <property name="Traits" value="Barge." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />
@@ -153,7 +153,7 @@ Attached character gets +2 STR.
       <property name="Faction" value="House Lannister" />
       <property name="Text">
         <b>Reaction:</b> After you become the first player, either: gain 1 gold, or draw 1 card.
--1 Initiative</property>
+-1 Initiative.</property>
       <property name="Traits" value="Vehicle." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />

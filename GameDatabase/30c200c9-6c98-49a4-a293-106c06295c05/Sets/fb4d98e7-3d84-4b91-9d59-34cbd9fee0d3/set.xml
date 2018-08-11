@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Streets of King's Landing" id="fb4d98e7-3d84-4b91-9d59-34cbd9fee0d3" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Growing Ambition" id="a5199d79-ef93-45ce-8fdc-658464da22e0">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Shadow (X).
+<b>Challenges Action:</b> Search your deck for X different cards and place them in your discard pile. Shuffle your deck. Then, choose an opponent. Return X cards of that opponent's choice from your discard pile to your hand.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="44" />
+    </card>
+    <card name="Catspaw" id="17c0a6ad-6244-4926-828c-99324f181d17">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Shadow (2).
+<b>Reaction:</b> After Catspaw comes out of shadows, pay X gold to choose another character with printed cost X or lower and return it to its owner's hand.</property>
+      <property name="Traits" value="Ally." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="49" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Poor Fellows" id="296eb985-2b37-496d-9cf6-84cb306ace4d">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">No attachments.
+<b>Reaction:</b> After you win a challenge in which Poor Fellows is attacking, the losing opponent chooses, either: Poor Fellows gains 1 power, or you draw 1 card.</property>
+      <property name="Traits" value="Army. The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Matt Hansen" />
+      <property name="Card Number" value="57" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Glass Candle" id="2b50e70b-0e43-4420-8be8-27c9c2f877ee">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Character you control only.
+If attached character has the <i>Maester</i> trait, it gains insight.
+<b>Challenges Action:</b> Kneel Glass Candle to look at the top card of any player's deck. You may discard that card.</property>
+      <property name="Traits" value="Item. The Citadel." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ivan Dixon" />
+      <property name="Card Number" value="59" />
+    </card>
+  </cards>
+</set>

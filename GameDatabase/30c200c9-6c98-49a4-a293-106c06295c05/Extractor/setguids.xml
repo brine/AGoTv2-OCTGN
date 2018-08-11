@@ -33,5 +33,9 @@
       <set id="SoD" number="30" value="772355bb-0d7a-4691-a1fc-68d9b4da5d43" />
       <set id="TSC" number="31" value="ab4f3644-8564-40d7-9e4d-46916d4405df" />
       <set id="TMoW" number="32" value="63ed578e-2253-4a29-91fc-e2da44f419a1" />
+      <set id="SoKL" number="33" value="fb4d98e7-3d84-4b91-9d59-34cbd9fee0d3" />
+      <set id="MoD" number="34" value="3c254ceb-7585-47c8-99e1-fe14edefba6a" />
+      <set id="IDP" number="35" value="bf36ad78-9e6d-42da-99f7-fbfa8e37051b" />
+      <set id="DitD" number="36" value="6a996ed3-2826-4ee1-9544-ffa8efd2df81" />
   </sets>
 </xml>

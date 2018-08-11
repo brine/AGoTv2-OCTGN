@@ -263,7 +263,7 @@ Attached character gains the <i>King</i> trait and pillage.
       <property name="Type" value="Location" />
       <property name="Faction" value="Neutral" />
       <property name="Text">The God's Eye cannot be discarded from play.
-+1 Income
++1 Income.
 +1 Reserve.</property>
       <property name="Traits" value="Westeros." />
       <property name="Unique" value="Yes" />

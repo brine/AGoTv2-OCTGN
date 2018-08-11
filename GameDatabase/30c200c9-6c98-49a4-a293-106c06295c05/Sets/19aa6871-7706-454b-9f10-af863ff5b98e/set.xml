@@ -779,7 +779,7 @@ While attached character is participating in a challenge, set its STR to 1. <i>(
       <property name="Traits" value="War." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
-      <property name="Deck Limit" value="1" />
+      <property name="Deck Limit" value="2" />
       <property name="Income" value="3" />
       <property name="Initiative" value="3" />
       <property name="Claim" value="1" />

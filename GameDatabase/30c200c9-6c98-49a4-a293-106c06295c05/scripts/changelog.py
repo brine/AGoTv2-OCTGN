@@ -59,5 +59,8 @@ changelog = {
         "Added Someone Always Tells",
         "Added Latest spoiled cards from future sets",
         "Cleaned up some card typos"
+        ]),
+    3001200: ("3.0.12.0", "August 11 2018", [
+        "Updated available sets to current release schedule"
         ])
 }
