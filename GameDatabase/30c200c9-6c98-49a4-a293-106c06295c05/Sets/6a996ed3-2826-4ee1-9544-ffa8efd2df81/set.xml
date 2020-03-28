@@ -1,7 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set name="Daggers in the Dark" id="6a996ed3-2826-4ee1-9544-ffa8efd2df81" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
   <cards>
-    <card name="Daggers in the Dark" id="8d4e3068-37b0-4ea3-8db6-8e9b88c283e9">
+    <card name="Ser Jason Mallister" id="c8f1c8b5-f290-48cc-8ece-bcf4132a65c7">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">While there are no cards in shadows, Ser Jason Mallister gains renown.
+<b>Reaction:</b> After you win a challenge in which Ser Jason Mallister is attacking, choose a card in shadows controlled by the losing opponent, and discard it.</property>
+      <property name="Traits" value="House Tully. Knight. Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Black Fox Studio" />
+      <property name="Card Number" value="101" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="The Bastard's Letter" id="33348adf-f2d0-4323-8a5a-9a00b36137a0">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Shadow (3).
+<b>Reaction:</b> After an opponent initiates a <s value="military">[Military]</s> challenge against you, stand any number of characters you control with a <s value="military">[Military]</s> icon. If you win the challenge, kill each attacking character.</property>
+      <property name="Traits" value="House Bolton." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ivan Dixon" />
+      <property name="Card Number" value="102" />
+    </card>
+    <card name="Shrewd Diplomat" id="1f9db9b9-a410-4028-b6fe-bcf9d623e97c">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Ambush (5). Shadow (3).
+<b>Reaction:</b> After Shrewd Diplomat enters play during a challenge, choose a participating character. Stand that character and remove it from the challenge.</property>
+      <property name="Traits" value="Ally. Spy." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andreia Ugrai" />
+      <property name="Card Number" value="103" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Arbor Marketplace" id="eb1fc823-ae77-4eba-9e91-27b314af323d">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">
+        <b>Challenges Action:</b> Kneel Arbor Marketplace to choose a participating character. Until the end of the challenge, that character gets +1 STR.
++1 Income.</property>
+      <property name="Traits" value="House Redwyne." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Card Number" value="104" />
+    </card>
+    <card name="Nightfort Builder" id="bc0548f8-26a3-4c37-bad2-9ce9ad9af2e3">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Reaction:</b> After Nightfort Builder is knelt, reveal the top card of your deck. If it is a <s value="nightswatch">[The Night's Watch]</s> location or attachment, draw it.</property>
+      <property name="Traits" value="Builder." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ramon Ignacio Bunge" />
+      <property name="Card Number" value="105" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Daggers in the Dark" id="f5ff0025-6c7f-412f-b86e-5619e5baef49">
       <property name="Type" value="Event" />
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">Shadow (2).
@@ -12,7 +90,7 @@
       <property name="Illustrator" value="Joshua Cairós" />
       <property name="Card Number" value="106" />
     </card>
-    <card name="Red Ronnet" id="5110fa8f-a269-438f-b8e4-0716301a9df5">
+    <card name="Red Ronnet" id="088f5e0b-b1d5-4274-9900-01afc997ac5e">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Baratheon" />
       <property name="Text">No attachments except <i>Weapon</i>.
@@ -30,7 +108,7 @@ While Red Ronnet is attacking, if the defending player controls a card in shadow
         <s value="power">[Power]</s>
       </property>
     </card>
-    <card name="Banished from the Light" id="38917f9c-3347-4b11-8340-e033fb671bc7">
+    <card name="Banished from the Light" id="a5dbeaaa-e89a-4ee1-b54a-d92ae48d63b9">
       <property name="Type" value="Event" />
       <property name="Faction" value="House Baratheon" />
       <property name="Text">Shadow (2).
@@ -41,7 +119,7 @@ While Red Ronnet is attacking, if the defending player controls a card in shadow
       <property name="Illustrator" value="Carlos Palma Cruchaga" />
       <property name="Card Number" value="108" />
     </card>
-    <card name="Cersei Lannister" id="a77ff812-6e88-4af9-bb78-60c13b24b713">
+    <card name="Cersei Lannister" id="be023e9d-4303-4b5f-82d8-26b65fd108a4">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Lannister" />
       <property name="Text">Shadow (5).
@@ -59,7 +137,7 @@ While Red Ronnet is attacking, if the defending player controls a card in shadow
         <s value="power">[Power]</s>
       </property>
     </card>
-    <card name="Underhand Methods" id="a757673c-93fe-4b50-8623-6aec4c1732be">
+    <card name="Underhanded Methods" id="6ec8b86f-3eee-47f1-ae35-aabf7fb4263e">
       <property name="Type" value="Attachment" />
       <property name="Faction" value="House Lannister" />
       <property name="Text">Shadow (0).
@@ -72,7 +150,7 @@ Attached character gets +1 STR for each card you control in shadows.</property>
       <property name="Illustrator" value="Preston Stone" />
       <property name="Card Number" value="110" />
     </card>
-    <card name="Moqorro" id="8eba6ada-ba03-4ce9-989d-0f6ddc00a2b7">
+    <card name="Moqorro" id="f8330029-c1fe-416f-9dc2-0bf82b8424f1">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">Shadow (5).
@@ -89,7 +167,104 @@ Attached character gets +1 STR for each card you control in shadows.</property>
         <s value="power">[Power]</s>
       </property>
     </card>
-    <card name="Varys" id="f3f9c8af-815a-4623-b842-15f1470a26c8">
+    <card name="Rhymes With Meek" id="c6047846-f297-4421-9e1f-ba0c4e8c67c3">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Shadow (0).
+<b>Reaction:</b> After you win an unopposed challenge, draw 2 cards (3 cards instead if you played this event from shadows).</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Preston Stone" />
+      <property name="Card Number" value="112" />
+    </card>
+    <card name="Brazen Beast" id="030e5b6b-25cb-4cbb-86b0-219d1c3f97d6">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">No attachments. Shadow (3).
+<b>Marshaling Action:</b> Pay 3 gold to put Brazen Beast into shadows from your discard pile.</property>
+      <property name="Traits" value="Guard." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Niten" />
+      <property name="Card Number" value="113" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Gifts for the Widow" id="88944c2f-6a3f-45cc-b023-af295191ff59">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Action:</b> Search your deck for an attachment with printed cost X or lower and put it into play attached to a character you control. Shuffle your deck.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Preston Stone" />
+      <property name="Card Number" value="114" />
+    </card>
+    <card name="Starfall Spy" id="22eea8d0-e3e7-49db-aaef-74a57c34d668">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Shadow (3).
+<b>Reaction:</b> After you win a challenge in which Starfall Spy is participating, return it to shadows to choose another card you control in shadows and put it into play.</property>
+      <property name="Traits" value="House Dayne. Spy." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andreia Ugrai" />
+      <property name="Card Number" value="115" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Blood of the Viper" id="a0509b32-8b2e-4663-ac6d-738dee14b871">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <i>Sand Snake</i> character only. Ambush (2).
+<b>Reaction:</b> After you lose a challenge in which attached character is participating, stand it.</property>
+      <property name="Traits" value="Legacy." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Drazenka Kimpel" />
+      <property name="Card Number" value="116" />
+    </card>
+    <card name="&quot;On a Misty Morn&quot;" id="275cbdb9-6d8a-40f6-89a0-e9d4eddf7756">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Action:</b> Choose up to 2 non-unique characters in your dead pile and return them to your hand.</property>
+      <property name="Traits" value="Song." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tim Durning" />
+      <property name="Card Number" value="117" />
+    </card>
+    <card name="Assault from the Shadows" id="e085e626-5824-4613-89a9-6cf7988c71f7">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Reduce the gold value on your revealed plot card by 1.
+<b>Marshaling Action:</b> Kneel your faction card to choose 1 card in your hand and place it facedown in shadows with a shadow token on it. While that card is in shadows, if it does not have the printed shadow keyword, it gains shadow (X). X is its printed cost.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="David Griffith" />
+      <property name="Card Number" value="118" />
+    </card>
+    <card name="Varys" id="aa60e5b8-4d39-4210-81f6-e35f100f2680">
       <property name="Type" value="Character" />
       <property name="Faction" value="Neutral" />
       <property name="Text">Shadow (8). Stealth.
@@ -106,6 +281,22 @@ Reduce the cost to bring Varys out of shadows by 1 for each other card in shadow
       <property name="Icons">
         <s value="intrigue">[Intrigue]</s>
       </property>
+    </card>
+    <card name="Ravages of War" id="69907064-50c2-4a0e-b92b-9313de169acf" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Each player sacrifices a character or location, chooses and discards 1 card from his or her hand, and chooses and discards 1 card from his or her shadows area, if able.</property>
+      <property name="Traits" value="War." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="6" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Niten" />
+      <property name="Card Number" value="120" />
     </card>
   </cards>
 </set>

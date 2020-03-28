@@ -155,7 +155,7 @@ While you control a character with the highest STR in play, Roseroad Patrol gain
     <card name="Raider from Pyke" id="ae4178c4-d902-436c-b5d5-ea7440f9e6e8">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Greyjoy" />
-      <property name="Text">Each<i> Weapon</i> card in your hand gains ambush (X). X is that card's printed cost.</property>
+      <property name="Text">Each <i>Weapon</i> card in your hand gains ambush (X). X is that card's printed cost.</property>
       <property name="Traits" value="Raider." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />
@@ -271,7 +271,7 @@ While there are 3 or more plot cards in your used pile, Knights of the Sun gains
       <property name="Type" value="Event" />
       <property name="Faction" value="Neutral" />
       <property name="Text">
-        <b>Action: </b>Choose a character or location. Until the end of the phase, treat that card's printed text box as if it were blank (except for <i>Traits</i>).</property>
+        <b>Action:</b> Choose a character or location. Until the end of the phase, treat that card's printed text box as if it were blank (except for <i>Traits</i>).</property>
       <property name="Traits" value="Dream." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />

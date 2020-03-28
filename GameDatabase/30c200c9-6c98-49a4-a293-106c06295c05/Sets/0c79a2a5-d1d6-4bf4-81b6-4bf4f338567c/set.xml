@@ -112,7 +112,7 @@
       <property name="Type" value="Event" />
       <property name="Faction" value="House Baratheon" />
       <property name="Text">Play only if you control a <i>R'hllor</i> character.
-<b>Marshaling Action:</b> Sacrifice a character to search your deck for a <i>R'hllor</i> character with equal or lower printed cost and add it to your hand.</property>
+<b>Marshaling Action:</b> Sacrifice a character to search your deck for a <i>R'hllor</i> character with equal or lower printed cost and add it to your hand. Shuffle your deck.</property>
       <property name="Traits" value="R'hllor." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="Yes" />

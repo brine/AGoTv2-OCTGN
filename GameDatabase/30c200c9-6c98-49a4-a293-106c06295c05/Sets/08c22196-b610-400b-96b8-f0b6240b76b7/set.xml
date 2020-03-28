@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Pit of Snakes" id="08c22196-b610-400b-96b8-f0b6240b76b7" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Eddard Stark" id="1d13c67d-1a97-4b8a-9c42-28998d640db5">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Renown.
+<b>Dominance Action:</b> If each character you control has the <s value="stark">[House Stark]</s> affiliation, kneel Eddard Stark to choose and kill a character with printed cost 4 or lower. (Limit once per phase.)</property>
+      <property name="Traits" value="Lord. Small Council." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="7" />
+      <property name="Strength" value="6" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="41" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Malleon's Tome" id="710c4486-a07e-4acf-b680-d40a04b8a451">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Shadow (1).
+Attached character gains an <s value="intrigue">[Intrigue]</s> icon.
+<b>Reaction:</b> After you win a challenge in which attached character is attacking, look at the losing opponent's hand. If attached character is Eddard Stark or has the <i>Maester</i> trait, stand it. (Limit once per phase.)</property>
+      <property name="Traits" value="Citadel. Item." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tiziano Baracchi" />
+      <property name="Card Number" value="42" />
+    </card>
+    <card name="Maester Gormon" id="2767a1f1-a988-4104-b238-1e67ee286b4d">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">You may look at the top card of your deck.
+Once per phase, if the top card of your deck is a non-<s value="tyrell">[House Tyrell]</s> card, you may marshal or play it as if it were in your hand.</property>
+      <property name="Traits" value="Maester." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="43" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Unexpected Guile" id="b06f72c9-2a79-40b8-9af5-508378c10022">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Character with shadow you control only. Shadow (1).
+Attached character gets +2 STR and gains insight.
+<b>Forced Interrupt:</b> When a challenge ends in which attached character is participating, return Unexpected Guile and attached character to shadows.</property>
+      <property name="Traits" value="Skill." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Drazenka Kimpel" />
+      <property name="Card Number" value="44" />
+    </card>
+    <card name="Maester Mullin" id="06568fc3-601a-4ad4-8b6d-9c740764f459">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Action:</b> Kneel Maester Mullin to choose a character and a challenge type. Until the end of the phase, that character cannot be declared as an attacker in challenges of that type.</property>
+      <property name="Traits" value="Maester." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="45" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Guard Duty" id="2fca6af5-91c4-43a9-b227-dc999c01ae2d">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <s value="nightswatch">[The Night's Watch]</s> character only.
+<b>Reaction:</b> After attached character is declared as a defender, kneel Guard Duty to stand attached character.</property>
+      <property name="Traits" value="Condition." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Card Number" value="46" />
+    </card>
+    <card name="Ser Eldon Estermont" id="14e5d248-f170-4687-b930-78da4a9843ad">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Action:</b> Choose and stand a <s value="baratheon">[House Baratheon]</s> location. (Limit once per round.)</property>
+      <property name="Traits" value="Knight. Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jen Zee" />
+      <property name="Card Number" value="47" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Shadow of the Throne" id="b6558a1f-72c9-4917-8909-d78a5d107321">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Shadow (1).
+<b>Action:</b> Choose and kneel any number of locations with total printed cost 3 or lower. If there is a <i>Kingdom</i> plot card revealed, return Shadow of the Throne to your hand instead of placing it in your discard pile.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Logan Feliciano" />
+      <property name="Card Number" value="48" />
+    </card>
+    <card name="Chiswyck" id="0b3d6ddf-9397-490e-98ed-e5c2c53414c7">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Pillage.
+<b>Reaction:</b> After you win a challenge in which Chiswyck is participating, discard the top card of your deck to draw 1 card.</property>
+      <property name="Traits" value="Ally." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Borja Pindado" />
+      <property name="Card Number" value="49" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="&quot;Hands of Gold&quot;" id="56d2505b-b170-45b9-aa7a-69a1e3cd8060">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge by 5 or more STR as the attacking player, choose a character controlled by the losing opponent and return it to its owner's hand. (Max 1 per challenge.)</property>
+      <property name="Traits" value="Song." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tim Durning" />
+      <property name="Card Number" value="50" />
+    </card>
+    <card name="King's Landing Proselyte" id="9d856c18-bd31-4dd7-9859-902c2505a52a">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Shadow (4).
+<b>Action:</b> Kill a standing <s value="greyjoy">[House Greyjoy]</s> character to put King's Landing Proselyte into play from shadows.</property>
+      <property name="Traits" value="Ally. Drowned God." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Adam Lane" />
+      <property name="Card Number" value="51" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Outfitted for War" id="6db4abe8-fe04-41b6-b8aa-97c97c738912">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">
+        <i>Warship</i> location only.
+<b>Action:</b> During a <s value="military">[Military]</s> challenge, kneel attached location to give a participating <s value="greyjoy">[House Greyjoy]</s> character +3 STR until the end of the challenge.</property>
+      <property name="Traits" value="Weapon." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Giorgi" />
+      <property name="Card Number" value="52" />
+    </card>
+    <card name="Jon Connington" id="337cdefb-0f69-4d99-9ddb-983b2a31a0e8">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Shadow (5). Renown.
+<b>Reaction:</b> After Jon Connington comes out of shadows, choose and reveal a card you control in shadows. If it is a non-event card with printed cost 4 or lower, put it into play.</property>
+      <property name="Traits" value="House Connington. Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Card Number" value="53" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="The Dragonpit" id="406b0452-03c7-44a8-a384-cc048654c885">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Each character whose controller controls fewer cards in shadows than you gets -1 STR.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Leanna Crossan" />
+      <property name="Card Number" value="54" />
+    </card>
+    <card name="Arianne Martell" id="41d290cc-38dc-4490-850e-ff2e118b881a">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Shadow (5). Stealth.
+<b>Reaction:</b> After a card comes out of shadows under your control, choose a character. Until the end of the phase, that character loses a challenge icon of your choice. (Limit 3 times per round.)</property>
+      <property name="Traits" value="Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Magali Villeneuve" />
+      <property name="Card Number" value="55" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="A Pit of Snakes" id="4fecffc9-5292-4fa1-bdd6-badd3cf0cefa">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Challenges Action:</b> Choose a character with no challenge icons and place a poison token on it. At the end of the phase, if that character still has that poison token, remove it and kill that character. (Max 1 per phase.)</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Carlos Palma Cruchaga" />
+      <property name="Card Number" value="56" />
+    </card>
+    <card name="The Most Devout" id="faf015a5-3535-4f76-b522-dceefa121826">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">No attachments except <i>The Seven</i>.
+<b>Reaction:</b> After a character enters play under an opponent's control, if another character entered play under that player's control this phase, The Most Devout gains 1 power. (Limit once per phase.)</property>
+      <property name="Traits" value="The Seven." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="57" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Statue of Baelor" id="8c934bb4-4dd4-4444-837e-8fbafd61d998">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Action:</b> Kneel Statue of Baelor and discard 1 power from another character or location you control to stand that character or location.</property>
+      <property name="Traits" value="King's Landing. The Seven." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Logan Feliciano" />
+      <property name="Card Number" value="58" />
+    </card>
+    <card name="The Faith's Decree" id="2ae6cdb4-ca0b-4a0b-9138-92ee52432c3d">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Play only if you control a <i>The Seven</i> character or location.
+<b>Action:</b> Name a non-agenda, non-plot card. Until the end of the phase, each opponent cannot trigger card abilities of cards with that name.</property>
+      <property name="Traits" value="The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="59" />
+    </card>
+    <card name="Manning the City Walls" id="6a05a263-77a4-4f1a-8ec0-890ed44bb71a" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Put a non-unique character with printed cost 3 or lower into play from your hand. (Printed cost 6 or lower instead if there is a <i>City</i> plot card in your used pile.)</property>
+      <property name="Traits" value="City. War." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="1" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="60" />
+    </card>
+  </cards>
+</set>

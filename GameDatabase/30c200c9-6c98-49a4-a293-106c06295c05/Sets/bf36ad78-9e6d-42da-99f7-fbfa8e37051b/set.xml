@@ -1,7 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <set name="In Daznak's Pit" id="bf36ad78-9e6d-42da-99f7-fbfa8e37051b" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
   <cards>
-    <card name="Three-Finger Hobb" id="9c58ded8-769d-4b09-a16e-0636ad1f62ce">
+    <card name="Bear Island Scout" id="1f6492cf-b073-450a-a3a4-4764ac720bb0">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">
+        <b>Reaction:</b> After you marshal Bear Island Scout, if each character you control has the <s value="stark">[House Stark]</s> affiliation, search your deck for a <i>House Mormont</i> card, reveal it, and add it to your hand. Shuffle your deck.</property>
+      <property name="Traits" value="House Mormont." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="81" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Skagos" id="24585e34-86c4-4795-8e0c-7da379009811">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Shadow (1).
+<b>Action:</b> Kneel Skagos and sacrifice a standing <s value="stark">[House Stark]</s> card to search your deck for a card with the same title as the sacrificed card and put it into play. Shuffle your deck.</property>
+      <property name="Traits" value="The North." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Juan Carlos Barquet" />
+      <property name="Card Number" value="82" />
+    </card>
+    <card name="Brightwater Host" id="892e70d1-c01e-4f0b-b4e8-60190f975090">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">No attachments.
+<b>Reaction:</b> After you win a challenge in which Brightwater Host is attacking, choose 1 card in shadows and return it to its owner's hand. Then, a unique <s value="tyrell">[House Tyrell]</s> character you control gains 2 power.</property>
+      <property name="Traits" value="Army. House Florent." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Joshua Cairós" />
+      <property name="Card Number" value="83" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="The Might of the Reach" id="4bd62824-239e-47e6-9bba-780aa6d8a5b1">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">
+        <b>Challenges Action:</b> Choose a participating character. Until the end of the challenge, that character gets +10 STR.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Niten" />
+      <property name="Card Number" value="84" />
+    </card>
+    <card name="Three-Finger Hobb" id="6593ac4e-2a10-4812-acd7-3ff67d54d033">
       <property name="Type" value="Character" />
       <property name="Faction" value="The Night's Watch" />
       <property name="Text">No attachments except <i>Weapon</i>.
@@ -18,14 +79,27 @@
         <s value="intrigue">[Intrigue]</s>
       </property>
     </card>
-    <card name="Storm's End Maester" id="d02e0af0-3c0d-4e59-9c3e-40f56f551b65">
+    <card name="Hardhome" id="51fca468-3d49-483d-9349-7248d266afc8">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">Shadow (2).
+<b>Dominance Action:</b> Kneel and sacrifice Hardhome to choose an opponent. That player sacrifices a standing character.</property>
+      <property name="Traits" value="The North." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Juan Carlos Barquet" />
+      <property name="Card Number" value="86" />
+    </card>
+    <card name="Storm's End Maester" id="0a7e5716-11c1-4ab1-bce9-0aa3d0de1586">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Baratheon" />
       <property name="Text">
-        <b>Challenges Action:</b> Kneel Storm's End Maester to choose an opponent. If you have more power on your faction card than that player, draw ? cards.</property>
+        <b>Challenges Action:</b> Kneel Storm's End Maester to choose an opponent. If you have more power on your faction card than that player, draw 1 card.</property>
       <property name="Traits" value="Maester." />
       <property name="Unique" value="No" />
-      <property name="Loyal" value="No" />
+      <property name="Loyal" value="Yes" />
       <property name="Cost" value="2" />
       <property name="Strength" value="1" />
       <property name="Deck Limit" value="3" />
@@ -35,7 +109,70 @@
         <s value="power">[Power]</s>
       </property>
     </card>
-    <card name="Refurbished Hulk" id="85a0d82b-00a3-4a8e-b7e8-f82e524d0dde">
+    <card name="Glamor" id="947d065d-4e9a-43c6-a3ba-22409cf6d00b">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Character you control only. Shadow (2). Terminal.
+Attached character gets +2 STR.
+<b>Action:</b> Kill attached character to choose a character in your dead pile that was killed this phase. Return the chosen character to play.</property>
+      <property name="Traits" value="Item. R'hllor." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="88" />
+    </card>
+    <card name="Painted Dogs" id="e469f902-6d78-4522-b792-800f99ff034c">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Ambush (4).
+<b>Challenges Action:</b> Return Painted Dogs to your hand to choose and stand a <i>Clansman</i> character or Tyrion Lannister.</property>
+      <property name="Traits" value="Clansman." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ramon Ignacio Bunge" />
+      <property name="Card Number" value="89" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Walk of Atonement" id="dbe0e115-e3b4-41fa-a3ed-3dcd5fe20cab">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Dominance Action:</b> Discard any amount of power from a character you control. For each power discarded, discard 1 card at random from each opponent's hand and draw 1 card.</property>
+      <property name="Traits" value="The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Magali Villeneuve" />
+      <property name="Card Number" value="90" />
+    </card>
+    <card name="Iron Victory's Crew" id="0751602e-b885-405c-aba6-49af7dd13a9b">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">No attachments.
+<b>Reaction:</b> After Iron Victory's Crew enters play, search your deck for a <i>Warship</i> location, reveal it, and add it to your hand (put it into play instead if it is Iron Victory). Shuffle your deck.</property>
+      <property name="Traits" value="Ironborn. Raider." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ramon Ignacio Bunge" />
+      <property name="Card Number" value="91" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Refurbished Hulk" id="0df55611-b6a4-4198-b910-557f086ab7ab">
       <property name="Type" value="Location" />
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">+1 Income.
@@ -48,7 +185,7 @@
       <property name="Illustrator" value="Juan Carlos Barquet" />
       <property name="Card Number" value="92" />
     </card>
-    <card name="Drogon" id="69ebebac-bb7b-4795-b914-fde06418cebb">
+    <card name="Drogon" id="293e7162-e14f-42d6-86b3-3f28b3f56f90">
       <property name="Type" value="Character" />
       <property name="Faction" value="House Targaryen" />
       <property name="Text">Ambush (6). No attachments.
@@ -65,7 +202,7 @@
         <s value="military">[Military]</s>
       </property>
     </card>
-    <card name="In Daznak's Pit" id="8f87e70d-70a6-4fa7-839d-b2d1098b3756">
+    <card name="In Daznak's Pit" id="912a95ed-ebbb-476a-9714-01b93dc21253">
       <property name="Type" value="Event" />
       <property name="Faction" value="House Targaryen" />
       <property name="Text">Shadow (3).
@@ -76,7 +213,24 @@
       <property name="Illustrator" value="Antonio José Manzanedo" />
       <property name="Card Number" value="94" />
     </card>
-    <card name="He Calls It Thinking" id="56960a93-57e1-4ed2-9305-54b8630b5be7">
+    <card name="Maester Myles" id="97386142-3927-4a54-ad6b-499d30243e56">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Challenges Action:</b> Kneel Maester Myles to choose a character with printed cost equal to or lower than the number of plot cards in your used pile. Until the end of the phase, that character loses a challenge icon of your choice.</property>
+      <property name="Traits" value="Maester." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andreia Ugrai" />
+      <property name="Card Number" value="95" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="He Calls It Thinking" id="21ecb712-f690-4996-aeb0-4caaf4d9709b">
       <property name="Type" value="Event" />
       <property name="Faction" value="House Martell" />
       <property name="Text">
@@ -87,6 +241,65 @@
       <property name="Deck Limit" value="3" />
       <property name="Illustrator" value="Borja Pindado" />
       <property name="Card Number" value="96" />
+    </card>
+    <card name="Old Bill Bone" id="5620c554-9854-432d-981d-a1da9e6c646d">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Shadow (1).
+<b>Reaction:</b> After Old Bill Bone comes out of shadows, kneel each opponent's faction card.</property>
+      <property name="Traits" value="Mercenary." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="97" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="The Inn at the Crossroads" id="ea18049f-4de6-4290-aa36-dd402d585c94">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Shadow (1).
+<b>Dominance Action:</b> Kneel The Inn at the Crossroads to draw 3 cards and choose an opponent. Give control of The Inn at the Crossroads to that player.</property>
+      <property name="Traits" value="Riverlands." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Greg Bobrowski" />
+      <property name="Card Number" value="98" />
+    </card>
+    <card name="A Pinch of Powder" id="1b51b2a3-70ef-4842-9c73-8391e1013904">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Shadow (1).
+<b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> or <s value="power">[Power]</s> challenge by 5 or more STR as the attacking player, return attached character to its owner's hand.</property>
+      <property name="Traits" value="Item. Weapon." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="John Matson" />
+      <property name="Card Number" value="99" />
+    </card>
+    <card name="Double-Dealing" id="98b3d6f4-066d-403c-856b-e6cb3913e8f3" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Plot Action:</b> Choose a plot card in an opponent's used pile. Double-Dealing gains that plot card's printed text box (except for <i>Traits</i>) until you reveal a new plot card. (Limit once per round.)</property>
+      <property name="Traits" value="Scheme." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="5" />
+      <property name="Initiative" value="7" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Jason Jenicke" />
+      <property name="Card Number" value="100" />
     </card>
   </cards>
 </set>

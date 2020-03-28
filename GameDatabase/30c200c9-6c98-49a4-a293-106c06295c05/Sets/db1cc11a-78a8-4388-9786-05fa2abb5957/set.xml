@@ -36,7 +36,8 @@
       <property name="Type" value="Character" />
       <property name="Faction" value="House Tyrell" />
       <property name="Text">
-        <b>Reaction:</b> After Mace Tyrell is knelt, draw 2 cards. Then, choose a card in your hand and place it on top of your deck.</property>
+        <b>Reaction:</b> After Mace Tyrell is knelt, draw 2 cards. Then, choose a card in your hand and place it on top of your deck.
++1 Income.</property>
       <property name="Traits" value="Lord. Small Council." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="Yes" />

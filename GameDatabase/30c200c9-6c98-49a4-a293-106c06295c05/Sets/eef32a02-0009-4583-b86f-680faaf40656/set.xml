@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Long May He Reign" id="eef32a02-0009-4583-b86f-680faaf40656" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Arya Stark" id="af6006e2-4ea4-457e-9c39-eaf7b17939ee">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Shadow (4). Stealth.
+<b>Reaction:</b> After Arya Stark enters play, place a prayer token on up to 5 different characters you don't control. If Arya Stark leaves play, discard those tokens.
+<b>Reaction:</b> After a character with a prayer token is killed, stand Arya Stark and draw 1 card.</property>
+      <property name="Traits" value="Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Borja Pindado" />
+      <property name="Card Number" value="101" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Blood of the First Men" id="984e272e-10dd-4c83-94ff-7d4e75b2b549">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Character you control only.
+Attached character gains the <i>Old Gods</i> trait.
+<b>Action:</b> During a challenge in which you control a participating <s value="stark">[House Stark]</s> character, kneel attached character to have it participate in the challenge on your side.</property>
+      <property name="Traits" value="Legacy. Old Gods." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Leanna Crossan" />
+      <property name="Card Number" value="102" />
+    </card>
+    <card name="The Queen's Retinue" id="d44476b9-cffe-408e-b6d2-da83b78a7f15">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Shadow (4).
+<b>Action:</b> Put The Queen's Retinue into play from shadows. Then, each opponent draws 2 cards.</property>
+      <property name="Traits" value="Ally. Companion." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Drazenka Kimpel" />
+      <property name="Card Number" value="103" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Huntress" id="852d95e1-71ad-459e-adbf-f9912067bc1f">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">While Huntress is standing, each <s value="tyrell">[House Tyrell]</s> character you control with printed cost 3 or lower gets +1 STR.
+<b>Action:</b> Kneel Huntress to choose a <s value="tyrell">[House Tyrell]</s> character with printed cost 3 or lower. It gets +3 STR until the end of the phase.</property>
+      <property name="Traits" value="Warship." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Rodriguez" />
+      <property name="Card Number" value="104" />
+    </card>
+    <card name="Recruit from the Dungeons" id="e87bd053-d409-4758-90c2-ba4495415c29">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">Shadow (2).
+<b>Action:</b> During a challenge in which you are the defending player, kneel Recruit from the Dungeons to have it participate in the challenge on your side. If you lose the challenge, return Recruit from the Dungeons to shadows.</property>
+      <property name="Traits" value="Ally. Recruit." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="105" />
+    </card>
+    <card name="Rimegate" id="1dff0c21-860c-48d2-9a7c-e959f6515695">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Interrupt:</b> When another location you control would be discarded from play, kneel Rimegate to save it.</property>
+      <property name="Traits" value="The North." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Logan Feliciano" />
+      <property name="Card Number" value="106" />
+    </card>
+    <card name="Robert Baratheon" id="23d5f50f-219e-4ca1-964b-d956129c04cb">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Renown.
+<b>Reaction:</b> After Robert Baratheon gains power, gain 1 power for your faction. (Limit twice per round.)</property>
+      <property name="Traits" value="Lord. King." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Antonio José Manzanedo" />
+      <property name="Card Number" value="107" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Long May He Reign" id="e8dc0342-eb03-4354-9918-bc7f51d28a03">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <i>King</i> character only.
+Attached character cannot be killed.
+<b>Forced Reaction:</b> After you lose a <s value="power">[Power]</s> challenge as the defending player, sacrifice Long May He Reign.</property>
+      <property name="Traits" value="Legacy." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Rodriguez" />
+      <property name="Card Number" value="108" />
+    </card>
+    <card name="The Bastard of Driftmark" id="03d6fa2c-dc69-40f7-98b5-460634a51fbe">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge in which The Bastard of Driftmark is participating, choose and stand a location.</property>
+      <property name="Traits" value="Bastard. Small Council." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andreia Ugrai" />
+      <property name="Card Number" value="109" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Alchemists' Guildhall" id="9291aa99-656f-49ea-bfe0-e92d9d2a5eb9">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Shadow (2).
+<b>Interrupt:</b> When the effects of a triggered character ability would initiate, if that character does not have shadow, kneel and return Alchemists' Guildhall to shadows to cancel those effects. (Max 1 per phase.)</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Brenda Bae" />
+      <property name="Card Number" value="110" />
+    </card>
+    <card name="Blackwater Raiders" id="cff09cd5-bffa-4e43-94d1-8bfc6e0e1e7f">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Shadow (3).
+<b>Reaction:</b> After Blackwater Raiders comes out of shadows, choose a location with printed cost 2 or lower in an opponent's discard pile. Put it into play under your control.</property>
+      <property name="Traits" value="Mercenary. Raider." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Giorgi" />
+      <property name="Card Number" value="111" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Fishmonger's Square" id="99cb5683-38d5-4802-88d1-cc11a6da76f6">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">
+        <b>Marshaling Action:</b> If there are 10 or more cards in an opponent's discard pile, kneel Fishmonger's Square to draw 1 card and gain 1 gold.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="112" />
+    </card>
+    <card name="Ser Jorah Mormont" id="8482e66d-3e04-446b-932f-04439e40ac15">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Shadow (4). No attachments except <i>Weapon</i>.
+<b>Interrupt:</b> When Ser Jorah Mormont is discarded from your hand, put him into shadows instead of placing him in your discard pile.</property>
+      <property name="Traits" value="Companion. Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Card Number" value="113" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Mercenary Contract" id="77bd1a29-e32f-43ad-98bb-5331e71c9d6e">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Attached character gains the <i>Mercenary</i> trait.
+<b>Reaction:</b> After you win a challenge in which attached character is attacking, pay 1 gold and kneel Mercenary Contract to stand attached character.</property>
+      <property name="Traits" value="Item." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tiziano Baracchi" />
+      <property name="Card Number" value="114" />
+    </card>
+    <card name="Friends at Court" id="384fcf65-cf8e-449a-8579-9782a374128d">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Shadow (2).
+<b>Reaction:</b> After Friends at Court comes out of shadows, look at up to 3 cards in shadows. Then, you may pay 2 gold to choose 1 of those cards and return it to its owner's hand.</property>
+      <property name="Traits" value="Spy." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Card Number" value="115" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Poisoned Dagger" id="9eb75a3d-4ca1-4247-a3b7-89396bb34066">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Character you control only. Shadow (2).
+Attached character gets +2 STR.
+<b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge in which attached character is participating, sacrifice Poisoned Dagger to have the losing opponent choose and kill a participating character he or she controls.</property>
+      <property name="Traits" value="Weapon." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Matt Hansen" />
+      <property name="Card Number" value="116" />
+    </card>
+    <card name="The Iron Throne" id="cf07b8af-9fd1-4756-86c3-2384e27d7dd3">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Reaction:</b> After a phase begins, kneel The Iron Throne to name a card. Until the end of the phase, that card cannot be marshaled, played, or put into play.</property>
+      <property name="Traits" value="Contested. King's Landing." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Leanna Crossan" />
+      <property name="Card Number" value="117" />
+    </card>
+    <card name="Valyrian Steel" id="ce537557-80a2-43bc-a666-739b83a5f026">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Your minimum deck size is 75 cards. Your deck cannot include more than 1 copy of each attachment.
+<b>Action:</b> Kneel your faction card and pay X gold to put an attachment with printed cost X into play from your hand.
+<b>Reaction:</b> After an attachment enters play under your control, either: draw a card or gain 1 gold. (Limit 3 times per round.)</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="Tim Durning" />
+      <property name="Card Number" value="118" />
+    </card>
+    <card name="City of Wealth" id="ae1be544-1852-4600-b117-0938c404037a" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Increase the gold, initiative, and reserve values on this plot card by 1 for each <i>City</i> plot card in your used pile.</property>
+      <property name="Traits" value="City. Kingdom." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Income" value="2" />
+      <property name="Initiative" value="2" />
+      <property name="Claim" value="2" />
+      <property name="Reserve" value="2" />
+      <property name="Illustrator" value="Josu Hernaiz" />
+      <property name="Card Number" value="119" />
+    </card>
+    <card name="Expose Duplicity" id="27ca9891-6991-44c1-a731-8697d3df4d56" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Discard each card in shadows.</property>
+      <property name="Traits" value="Scheme." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="5" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="120" />
+    </card>
+  </cards>
+</set>

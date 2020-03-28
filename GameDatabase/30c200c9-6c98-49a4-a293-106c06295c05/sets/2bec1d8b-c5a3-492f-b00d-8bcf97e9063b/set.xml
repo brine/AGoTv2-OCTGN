@@ -157,8 +157,9 @@
       <property name="Type" value="Character" />
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">Stealth.
-If you control Asha Greyjoy, sacrifice Esgred and have your Asha Greyjoy gain 1 power.
-Esgred may bypass an additional character using stealth.</property>
+If you control Asha Greyjoy, sacrifice Esgred. Then, your Asha Greyjoy gains 1 power.
+Esgred may bypass an additional character using stealth.
+<i>Errata from FAQ v2.1</i></property>
       <property name="Traits" value="Ironborn." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />

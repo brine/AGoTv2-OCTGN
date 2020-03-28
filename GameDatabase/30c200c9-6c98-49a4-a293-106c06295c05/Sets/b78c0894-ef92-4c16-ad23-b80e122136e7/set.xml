@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Beneath the Red Keep" id="b78c0894-ef92-4c16-ad23-b80e122136e7" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="White Harbor Watchman" id="8762bc00-265c-461f-bb22-a8840f97687e">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">
+        <b>Reaction:</b> After a character comes out of shadows, sacrifice White Harbor Watchman to kill that character.</property>
+      <property name="Traits" value="Guard. House Manderly." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="61" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="Tower of the Hand" id="019fd09f-5f66-4183-8471-7412a491905c">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">
+        <b>Reaction:</b> After a card you control comes out of shadows, if there is a <i>Winter</i> plot card revealed, choose and stand a <s value="stark">[House Stark]</s> character. (Limit once per phase.)</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="62" />
+    </card>
+    <card name="Alyce Graceford" id="a703ca42-c246-4ac6-ad53-0e4740e83c9d">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">
+        <b>Action:</b> Kneel Alyce Graceford to choose another <i>The Seven</i> character. Until the end of the phase, that character gains renown.</property>
+      <property name="Traits" value="Lady. The Seven." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Drazenka Kimpel" />
+      <property name="Card Number" value="63" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="The Maidenvault" id="03ad3a6b-fa23-47ec-9668-b9295b7f96fc">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Shadow (1).
+<b>Reaction:</b> After The Maidenvault comes out of shadows, choose a participating <i>Lady</i> character. Stand it and remove it from the challenge.
+<b>Interrupt:</b> When the challenges phase ends, kneel The Maidenvault to return it to shadows.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Brenda Bae" />
+      <property name="Card Number" value="64" />
+    </card>
+    <card name="Forest Patrol" id="eb0ead31-4ab1-4a82-b80c-3987507d9bf3">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">Shadow (4).
+No attachments except <i>Weapon</i>.
+<b>Action:</b> Kneel a <s value="nightswatch">[The Night's Watch]</s> location to put Forest Patrol into play from shadows.</property>
+      <property name="Traits" value="Ally. Ranger." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="6" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Rodriguez" />
+      <property name="Card Number" value="65" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="Blackbird" id="5d102d55-4576-4374-b2d8-c28b105d8de1">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">Shadow (1).
+<b>Reaction:</b> After Blackbird comes out of shadows, choose and stand another <s value="nightswatch">[The Night's Watch]</s> location.
++1 Reserve.</property>
+      <property name="Traits" value="Warship." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Rodriguez" />
+      <property name="Card Number" value="66" />
+    </card>
+    <card name="Castle Guard" id="07b8e0f8-0fab-4dbe-b81b-8404298657ee">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Shadow (3).
+<b>Reaction:</b> After Castle Guard comes out of shadows, choose another character that came out of shadows this phase. Return that character to shadows.</property>
+      <property name="Traits" value="Guard." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Card Number" value="67" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Public Execution" id="78c695d9-bb1d-493a-b097-f01418b4bc91">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Marshaling Action:</b> Choose and kill a kneeling character.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Axel Sauerwald" />
+      <property name="Card Number" value="68" />
+    </card>
+    <card name="Doubting Septa" id="dde22320-0438-4ecd-9ae5-cdca7a17157d">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Reaction:</b> After you win an <s value="intrigue">[Intrigue]</s> challenge, sacrifice Doubting Septa to choose a character or location you control. That card gains 1 power.</property>
+      <property name="Traits" value="The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andreia Ugrai" />
+      <property name="Card Number" value="69" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Tunnels of the Red Keep" id="799319ca-f6b8-4b28-ac1d-6750a4a6ff6a">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Shadow (2).
+<b>Action:</b> Kneel Tunnels of the Red Keep to return it to shadows. Then, until the end of the phase, each character you control gets +1 STR for each card you control in shadows. (Max 1 per phase.)</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="70" />
+    </card>
+    <card name="Gorold Goodbrother" id="e4ed612f-4dab-4c45-b1ff-e0f00c0fc5c8">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Pillage. Renown.
+<b>Reaction:</b> After a location enters an opponent's discard pile, stand Gorold Goodbrother. (Limit twice per phase.)</property>
+      <property name="Traits" value="House Goodbrother. Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dleoblack" />
+      <property name="Card Number" value="71" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Shadow of the Isles" id="cc562bda-71c8-4572-9263-29bcaff5d5a9">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Shadow (1).
+<b>Action:</b> Each player chooses a non-limited location he or she controls and discards it from play. If there is a <i>War</i> plot card revealed, return Shadow of the Isles to your hand instead of placing it in your discard pile.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="72" />
+    </card>
+    <card name="Shadowblack Assassin" id="6ac26a56-81ba-42d7-a16d-5157af2bdcef">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Shadow (2).
+<b>Reaction:</b> After Shadowblack Assassin comes out of shadows, choose and kill a character with STR 1 or lower.</property>
+      <property name="Traits" value="Ally." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Felipe Escobar" />
+      <property name="Card Number" value="73" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Dragon Skull" id="b14aa9de-e787-4c1a-8499-1eb651bde4ff">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <s value="targaryen">[House Targaryen]</s> character only. Shadow (2).
+While there are no <i>Dragon</i> characters in play, attached character gains intimidate and renown.</property>
+      <property name="Traits" value="Item." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Carlos Palma Cruchaga" />
+      <property name="Card Number" value="74" />
+    </card>
+    <card name="Sarella Sand" id="5df84e2b-4ab5-48d8-8f02-712b8ca7902d">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Reaction:</b> After you lose a challenge in which Sarella Sand is attacking, you may initiate an additional challenge of that type this phase. (Limit once per phase.)</property>
+      <property name="Traits" value="Bastard. Sand Snake." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Borja Pindado" />
+      <property name="Card Number" value="75" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Meadowlark" id="28625709-5297-4a31-bb38-38569110a142">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Reaction:</b> After you reveal a plot card, place 1 journey token on Meadowlark.
+<b>Action:</b> Sacrifice Meadowlark to search your deck for a character with printed cost X or lower and put it into play. Shuffle your deck. X is the number of journey tokens on Meadowlark.</property>
+      <property name="Traits" value="Warship." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Federico Musetti" />
+      <property name="Card Number" value="76" />
+    </card>
+    <card name="Advisor to the Crown" id="aa876bf6-0d4c-4337-bb91-cf81e5b62ec3">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Action:</b> Kneel Advisor to the Crown to reduce the cost of the next <i>Maester</i> character you marshal this phase by 1.</property>
+      <property name="Traits" value="Ally. Maester." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="77" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Knights of the Mind" id="abbe32e2-e2ee-4684-a0de-40f3dc341c16">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Challenge Action:</b> Until the end of the phase, each <i>Maester</i> character you control gains a <s value="military">[Military]</s> icon.</property>
+      <property name="Traits" value="Citadel." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="78" />
+    </card>
+    <card name="Kingdom of Shadows" id="3736c363-7bf2-47ec-968a-f56f6f45e4c5">
+      <property name="Type" value="Agenda" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">You may include non-loyal characters with the printed shadow keyword from any faction in your deck.
+Increase the cost of each character you marshal by 1. Reduce the cost of the first character you bring out of shadows each round by 2.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Illustrator" value="Tim Durning" />
+      <property name="Card Number" value="79" />
+    </card>
+    <card name="City of Spiders" id="53e8d0c5-4ddf-4221-a9a6-14d84b431904" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Initiate the when revealed ability of a <i>City</i> plot card in your used pile as if you had just revealed it.</property>
+      <property name="Traits" value="City. Scheme." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="7" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="5" />
+      <property name="Illustrator" value="Stephen Stark" />
+      <property name="Card Number" value="80" />
+    </card>
+  </cards>
+</set>

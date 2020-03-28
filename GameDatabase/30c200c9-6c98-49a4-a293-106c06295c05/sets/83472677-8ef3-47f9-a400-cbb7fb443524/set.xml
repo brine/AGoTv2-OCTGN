@@ -41,7 +41,7 @@ Reaction:</b> After you win a <s value="military">[Military]</s> challenge in wh
       <property name="Type" value="Character" />
       <property name="Faction" value="House Stark" />
       <property name="Text">Renown.
-<b>Reaction: </b>After Eddard Stark gains power using renown, choose another participating character you control. That character gains 1 power.</property>
+<b>Reaction:</b> After Eddard Stark gains power using renown, choose another participating character you control. That character gains 1 power.</property>
       <property name="Traits" value="Lord. Small Council." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -59,7 +59,7 @@ Reaction:</b> After you win a <s value="military">[Military]</s> challenge in wh
       <property name="Type" value="Character" />
       <property name="Faction" value="House Stark" />
       <property name="Text">Renown.
-While The Blackfish has 4 or more power, each <i>House Tully </i>character you control does not kneel when declared as an attacker.
+While The Blackfish has 4 or more power, each <i>House Tully</i> character you control does not kneel when declared as an attacker.
 <b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge as the attacking player, draw 1 card. (Limit once per phase.)</property>
       <property name="Traits" value="House Tully. Knight. Lord." />
       <property name="Unique" value="Yes" />
@@ -166,7 +166,7 @@ While The Blackfish has 4 or more power, each <i>House Tully </i>character you c
       <property name="Type" value="Character" />
       <property name="Faction" value="House Stark" />
       <property name="Text">
-        <b>Interrupt:</b> When a plot card is revealed, kneel Old Nan to have that plot card gain the <i>Summer </i>or <i>Winter</i> trait until the end of the round.</property>
+        <b>Interrupt:</b> When a plot card is revealed, kneel Old Nan to have that plot card gain the <i>Summer</i> or <i>Winter</i> trait until the end of the round.</property>
       <property name="Traits" value="Storyteller." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -672,7 +672,7 @@ While there is a <i>Winter</i> plot card revealed, reduce the cost to ambush eac
       <property name="Type" value="Event" />
       <property name="Faction" value="Neutral" />
       <property name="Text">
-        <b>Interrupt:</b> When a non-<i>Army </i>character you control would be killed, kneel a <i>Maester</i> character to save it.</property>
+        <b>Interrupt:</b> When a non-<i>Army</i> character you control would be killed, kneel a <i>Maester</i> character to save it.</property>
       <property name="Traits" value="Citadel." />
       <property name="Unique" value="No" />
       <property name="Loyal" value="No" />

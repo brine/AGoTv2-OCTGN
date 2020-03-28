@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Dragons of the East" id="17dd1a6b-7516-4a1b-8575-1d8afbcfbb2c" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Daenerys Targaryen" id="3d67d33a-eff8-45c1-bc88-f57bc9c3ab99">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Action:</b> Search the top 10 cards of your deck for an attachment or <i>Dragon</i> card, reveal it, and add it to your hand (you may put it into play instead if its printed cost is 3 or lower). Shuffle your deck. (Limit once per round.)</property>
+      <property name="Traits" value="Lady. Queen. Stormborn." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="8" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="1" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Drogon" id="e7702beb-f00f-40ab-8049-e66423a22a4a">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">No attachments.
+Each <i>Stormborn</i> character you control gains renown.
+<b>Reaction:</b> After you win a challenge in which Drogon is attacking, kill each character the defending player controls with STR 1 or lower.</property>
+      <property name="Traits" value="Dragon." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="7" />
+      <property name="Strength" value="10" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jokubas Uogintas" />
+      <property name="Card Number" value="2" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+      </property>
+    </card>
+    <card name="Rhaegal" id="ca64aa0d-07d4-4e1f-91d6-a8c29461d065">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">No attachments.
+<b>Reaction:</b> After you win a challenge in which Rhaegal is attacking, choose and stand another character you control. Then, if that character has the <i>Dragon</i> or <i>Stormborn</i> trait, stand Rhaegal. (Limit once per phase.)</property>
+      <property name="Traits" value="Dragon." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="7" />
+      <property name="Strength" value="8" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jokubas Uogintas" />
+      <property name="Card Number" value="3" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Viserion" id="a34911b2-79d3-43b2-80d4-bb4cbb27e4cb">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">No attachments.
+Each <i>Stormborn</i> character you control gains stealth.
+While Viserion is attacking, each participating non-<i>Dragon</i>, non-<i>Stormborn</i> characters gets -2 STR.</property>
+      <property name="Traits" value="Dragon." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="7" />
+      <property name="Strength" value="8" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jokubas Uogintas" />
+      <property name="Card Number" value="4" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Khal Drogo" id="0bef0df0-4983-4306-aedd-711fa8f2fd4f">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Renown.
+<b>Interrupt:</b> When an <i>Army</i> or <i>Dothraki</i> character would be returned to your hand, discard 1 card from your hand to save it.</property>
+      <property name="Traits" value="Dothraki. Lord." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="6" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Aleksander Karcz" />
+      <property name="Card Number" value="5" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Galazza Galare" id="c4c610d7-9343-4b51-9f4d-b5bb1f4b31b0">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Reaction:</b> After you marshal Galazza Galare, search the top 10 cards of your deck for, either: a <s value="targaryen">[House Targaryen]</s> character with printed cost 6 or higher, or up to 3 <s value="targaryen">[House Targaryen]</s> characters with printed cost 2 or lower. Reveal each searched-for card and add it to your hand. Shuffle your deck.</property>
+      <property name="Traits" value="Grace." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="6" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Jhogo" id="ef2ba687-a6e5-4196-a39a-ec4ba916d109">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge in which you control 2 or more attacking <i>Dothraki</i> characters, move 1 power from the losing opponent's faction card to your own.</property>
+      <property name="Traits" value="Bloodrider. Dothraki." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Caravan Studio" />
+      <property name="Card Number" value="7" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="The Shavepate" id="1e608e62-7788-43ee-9240-01f53876a721">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Challenges Action:</b> Pay X gold to put a character with printed cost X or lower into play from your discard pile. (Limit once per phase.)</property>
+      <property name="Traits" value="Commander. Guard." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="8" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Rakharo" id="43e7addc-fe46-4997-9c59-ef5aa0687399">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Reaction:</b> After you win a <s value="military">[Military]</s> challenge in which you control 2 or more attacking <i>Dothraki</i> characters, discard 1 card at random from the losing opponent's hand.</property>
+      <property name="Traits" value="Bloodrider. Dothraki." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Caravan Studio" />
+      <property name="Card Number" value="9" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="The Titan's Bastard" id="ca22f91c-d05f-4cc8-bb59-b75d4e449ad5">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Action:</b> Kneel The Titan's Bastard to return a <i>Mercenary</i> character from your discard pile to your hand.</property>
+      <property name="Traits" value="Bastard. Commander. Mercenary." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Card Number" value="10" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Barsena Blackhair" id="2fe1d98a-fa23-49c6-9a55-b4c4694098b1">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">No attachments except <i>Weapon</i>.
+While there is a <i>Weapon</i> attachment attached to Barsena Blackhair, she gets +3 STR.</property>
+      <property name="Traits" value="Pit Fighter." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Card Number" value="11" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Captain Groleo" id="a56fa4fa-25d6-4ccf-8b9c-f529e6b13e2c">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Reaction:</b> After an attachment enters play, gain 1 gold. (Limit once per phase.)</property>
+      <property name="Traits" value="Captain." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Scott Altmann" />
+      <property name="Card Number" value="12" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Blue Graces" id="b4d614b9-9218-4787-9e95-c8bd0ae5ccfa">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Challenges Action:</b> Remove Blue Graces from the game to choose a card with printed cost 6 or higher in your discard or dead pile and shuffle it into your deck.</property>
+      <property name="Traits" value="Ally. Grace." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="13" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Dothraki Handmaiden" id="e7a451ac-31f5-4380-b950-9c7eae63f346">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">While you control Daenerys Targaryen, you may marshal facedown cards attached to Dothraki Handmaiden as if they were in your hand.
+<b>Marshaling Action:</b> Reveal an attachment from your hand. Attach it to Dothraki Handmaiden facedown as an attachment.</property>
+      <property name="Traits" value="Companion. Dothraki." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Stephen Stark" />
+      <property name="Card Number" value="14" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Horselord" id="3a7dfcfe-f9a6-4a8f-ad98-1be3499e3ffe">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">While Horselord is attacking, it gets +1 STR for each other attacking <i>Dothraki</i> character you control.</property>
+      <property name="Traits" value="Dothraki." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Magali Villeneuve" />
+      <property name="Card Number" value="15" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Brown Ben Plumm" id="04c66e49-69f7-4ce5-8397-dd5ce573e2ab">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Forced Interrupt:</b> When the challenges phase ends, if you have no gold in your gold pool, sacrifice Brown Ben Plumm.</property>
+      <property name="Traits" value="Mercenary." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Patrick McEvoy" />
+      <property name="Card Number" value="16" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Womb of the World" id="c6f4e68b-111a-4477-9705-759526e42450">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Action:</b> Kneel Womb of the World to reveal the top 5 cards of your deck. You may chose a <i>Dothraki</i> character revealed this way and put it into play. Shuffle your deck. At the end of the phase, if that character is still in play, return it to your hand.</property>
+      <property name="Traits" value="Essos." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Zach Graves" />
+      <property name="Card Number" value="17" />
+    </card>
+    <card name="Pentos" id="c7d55b71-6be1-4608-84fb-481067b5c3b2">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Reaction:</b> After you draw an attachment, kneel Pentos to reveal that attachment and put it into play. Then, draw a card.</property>
+      <property name="Traits" value="Essos. Free Cities." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Rodriguez" />
+      <property name="Card Number" value="18" />
+    </card>
+    <card name="Khaleesi" id="8a16bc9f-9ab4-4bb5-a47e-dda4a2871f06">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <i>Lady</i> character only.
+<b>Reaction:</b> After you win a challenge in which attached character is participating, kneel Khaleesi to, either: stand attached character, or raise the claim value on your revealed plot card by 1 until the end of the challenge.</property>
+      <property name="Traits" value="Title." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="19" />
+    </card>
+    <card name="Dragon Egg" id="b015ac44-c1a8-4d56-a569-fb5f3cab448c">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Attached character gains insight.
+<b>Reaction:</b> After the marshaling phase begins, if attached character is Daenerys Targaryen, sacrifice Dragon Egg to search your deck for a <i>Hatchling</i> character and put it into play. Shuffle your deck.</property>
+      <property name="Traits" value="Dragon. Item." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Julepe" />
+      <property name="Card Number" value="20" />
+    </card>
+    <card name="Pit Fighter's Blade" id="19c8d069-19d4-4f88-98a6-4e12308c1e17">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Attached character gains renown during <s value="military">[Military]</s> challenges.</property>
+      <property name="Traits" value="Weapon." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="21" />
+    </card>
+    <card name="Overwhelming Numbers" id="9b28acce-8ba8-4126-bac2-0e56a3ade5c2">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Play only during a challenge in which you control 2 or more attacking <i>Dothraki</i> characters.
+<b>Action:</b> Put up to 2 <i>Dothraki</i> characters into play from your hand and/or discard pile knelt, participating as attackers. At the end of the challenge, if any of those characters are still in play, return them to your hand. (Max 1 per challenge.)</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="22" />
+    </card>
+    <card name="Fire Made Flesh" id="cba501ba-3e2e-416d-b0fc-1a144512ad4e">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Marshaling Action:</b> Sacrifice a <i>Hatchling</i> character to search your hand and deck for a <i>Dragon</i> character with the same title and put it into play. Shuffle your deck.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jake Murray" />
+      <property name="Card Number" value="23" />
+    </card>
+    <card name="Incinerate" id="fa61442a-204a-44db-acbb-26af38112bc7">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Action:</b> Choose a participating character and discard 1 or more cards from your hand. Until the end of the challenge, that character gets -2 STR for each card discarded this way.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Wibben" />
+      <property name="Card Number" value="24" />
+    </card>
+    <card name="Delena Florent" id="ecbfbf6a-234a-4a26-a0e8-45bd899fb94e">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">During the challenges phase, non-<i>Bastard</i> characters cannot stand.
+<b>Reaction:</b> After Delena Florent enters play, search your deck for a <i>Bastard</i> character, reveal it, and add it to your hand. Shuffle your deck.</property>
+      <property name="Traits" value="House Florent. Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Andeia Ugrai" />
+      <property name="Card Number" value="25" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Dragonstone Convert" id="1b83ee20-d6bb-4750-b2af-21f21d742230">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Challenges Action:</b> Name an event. Until the end of the phase, events with that title cannot be played. (Limit once per phase.)</property>
+      <property name="Traits" value="House Florent. R'hllor." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Magali Villeneuve" />
+      <property name="Card Number" value="26" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Hotho Humpback" id="bce74405-c867-4edd-9950-0f978812c5bb">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">
+        <b>Challenges Action:</b> Each player draws 1 card. Each player checks reserve. (Limit once per round.)</property>
+      <property name="Traits" value="House Harlaw." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Quintin Gleim" />
+      <property name="Card Number" value="27" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Ten Towers Galley" id="ca7d44fa-df65-45f4-9897-2cf7b4bbc611">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">While Ten Towers Galley is standing, reduce the reserve value on each opponent's revealed plot by 1.
+<b>Action:</b> Kneel a location with printed cost 2 or higher to kneel Ten Towers Galley. Any player may initiate this ability.</property>
+      <property name="Traits" value="House Harlaw. Warship." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Juan Carlos Barquet" />
+      <property name="Card Number" value="28" />
+    </card>
+    <card name="Ser Meryn Trant" id="67913427-5755-4166-afc5-20599d1af571">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Interrupt:</b> When a card is discarded from an opponent's hand, remove it from the game instead of placing it in his or her discard pile.</property>
+      <property name="Traits" value="Kingsguard. Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Alexandre Dainche" />
+      <property name="Card Number" value="29" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="The Red Keep" id="e72c29ae-4fc9-44a0-881d-f7ad60b76b26">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">
+        <b>Interrupt:</b> When the effects of an opponent's triggered character, location, or attachment ability would initiate, kneel The Red Keep to cancel those effects.
++1 Income.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Logan Feliciano" />
+      <property name="Card Number" value="30" />
+    </card>
+    <card name="Spotted Sylva" id="5c5069e6-38c8-4203-86ab-7dc6b6f590ca">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Forced Reaction:</b> After you lose a challenge in which Spotted Sylva is attacking, each player must choose a participating character he or she controls, if able, and return it to its owner's hand.</property>
+      <property name="Traits" value="House Santagar. Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Card Number" value="31" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Choosing the Spear" id="bb9f408d-c09c-40e1-8140-0d65e3950cb8">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">
+        <b>Reaction:</b> After a <s value="martell">[House Martell]</s> character you control is declared as an attacker in a <s value="military">[Military]</s> challenge, raise the claim value on your revealed plot card by 1 until the end of the challenge. If you lose the challenge, choose and kill a character you control. (Max 1 per challenge.)</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Card Number" value="32" />
+    </card>
+    <card name="Clydas" id="3c60d4a6-b5c6-49af-8d1b-1ce80ac63346">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <b>Action:</b> Move 1 gold from an opponent's gold pool to your own. (Limit once per phase.)</property>
+      <property name="Traits" value="Steward." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Card Number" value="33" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Cage of Ravens" id="d8b6e6ef-c104-4e85-94c9-55c537097921">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">
+        <i>Steward</i> character only.
+<b>Action:</b> Kneel Cage of Ravens to put a card with printed cost 1 or lower into play from your hand.</property>
+      <property name="Traits" value="Item. Raven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Rodriguez" />
+      <property name="Card Number" value="34" />
+    </card>
+    <card name="Wylla Manderly" id="ab09b740-4223-4584-8e52-d93a1ab63d9e">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">
+        <b>Reaction:</b> After a character you control is sacrificed or killed, choose another card in your discard pile and place it on the bottom of your deck. (Limit once per phase.)</property>
+      <property name="Traits" value="House Manderly. Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sara Biddle" />
+      <property name="Card Number" value="35" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Fight to the Last" id="6d0e8820-a374-4b2d-b026-12a50e77b30c">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">
+        <b>Interrupt:</b> When a character you control would be killed, save it, stand it, and set its STR to 1 until the end of the phase. At the end of the phase, if that character is still in play, kill it (cannot be saved).</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Rodriguez" />
+      <property name="Card Number" value="36" />
+    </card>
+    <card name="Mathis Rowan" id="be26f2cd-b847-4622-9d6b-3af37a117aa7">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">
+        <b>Action:</b> Choose an opponent and a character, location, or attachment you control. That player takes control of that card. Then, gain 2 gold. (Limit once per round.)</property>
+      <property name="Traits" value="Lord. Small Council." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Adam Lane" />
+      <property name="Card Number" value="37" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Champion's Favor" id="0b810e04-7486-40cc-a5a5-c9e772c0f927">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">
+        <i>Lady</i> character only.
+<b>Action:</b> Kneel attached character to choose a participating non-<i>Lady</i> character and give it +X STR until the end of the challenge. X is 2 higher than attached character's STR.</property>
+      <property name="Traits" value="Item." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="0" />
+      <property name="Deck Limit" value="3" />
+      <property name="Card Number" value="38" />
+    </card>
+    <card name="Lysa Arryn" id="0f4cbb72-4ba3-4176-b900-07b1c50c9f10">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Interrupt:</b> When Lysa Arryn is killed, choose another character, location, or attachment and remove it from the game.</property>
+      <property name="Traits" value="House Arryn. House Tully. Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Mark Behm" />
+      <property name="Card Number" value="39" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Tormund Giantsbane" id="01a8b3eb-b163-493c-aaf8-0f08e0685292">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Intimidate.
+<b>Reaction:</b> After you win a challenge in which Tormund Giantsbane is participating, place a tale token on him.
+<b>Action:</b> Discard 1 tale token from Tormund Giantsbane to give a <i>Wildling</i> character +2 STR and renown until the end of the phase.</property>
+      <property name="Traits" value="Storyteller. Wildling." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Ryan Valle" />
+      <property name="Card Number" value="40" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Archmaester Marwyn" id="a608f67a-a0f6-48d9-adee-baf1cb1c2855">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Once per phase, you may marshal or play a facedown card under your agenda as if it were in your hand.
+<b>Reaction:</b> After Archmaester Marwyn enters play, place the top 2 cards of your deck facedown under your agenda.</property>
+      <property name="Traits" value="Maester." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Tiziano Baracchi" />
+      <property name="Card Number" value="41" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Braavos" id="8d1fa717-dd7c-4ec2-8a76-9a1038daed3e">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Marshaling Action:</b> Kneel Braavos to gain X gold. X is the number of different factions among characters you control.</property>
+      <property name="Traits" value="Essos. Free Cities." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Juan Carlos Barquet" />
+      <property name="Card Number" value="42" />
+    </card>
+    <card name="Water Dancer's Sword" id="ed665cd4-6c53-481b-a7bb-4c1b333d4e5f">
+      <property name="Type" value="Attachment" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Character with printed STR 3 or lower only. Ambush (1).
+Attached character gets +2 STR.
+<b>Forced Interrupt:</b> When the challenges phase ends, return Water Dancer's Sword to hand.</property>
+      <property name="Traits" value="Weapon." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Card Number" value="43" />
+    </card>
+    <card name="Lay Waste" id="986a72f9-3ce6-41e8-a835-0a6eb8ac3f6b">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Dominance Action:</b> Choose a non-limited location or attachment and discard it from play. Then, that card's owner may search his or her deck for a location or attachment with lower printed cost, put it into play, and shuffle his or her deck.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="JB Casacop" />
+      <property name="Card Number" value="44" />
+    </card>
+    <card name="Bribery" id="05940828-929c-46fa-9541-c3f447b190c4">
+      <property name="Type" value="Event" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Action:</b> Choose and kneel a character with printed cost X or lower. If that character has the <i>Ally</i> or <i>Mercenary</i> trait, you may take control of it instead.</property>
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Quintin Gleim" />
+      <property name="Card Number" value="45" />
+    </card>
+    <card name="Fury of the Khalasar" id="ace2bd84-41e0-41a5-9d5a-d1aacb366303" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">
+        <b>Reaction:</b> After the challenges phase begins, put a <i>Dothraki</i> character into play from your hand. At the end of the phase, if that card is still in play, return it to your hand.</property>
+      <property name="Traits" value="War." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Deck Limit" value="1" />
+      <property name="Income" value="3" />
+      <property name="Initiative" value="4" />
+      <property name="Claim" value="2" />
+      <property name="Reserve" value="4" />
+      <property name="Illustrator" value="Tomasz Jedruszek" />
+      <property name="Card Number" value="46" />
+    </card>
+    <card name="The Lost Message" id="61af6de0-6301-4154-8360-410eaebe8e8d" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Action:</b> Each player shuffles his or her hand into his or her deck. Then, each player adds the top X cards of his or her deck to his or her hand. X is the number of cards he or she shuffled this way. (Limit once per round.)</property>
+      <property name="Traits" value="Scheme." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="5" />
+      <property name="Initiative" value="3" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="7" />
+      <property name="Illustrator" value="Ian Kirkpatrick" />
+      <property name="Card Number" value="47" />
+    </card>
+    <card name="The White Swords" id="31cecd53-a814-4786-852c-245efccd4905" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> You may put a <i>Kingsguard</i> character into play from your hand or discard pile.</property>
+      <property name="Traits" value="Kingsguard." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="6" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Alexandre Dainche" />
+      <property name="Card Number" value="48" />
+    </card>
+    <card name="Champion's Challenge" id="da7dd1cd-23e6-472c-9ed3-96edbd4bc383" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Reaction:</b> After an opponent initiates a challenge against you, kneel a character with the highest STR among character you control to end the challenge with no winner or loser. (Limit once per phase.)</property>
+      <property name="Traits" value="War." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="1" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="2" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="5" />
+      <property name="Illustrator" value="Charles Urbach" />
+      <property name="Card Number" value="49" />
+    </card>
+    <card name="At the Palace of Sorrows" id="b2b65a0b-4f02-4cbf-8d7f-d4212378b6fa" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Set each character's STR to 3.</property>
+      <property name="Traits" value="Omen." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="5" />
+      <property name="Initiative" value="7" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="5" />
+      <property name="Illustrator" value="Dimitri Bielak" />
+      <property name="Card Number" value="50" />
+    </card>
+    <card name="Loan from the Iron Bank" id="d5d8f970-3e7a-474c-8c0a-1c51de6c7ee3" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">While Loan from the Iron Bank is in your used pile, reduce the gold value on your revealed plot by 1.</property>
+      <property name="Traits" value="Kingdom." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="10" />
+      <property name="Initiative" value="1" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="5" />
+      <property name="Illustrator" value="Brenda Bae" />
+      <property name="Card Number" value="51" />
+    </card>
+    <card name="The Prince Who Came Too Late" id="1a4fbab6-3434-4c8c-b9dc-b62dfbd58b2c" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>Standing Action:</b> Search your deck for a character and put it into play. Shuffle your deck. (Limit once per round.)</property>
+      <property name="Traits" value="Legacy. Noble." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="1" />
+      <property name="Initiative" value="1" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="6" />
+      <property name="Illustrator" value="Ian Kirkpatrick" />
+      <property name="Card Number" value="52" />
+    </card>
+  </cards>
+</set>

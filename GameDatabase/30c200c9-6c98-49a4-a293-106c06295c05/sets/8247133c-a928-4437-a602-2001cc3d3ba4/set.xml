@@ -440,7 +440,8 @@ While you have more power on your faction card than each opponent, attached char
       <property name="Type" value="Location" />
       <property name="Faction" value="House Greyjoy" />
       <property name="Text">
-        <b>Reaction:</b> After you initiate a <s value="power">[Power]</s> challenge, kneel Old Wyk to put the top <i>Drowned God</i> character in your dead pile into play knelt, participating as an attacker. If you win the challenge by 5 or more STR, return that character to your hand. Otherwise, place it on the bottom of your deck.</property>
+        <b>Reaction:</b> After you initiate a <s value="power">[Power]</s> challenge, kneel Old Wyk to put the top <i>Drowned God</i> character in your dead pile into play knelt, participating as an attacker. Then, if you win the challenge by 5 or more STR, return that character to your hand. Otherwise, place it on the bottom of your deck.
+<i>Errata from FAQ v2.0</i></property>
       <property name="Traits" value="Iron Islands." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />

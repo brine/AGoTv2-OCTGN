@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="At the Gates" id="380c3e18-b368-4235-93da-1eb68ae14c9e" gameId="30c200c9-6c98-49a4-a293-106c06295c05" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card name="Alysane Mormont" id="15b08dc0-6d0b-4874-b3bc-abeb99c1c97e">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">No attachments except <i>Weapon</i>.
+While each character you control has the <s value="stark">[House Stark]</s> affiliation, Alysane Mormont gains stealth during <s value="military">[Military]</s> challenges and does not kneel when declared as an attacker in a <s value="military">[Military]</s> challenge.</property>
+      <property name="Traits" value="House Mormont. Lady." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="1" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Old Gate" id="22e2e626-113a-49e7-a452-608ac44aad8c">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Stark" />
+      <property name="Text">Limited.
+<b>Challenges Action:</b> If each character you control has the <s value="stark">[House Stark]</s> affiliation, sacrifice Old Gate to draw 2 cards.
++1 Income.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="2" />
+    </card>
+    <card name="The Knight of Flowers" id="751471c6-415c-4e1f-920a-551150c554f4">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Shadow (5). Renown.
+<b>Reaction:</b> After a card you control comes out of shadows, choose and stand a <i>Kingsguard</i> character. (Limit twice per round.)</property>
+      <property name="Traits" value="Kingsguard. Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="5" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Jason Jenicke" />
+      <property name="Card Number" value="3" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Gate of the Gods" id="052290a2-9f4e-426d-9330-32837b71d05d">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Tyrell" />
+      <property name="Text">Limited.
+<b>Challenges Action:</b> If you control a character with the highest STR in play, sacrifice Gate of the Gods to draw 2 cards.
++1 Income.</property>
+      <property name="Traits" value="King's Landing. The Seven." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="4" />
+    </card>
+    <card name="Aged Craftsman" id="7323c1fc-5d78-4c87-ae13-b3433ef5eb04">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">No attachments.
+<b>Reaction:</b> After Aged Craftsman enters play, search the top 10 cards of your deck for a <s value="nightswatch">[The Night's Watch]</s> location with printed cost 2 or lower and put it into play. Shuffle your deck.</property>
+      <property name="Traits" value="Builder." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="3" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Michele Frigo" />
+      <property name="Card Number" value="5" />
+      <property name="Icons">
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Flea Bottom Alley" id="e70203f2-faee-41bc-a8be-b2a26613f0cd">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="The Night's Watch" />
+      <property name="Text">Limited.
+<b>Marshaling Action:</b> Kneel and sacrifice Flea Bottom Alley to put a <s value="nightswatch">[The Night's Watch]</s> character with printed cost 3 or lower into play from your hand. Then, draw 1 card.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="6" />
+    </card>
+    <card name="R'hllor Infiltrator" id="628e6c61-e651-4a58-bd96-f5b008d1cf69">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">
+        <b>Dominance Action:</b> Kneel R'hllor Infiltrator to choose an opponent. Give control of R'hllor Infiltrator to that player and gain 1 power for your faction.</property>
+      <property name="Traits" value="R'hllor. Spy." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Strength" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Quintin Gleim" />
+      <property name="Card Number" value="7" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="King's Gate" id="d709b92e-c9e1-4012-b57d-10ce872f3a52">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Baratheon" />
+      <property name="Text">Limited.
+<b>Challenges Action:</b> If you have 5 or more power on your faction card, sacrifice King's Gate to draw 2 cards.
++1 Income.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="8" />
+    </card>
+    <card name="Ser Mandon Moore" id="42dc28d8-edd0-42d9-acf0-394af74a0742">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Shadow (3).
+<b>Reaction:</b> After Ser Mandon Moore comes out of shadows, choose an opponent. That player must choose and kill a character he or she controls unless he or she chooses and discards 2 cards from his or her hand.</property>
+      <property name="Traits" value="Kingsguard. Knight." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Sebastian Rodriguez" />
+      <property name="Card Number" value="9" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="Lion Gate" id="acd399c0-f12a-441c-9e80-9c935c3d19ad">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Lannister" />
+      <property name="Text">Limited.
+<b>Challenges Action:</b> If you control 2 or more cards in shadows, sacrifice Lion Gate to draw 2 cards.
++1 Income.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="10" />
+    </card>
+    <card name="Baelor Blacktyde" id="86751adc-dbaa-4c2c-be90-c10c62d443a2">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Each opponent cannot play copies of events that are in his or her discard pile.</property>
+      <property name="Traits" value="Captain. The Seven." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Josu Hernaiz" />
+      <property name="Card Number" value="11" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Iron Gate" id="05b6e41b-e116-486f-9c71-6b0ddbe0a64e">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Greyjoy" />
+      <property name="Text">Limited.
+<b>Challenges Action:</b> If you are the first player, sacrifice Iron Gate to draw 2 cards.
++1 Income.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="12" />
+    </card>
+    <card name="Viserion" id="e24da899-6c43-4add-9b12-a25ba97daca9">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Ambush (5). No attachments.
+<b>Reaction:</b> After you win a challenge in which Viserion is attacking, discard 1 card from your hand to have Viserion gain intimidate until the end of the challenge.</property>
+      <property name="Traits" value="Dragon." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="5" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Carlos Palma Cruchaga" />
+      <property name="Card Number" value="13" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="Dragon Gate" id="397644d8-086a-476f-b981-292d8ccd7077">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Targaryen" />
+      <property name="Text">Limited.
+<b>Challenges Action:</b> If you control 2 or more attachments, sacrifice Dragon Gate to draw 2 cards.
++1 Income.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="14" />
+    </card>
+    <card name="Southron Escort" id="3704e517-ddc0-44ce-8224-341007e02781">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Shadow (4).
+<b>Action:</b> Discard another card from shadows to put Southron Escort into play from shadows.</property>
+      <property name="Traits" value="Ally. Guard." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="4" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Axel Sauerwald" />
+      <property name="Card Number" value="15" />
+      <property name="Icons">
+        <s value="military">[Military]</s>
+        <s value="intrigue">[Intrigue]</s>
+      </property>
+    </card>
+    <card name="River Gate" id="b516c8a8-a7e3-487d-bb60-7256d966bd4a">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="House Martell" />
+      <property name="Text">Limited.
+<b>Challenges Action:</b> If you have lost 2 or more challenges this phase, sacrifice River Gate to draw 2 cards.
++1 Income.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="Yes" />
+      <property name="Cost" value="1" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Dinodrawing" />
+      <property name="Card Number" value="16" />
+    </card>
+    <card name="Littlefinger" id="47bfebbe-8a66-4ae8-bbd5-9db248da6be7">
+      <property name="Type" value="Character" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Shadow (6). Stealth.
+<b>Reaction:</b> After a character you control comes out of shadows, place up to 3 cards from your hand on the bottom of your deck in any order. Then, draw that many cards. (Limit once per round.)</property>
+      <property name="Traits" value="Ally. Lord. Small Council." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="6" />
+      <property name="Strength" value="4" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="17" />
+      <property name="Icons">
+        <s value="intrigue">[Intrigue]</s>
+        <s value="power">[Power]</s>
+      </property>
+    </card>
+    <card name="White Sword Tower" id="2cf30e61-4694-4a67-a63a-0ebaf8cb8d41">
+      <property name="Type" value="Location" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">Each <i>Kingsguard</i> character you control gets +1 STR.
+Each player that does not control a <i>Kingsguard</i> character cannot play more than 1 event each phase.</property>
+      <property name="Traits" value="King's Landing." />
+      <property name="Unique" value="Yes" />
+      <property name="Loyal" value="No" />
+      <property name="Cost" value="2" />
+      <property name="Deck Limit" value="3" />
+      <property name="Illustrator" value="Franz Miklis" />
+      <property name="Card Number" value="18" />
+    </card>
+    <card name="City of Secrets" id="70fb1269-9ee6-4d45-b19e-8c79e2be0fda" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Each player draws 2 cards. Then, each player without a <i>City</i> plot card in his or her used pile chooses and discards 2 cards from his or her hand.</property>
+      <property name="Traits" value="City." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="4" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="8" />
+      <property name="Illustrator" value="Paolo Puggioni" />
+      <property name="Card Number" value="19" />
+    </card>
+    <card name="At the Gates" id="b3bfeb4b-b3c3-4eb2-bc3a-b3d52f136be7" size="HorizontalCards">
+      <property name="Type" value="Plot" />
+      <property name="Faction" value="Neutral" />
+      <property name="Text">
+        <b>When Revealed:</b> Search your deck for a limited location with printed cost 1 or lower, reveal it, and add it to your hand (put it into play instead if there are no <i>City</i> plot cards in your used pile). Shuffle your deck.</property>
+      <property name="Traits" value="City. Kingdom." />
+      <property name="Unique" value="No" />
+      <property name="Loyal" value="No" />
+      <property name="Deck Limit" value="2" />
+      <property name="Income" value="4" />
+      <property name="Initiative" value="0" />
+      <property name="Claim" value="1" />
+      <property name="Reserve" value="7" />
+      <property name="Illustrator" value="Carlos Palma Cruchaga" />
+      <property name="Card Number" value="20" />
+    </card>
+  </cards>
+</set>

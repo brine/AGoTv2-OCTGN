@@ -22,7 +22,7 @@
       <property name="Type" value="Attachment" />
       <property name="Faction" value="House Stark" />
       <property name="Text">Attached character gains the <i>Old Gods</i> trait.
-<b>Action:</b> If each character, location and attachment you control has the <s value="stark">[House Stark]</s> affiliation, kneel Favor of the Old Gods to stand attached character.</property>
+<b>Action:</b> If each character, location, and attachment you control has the <s value="stark">[House Stark]</s> affiliation, kneel Favor of the Old Gods to stand attached character.</property>
       <property name="Traits" value="Blessing. Old Gods." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
@@ -128,7 +128,7 @@ Attached character gains <i>The Seven</i> trait and "No attachments except <i>Bl
       <property name="Type" value="Character" />
       <property name="Faction" value="House Lannister" />
       <property name="Text">Renown.
-<b>Reaction:</b> After a non-<s value="lannister">[House Lannister]</s> Knight character enters play under your control, gain 2 gold. (Limit once per phase.)</property>
+<b>Reaction:</b> After a non-<s value="lannister">[House Lannister]</s><i>Knight</i> character enters play under your control, gain 2 gold. (Limit once per phase.)</property>
       <property name="Traits" value="Kingsguard. Knight." />
       <property name="Unique" value="Yes" />
       <property name="Loyal" value="No" />
