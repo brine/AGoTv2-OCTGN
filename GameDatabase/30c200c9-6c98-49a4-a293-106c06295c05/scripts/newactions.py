@@ -1,10 +1,10 @@
 ﻿
 AttackerColor = "#FF0000"
 DefenderColor = "#00FF00"
-GoldMarker = ("Gold", "4e8046ba-759b-428c-917f-7e9268a5af90")
-RenownMarker = ("Power", "d115ea96-ed05-4bf7-ba22-a34c8675c676")
-StrengthMarker = ("Strength", "7898d5a0-1d59-42b2-bbfb-5051cc420cd8")
-CounterMarker = ("Counter", "6238a357-41b7-4bca-b394-925fc1b2caf8")
+GoldMarker = ("Gold Token", "gold")
+RenownMarker = ("Power Token", "power")
+StrengthMarker = ("Strength Token", "strengthup")
+CounterMarker = ("Red Token", "red")
 
 firstPlayerToken = "73a6655b-60b6-4080-b428-f4e0099e0f77"
 

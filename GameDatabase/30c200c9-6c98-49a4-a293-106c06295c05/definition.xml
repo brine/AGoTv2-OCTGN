@@ -3,7 +3,7 @@
         name="A Game of Thrones - The Card Game Second Edition"
         id="30c200c9-6c98-49a4-a293-106c06295c05"
         octgnVersion="3.1.0.0"
-        version="3.0.13.0"
+        version="3.0.14.0"
         scriptVersion="3.1.0.2"
         markersize="16"
         tags="OCTGN aGoT LCG Game of Thrones"
@@ -37,6 +37,24 @@
         <symbol name="Power" id="power" src="symbols/power.png" />
         <symbol name="Military" id="military" src="symbols/military.png" />
     </symbols>
+    <markers>
+		<marker id="gold" src="Markers/gold.png" name="Gold Counter"/>
+		<marker id="power" src="Markers/power.png" name="Power Counter"/>
+		<marker id="strengthup" src="Markers/strengthup.png" name="Strength Increased"/>
+		<marker id="strengthdown" src="Markers/strengthdown.png" name="Strength Decreased"/>
+		<marker id="burn" src="Markers/burn.png" name="Burn Counter"/>
+		<marker id="red" src="Markers/red.png" name="Red Counter"/>
+		<marker id="blue" src="Markers/blue.png" name="Blue Counter"/>
+		<marker id="militaryicon" src="Markers/militaryicon.png" name="Military Icon"/>
+		<marker id="intrigueicon" src="Markers/intrigueicon.png" name="Intrigue Icon"/>
+		<marker id="powericon" src="Markers/powericon.png" name="Power Icon"/>
+		<marker id="stand" src="Markers/stand.png" name="Stand Counter"/>
+		<marker id="poison" src="Markers/poison.png" name="Poison Counter"/>
+		<marker id="betrayal" src="Markers/betrayal.png" name="Betrayal Counter"/>
+		<marker id="removedmilitary" src="Markers/removedmilitary.png" name="Removed Military Icon"/>
+		<marker id="removedintrigue" src="Markers/removedintrigue.png" name="Removed Intrigue Icon"/>
+		<marker id="removedpower" src="Markers/removedpower.png" name="Removed Power Icon"/>
+        </markers>
     <proxygen definitionsrc="proxy/proxydef.xml"/>
     <phases>
         <phase name="Plot Phase" icon="phases/plot.png" />
@@ -111,10 +129,10 @@
     <player summary="Power: {#Power} / Gold: {#Gold} / Hand: {#Hand}">
         <counter name="Power" icon="counters/power.png"/>
         <counter name="Gold" icon="counters/gold.png"/>
-        <hand name="Hand" visibility="me" ordered="False" icon="groups/hand.png">
+        <group name="Hand" visibility="me" ordered="False" icon="groups/hand.png" viewState="expanded">
             <groupaction menu="Random Discard" execute="randomDiscard"/>
             <groupaction menu="Mulligan Hand" execute="mulligan"/>
-        </hand>
+        </group>
         <group name="Deck" visibility="none" icon="groups/faction.png">
             <groupaction menu="Shuffle" shortcut="CTRL+S" execute="shuffle"/>
             <groupaction menu="Draw" shortcut="CTRL+D" default="True" execute="draw"/>
@@ -124,7 +142,7 @@
         <group name="Plot Deck" visibility="me" icon="groups/plot.png" ordered="False">
             <groupaction menu="View Plot Deck" shortcut="F1" default="True" execute="viewGroup"/>
         </group>
-        <group name="Used Plot Pile" visibility="all" icon="groups/plot.png" collapsed="True">
+        <group name="Used Plot Pile" visibility="all" icon="groups/plot.png" viewState="collapsed">
             <groupaction menu="Move to Plot Deck" execute="moveToPlot"/>
             <groupaction menu="View Used Plots" default="True" execute="viewGroup"/>
         </group>
